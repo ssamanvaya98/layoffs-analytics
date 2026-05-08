@@ -232,18 +232,15 @@ with tab1:
 with tab2:
     st.markdown("<div class='section-title'>INDIA TECH HUB DEEP-DIVE</div>", unsafe_allow_html=True)
 
+    # Only confirmed major Indian tech hubs with ≥100 layoffs
     city_coords = {
         "Bengaluru":  (12.9716, 77.5946),
-        "NCR Delhi":  (28.6139, 77.2090),
         "New Delhi":  (28.6139, 77.2090),
         "Gurugram":   (28.4595, 77.0266),
         "Noida":      (28.5355, 77.3910),
         "Mumbai":     (19.0760, 72.8777),
         "Hyderabad":  (17.3850, 78.4867),
-        "Pune":       (18.5204, 73.8567),
         "Chennai":    (13.0827, 80.2707),
-        "Kolkata":    (22.5726, 88.3639),
-        "Ahmedabad":  (23.0225, 72.5714),
     }
 
     if idf.empty:
@@ -254,7 +251,7 @@ with tab2:
         city_ylabel = city_ylabel
         city_agg["lat"] = city_agg["city"].map(lambda c: city_coords.get(c, (20.5, 78.9))[0])
         city_agg["lon"] = city_agg["city"].map(lambda c: city_coords.get(c, (20.5, 78.9))[1])
-        city_agg = city_agg[city_agg["Layoffs"] > 0]
+        city_agg = city_agg[city_agg["Layoffs"] >= 100]
 
         fig_bubble = px.scatter_geo(
             city_agg,
@@ -293,14 +290,33 @@ with tab2:
         city_trend = city_trend.rename(columns={t_col: "total_laid_off"})
         with col_a:
             if not city_trend.empty:
-                fig_area = px.area(
-                    city_trend, x="month", y="total_laid_off", color="city",
-                    title="Monthly Layoffs by City",
+                # Filter to top 5 cities by total for readability
+                top_cities = (
+                    city_trend.groupby("city")["total_laid_off"]
+                    .sum().nlargest(5).index.tolist()
+                )
+                city_trend_top = city_trend[city_trend["city"].isin(top_cities)]
+                fig_line = px.line(
+                    city_trend_top, x="month", y="total_laid_off", color="city",
+                    markers=False,
+                    title="Monthly Layoffs by City (Top 5)",
                     template="plotly_dark",
                 )
-                fig_area.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#131e32",
-                                       xaxis_tickangle=45, height=350)
-                st.plotly_chart(fig_area, use_container_width=True)
+                # Annotate the May 2020 COVID spike
+                fig_line.add_annotation(
+                    x="2020-05", y=city_trend_top["total_laid_off"].max(),
+                    text="COVID-19<br>lockdown wave",
+                    showarrow=True, arrowhead=2, arrowcolor="#f472b6",
+                    font=dict(color="#f472b6", size=11),
+                    bgcolor="#1e293b", bordercolor="#f472b6", borderwidth=1,
+                    ax=40, ay=-40,
+                )
+                fig_line.update_layout(
+                    paper_bgcolor="#0f172a", plot_bgcolor="#131e32",
+                    xaxis_tickangle=45, height=350,
+                    legend=dict(orientation="h", y=-0.3),
+                )
+                st.plotly_chart(fig_line, use_container_width=True)
 
         with col_b:
             city_bar = city_agg.sort_values("Layoffs", ascending=True)
@@ -314,45 +330,106 @@ with tab2:
                                    showlegend=False, height=350)
             st.plotly_chart(fig_hbar, use_container_width=True)
 
-# ── TAB 3: Industry Sunburst / Donut ─────────────────────────────────────────
+# ── TAB 3: Industry Breakdown ─────────────────────────────────────────────────
 with tab3:
     st.markdown("<div class='section-title'>INDUSTRY VOLATILITY BREAKDOWN</div>", unsafe_allow_html=True)
 
     if gdf.empty:
         show_empty()
     else:
-        ind_agg, ind_ylabel = agg_metric(gdf, "industry")
-        ind_agg = ind_agg.dropna()
+        # ── Treemap: Industry → Top-5 companies ──────────────────────────────
+        st.markdown("<div class='section-title'>TREEMAP — INDUSTRY → TOP COMPANIES</div>", unsafe_allow_html=True)
+        st.caption("Each rectangle is proportional to total layoffs. Shows top 5 companies per industry. Click any industry to zoom in.")
 
+        comp_agg = (
+            gdf.groupby(["industry", "company"])["total_laid_off"]
+            .sum().dropna().reset_index()
+        )
+        top5_tree = (
+            comp_agg.sort_values("total_laid_off", ascending=False)
+            .groupby("industry").head(5)
+            .reset_index(drop=True)
+        )
+        fig_tree = px.treemap(
+            top5_tree,
+            path=[px.Constant("All Industries"), "industry", "company"],
+            values="total_laid_off",
+            color="total_laid_off",
+            color_continuous_scale="RdBu_r",
+            template="plotly_dark",
+        )
+        fig_tree.update_traces(
+            textinfo="label+value",
+            textfont=dict(size=13),
+            hovertemplate="<b>%{label}</b><br>Laid off: %{value:,}<extra></extra>",
+        )
+        fig_tree.update_layout(
+            paper_bgcolor="#0f172a",
+            height=520,
+            margin=dict(l=0, r=0, t=10, b=0),
+            coloraxis_showscale=False,
+        )
+        st.plotly_chart(fig_tree, use_container_width=True)
+
+        # ── Donut (top 10) + India vs Global comparison ───────────────────────
         col1, col2 = st.columns(2)
-        with col1:
-            sun_val = "percentage_laid_off" if use_pct else "total_laid_off"
-            fig_sun = px.sunburst(
-                gdf.dropna(subset=[sun_val]),
-                path=["industry", "company"],
-                values=sun_val,
-                color="total_laid_off",
-                color_continuous_scale="RdBu_r",
-                title="Sunburst — Industry → Company",
-                template="plotly_dark",
-            )
-            fig_sun.update_layout(paper_bgcolor="#0f172a", height=450)
-            st.plotly_chart(fig_sun, use_container_width=True)
 
-        with col2:
+        with col1:
+            st.markdown("<div class='section-title'>SHARE BY INDUSTRY (TOP 10)</div>", unsafe_allow_html=True)
+            ind_agg, ind_ylabel = agg_metric(gdf, "industry")
+            ind_agg = ind_agg.dropna().nlargest(10, "Value")
             fig_donut = px.pie(
                 ind_agg, names="industry", values="Value",
-                hole=0.45,
+                hole=0.48,
                 color_discrete_sequence=px.colors.qualitative.Set3,
-                title="Share of Layoffs by Industry",
             )
-            fig_donut.update_traces(textposition="inside", textinfo="percent+label")
+            fig_donut.update_traces(
+                textposition="inside",
+                textinfo="percent+label",
+                hovertemplate="<b>%{label}</b><br>%{percent}<extra></extra>",
+            )
             fig_donut.update_layout(
                 paper_bgcolor="#0f172a", plot_bgcolor="#0f172a",
-                font_color="#e2e8f0", height=450,
-                legend=dict(orientation="v", x=1.02),
+                font_color="#e2e8f0", height=400,
+                showlegend=False,
+                margin=dict(l=0, r=0, t=10, b=0),
             )
             st.plotly_chart(fig_donut, use_container_width=True)
+
+        with col2:
+            st.markdown("<div class='section-title'>INDIA vs GLOBAL — INDUSTRY COMPARISON</div>", unsafe_allow_html=True)
+            global_rank = (
+                gdf.groupby("industry")["total_laid_off"]
+                .sum().dropna().nlargest(10).reset_index()
+                .rename(columns={"total_laid_off": "Global"})
+            )
+            india_only = gdf[gdf["country"] == "India"]
+            india_rank = (
+                india_only.groupby("industry")["total_laid_off"]
+                .sum().dropna().reset_index()
+                .rename(columns={"total_laid_off": "India"})
+            )
+            merged = global_rank.merge(india_rank, on="industry", how="left").fillna(0)
+            fig_compare = go.Figure()
+            fig_compare.add_trace(go.Bar(
+                name="Global", x=merged["industry"], y=merged["Global"],
+                marker_color="#6366f1", opacity=0.85,
+            ))
+            fig_compare.add_trace(go.Bar(
+                name="India", x=merged["industry"], y=merged["India"],
+                marker_color="#f472b6", opacity=0.85,
+            ))
+            fig_compare.update_layout(
+                barmode="group",
+                template="plotly_dark",
+                paper_bgcolor="#0f172a", plot_bgcolor="#131e32",
+                height=400,
+                legend=dict(orientation="h", y=1.08),
+                xaxis_tickangle=35,
+                xaxis_title="", yaxis_title="Total Laid Off",
+                margin=dict(l=0, r=0, t=30, b=0),
+            )
+            st.plotly_chart(fig_compare, use_container_width=True)
 
 # ── TAB 4: Temporal Trends ───────────────────────────────────────────────────
 with tab4:
