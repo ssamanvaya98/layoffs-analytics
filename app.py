@@ -460,11 +460,41 @@ with tab4:
             line=dict(color="#f472b6", width=2.5),
             mode="lines",
         ))
+
+        # ── Key event annotations ──────────────────────────────────────────────
+        key_events = [
+            ("2020-03", "COVID-19 lockdown",   "#EF9F27"),
+            ("2022-10", "Twitter buyout",       "#F472B6"),
+            ("2022-11", "ChatGPT launched",     "#1D9E75"),
+            ("2023-01", "Peak month (95K)",     "#E24B4A"),
+            ("2024-01", "Recovery begins",      "#378ADD"),
+        ]
+        y_max = monthly["Layoffs"].max() if not monthly.empty else 1
+        for month_str, label, color in key_events:
+            # Only annotate if month is in the filtered data range
+            if not monthly[monthly["month"] == month_str].empty:
+                fig_time.add_vline(
+                    x=month_str,
+                    line=dict(color=color, width=1.5, dash="dot"),
+                )
+                fig_time.add_annotation(
+                    x=month_str,
+                    y=y_max * 0.95,
+                    text=label,
+                    showarrow=False,
+                    font=dict(color=color, size=10),
+                    bgcolor="#0f172a",
+                    bordercolor=color,
+                    borderwidth=1,
+                    borderpad=3,
+                    yanchor="top",
+                )
+
         fig_time.update_layout(
             title="Global Monthly Layoffs + Rolling Average (Wave Detection)",
             template="plotly_dark",
             paper_bgcolor="#0f172a", plot_bgcolor="#131e32",
-            height=400, xaxis_tickangle=45,
+            height=450, xaxis_tickangle=45,
             legend=dict(orientation="h", y=1.08),
         )
         st.plotly_chart(fig_time, use_container_width=True)
@@ -668,37 +698,50 @@ with tab6:
 
     st.divider()
 
+    # ── Cluster filter ────────────────────────────────────────────────────────
+    all_cluster_names = list(CLUSTER_COLORS.keys())
+    sel_clusters = st.multiselect(
+        "Filter clusters to display",
+        options=all_cluster_names,
+        default=all_cluster_names,
+        help="Select one or more clusters to isolate them in the scatter plot",
+    )
+    filtered_cluster_df = cluster_df[cluster_df["cluster_name"].isin(sel_clusters)] if sel_clusters else cluster_df
+
     # ── Scatter: total_laid_off vs avg_per_event coloured by cluster ──────────
     col_l, col_r = st.columns(2)
 
     with col_l:
-        fig_scatter = px.scatter(
-            cluster_df,
-            x="num_events",
-            y="total_laid_off",
-            color="cluster_name",
-            color_discrete_map=CLUSTER_COLORS,
-            hover_name="company",
-            hover_data={"avg_per_event": ":.0f", "pct_laid_off_avg": ":.0%",
-                        "cluster_name": False, "num_events": True},
-            size="avg_per_event",
-            size_max=30,
-            log_y=True,
-            title="Cluster Map — Events vs Total Laid Off",
-            template="plotly_dark",
-        )
-        fig_scatter.update_layout(
-            paper_bgcolor="#0f172a", plot_bgcolor="#131e32",
-            height=420, legend_title="Cluster",
-            xaxis_title="Number of Layoff Events",
-            yaxis_title="Total Laid Off (log scale)",
-        )
-        st.plotly_chart(fig_scatter, use_container_width=True)
+        if filtered_cluster_df.empty:
+            show_empty("Select at least one cluster to display the scatter plot.")
+        else:
+            fig_scatter = px.scatter(
+                filtered_cluster_df,
+                x="num_events",
+                y="total_laid_off",
+                color="cluster_name",
+                color_discrete_map=CLUSTER_COLORS,
+                hover_name="company",
+                hover_data={"avg_per_event": ":.0f", "pct_laid_off_avg": ":.0%",
+                            "cluster_name": False, "num_events": True},
+                size="avg_per_event",
+                size_max=30,
+                log_y=True,
+                title="Cluster Map — Events vs Total Laid Off",
+                template="plotly_dark",
+            )
+            fig_scatter.update_layout(
+                paper_bgcolor="#0f172a", plot_bgcolor="#131e32",
+                height=420, legend_title="Cluster",
+                xaxis_title="Number of Layoff Events",
+                yaxis_title="Total Laid Off (log scale)",
+            )
+            st.plotly_chart(fig_scatter, use_container_width=True)
 
     with col_r:
         # Box plot: distribution of % laid off per cluster
         fig_box = px.box(
-            cluster_df[cluster_df["pct_laid_off_avg"].notna()],
+            filtered_cluster_df[filtered_cluster_df["pct_laid_off_avg"].notna()],
             x="cluster_name",
             y="pct_laid_off_avg",
             color="cluster_name",
