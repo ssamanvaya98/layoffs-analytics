@@ -17,7 +17,7 @@ NeuroPixel.AI,Bengaluru,India,Retail,2026-04-03,2026.0,2026-04,600.0,1.0,False,T
 Vimeo,New York City,United States,Consumer,2026-04-03,2026.0,2026-04,95.0,,False,True
 Meta,SF Bay Area,United States,Consumer,2026-04-02,2026.0,2026-04,200.0,,True,False
 Sonos,Santa Barbara,United States,Consumer,2026-04-01,2026.0,2026-04,95.0,,False,True
-Oracle,SF Bay Area,United States,Other,2026-03-31,2026.0,2026-03,30000.0,,True,False
+Oracle,SF Bay Area,United States,Enterprise Software,2026-03-31,2026.0,2026-03,30000.0,,True,False
 Covrzy,Bengaluru,India,Finance,2026-03-01,2026.0,2026-03,3.0,1.0,True,False
 Rec Room,Seattle,United States,Consumer,2026-03-01,2026.0,2026-03,3.0,1.0,True,False
 Yupp,SF Bay Area,United States,AI,2026-03-01,2026.0,2026-03,3.0,1.0,True,False
@@ -35,7 +35,7 @@ FranShares,Chicago,United States,Finance,2026-03-07,2026.0,2026-03,385.0,1.0,Fal
 Dell,Austin,United States,Hardware,2026-03-16,2026.0,2026-03,11000.0,0.1,True,False
 Stone,Sao Paulo,Brazil,Finance,2026-03-13,2026.0,2026-03,400.0,0.03,True,False
 Digg,New York City,United States,Consumer,2026-03-03,2026.0,2026-03,95.0,,False,True
-Atlassian,Sydney,Australia,Other,2026-03-11,2026.0,2026-03,1600.0,0.1,True,False
+Atlassian,Sydney,Australia,Enterprise Software,2026-03-11,2026.0,2026-03,1600.0,0.1,True,False
 InvestCloud,Los Angeles,United States,Finance,2026-03-10,2026.0,2026-03,150.0,,True,False
 Flipkart,Bengaluru,India,Retail,2026-03-06,2026.0,2026-03,500.0,,True,False
 SSense,Montreal,Canada,Retail,2026-03-05,2026.0,2026-03,215.0,,True,False
@@ -43,7 +43,7 @@ Supernal,Los Angeles,United States,Transportation,2026-03-04,2026.0,2026-03,296.
 Envato,Melbourne,Australia,Marketing,2026-03-04,2026.0,2026-03,200.0,0.3,True,False
 Amazon,Seattle,United States,Retail,2026-03-04,2026.0,2026-03,100.0,,True,False
 At-Bay,Tel Aviv,United States,Security,2026-03-04,2026.0,2026-03,25.0,,True,False
-MicroVision,Seattle,United States,Other,2026-03-03,2026.0,2026-03,49.0,,True,False
+MicroVision,Seattle,United States,Tech Services,2026-03-03,2026.0,2026-03,49.0,,True,False
 Verint Systems,New York City,United States,Security,2026-03-02,2026.0,2026-03,62.0,,False,True
 Zap Africa,Lagos,Nigeria,Finance,2026-02-08,2026.0,2026-02,2.0,0.44,True,False
 Block,SF Bay Area,United States,Finance,2026-02-26,2026.0,2026-02,4000.0,0.4,True,False
@@ -66,7 +66,7 @@ Fi.Money,Bengaluru,India,Finance,,,,154.0,0.4,False,True
 Salesforce,SF Bay Area,United States,Sales,2026-02-09,2026.0,2026-02,67.0,,False,True
 Workday,SF Bay Area,United States,HR,2026-02-04,2026.0,2026-02,400.0,0.02,True,False
 Rewire,Tel Aviv,Israel,Finance,2026-02-04,2026.0,2026-02,110.0,,True,False
-Smartsheet,Seattle,United States,Other,2026-02-04,2026.0,2026-02,90.0,,False,True
+Smartsheet,Seattle,United States,Tech Services,2026-02-04,2026.0,2026-02,90.0,,False,True
 Zillow,Seattle,United States,Real Estate,2026-02-02,2026.0,2026-02,200.0,,True,False
 Zipcar,Boston,United States,Transportation,2026-02-02,2026.0,2026-02,126.0,,True,False
 Expedia,Seattle,United States,Travel,2026-02-01,2026.0,2026-02,100.0,,True,False
@@ -79,17 +79,17 @@ Pinterest,SF Bay Area,United States,Consumer,2026-01-27,2026.0,2026-01,700.0,0.1
 Moon Active,Tel Aviv,Israel,Consumer,2026-01-27,2026.0,2026-01,110.0,0.05,True,False
 Expedia,Seattle,United States,Travel,2026-01-06,2026.0,2026-01,2.0,,True,False
 Entropy,New York City,United States,Crypto,2026-01-05,2026.0,2026-01,2.0,1.0,True,False
-Autodesk,SF Bay Area,United States,Other,2026-01-22,2026.0,2026-01,1000.0,0.07,True,False
+Autodesk,SF Bay Area,United States,Enterprise Software,2026-01-22,2026.0,2026-01,1000.0,0.07,True,False
 Shopify,Ottawa,Canada,Retail,2026-01-02,2026.0,2026-01,2.0,,True,False
 Vimeo,New York City,United States,Consumer,2026-01-01,2026.0,2026-01,2.0,,True,False
 Vimeo,Tel Aviv,United States,Consumer,,,,2.0,,True,False
-Ericsson,Stockholm,Sweden,Other,2026-01-15,2026.0,2026-01,1600.0,,True,False
+Ericsson,Stockholm,Sweden,Telecommunications,2026-01-15,2026.0,2026-01,1600.0,,True,False
 Tipalti,SF Bay Area,United States,Finance,2026-01-15,2026.0,2026-01,100.0,,True,False
 Playtika,Tel Aviv,Israel,Consumer,2026-01-14,2026.0,2026-01,500.0,0.15,True,False
 Aleph Alpha,Frankfurt,Germany,AI,2026-01-14,2026.0,2026-01,50.0,0.16,True,False
 Meta,SF Bay Area,United States,Consumer,2026-01-13,2026.0,2026-01,1500.0,0.02,True,False
 eToro,Tel Aviv,Israel,Finance,2026-01-13,2026.0,2026-01,105.0,0.07,True,False
-StoreDot,Tel Aviv,Israel,Other,2026-01-03,2026.0,2026-01,90.0,,False,True
+StoreDot,Tel Aviv,Israel,Tech Services,2026-01-03,2026.0,2026-01,90.0,,False,True
 MercadoLibre,Buenos Aires,Brazil,Retail,2026-01-12,2026.0,2026-01,116.0,,True,False
 FormFactor,SF Bay Area,United States,Manufacturing,2026-01-09,2026.0,2026-01,220.0,0.11,True,False
 Kaseya,Miami,United States,Security,2026-01-08,2026.0,2026-01,250.0,0.05,True,False
@@ -104,16 +104,16 @@ Amazon,Seattle,United States,Retail,2025-12-15,2025.0,2025-12,84.0,,True,False
 PowerSchool,Sacramento,United States,Education,2025-12-02,2025.0,2025-12,80.0,,False,True
 Zebra Technologies,Chicago,United States,Manufacturing,2025-12-02,2025.0,2025-12,100.0,,False,True
 Believer Meats,Jerusalem,Israel,Food,2025-12-01,2025.0,2025-12,87.0,,False,True
-EyeEm,Berlin,Germany,Other,2025-12-01,2025.0,2025-12,707.0,1.0,False,True
+EyeEm,Berlin,Germany,Tech Services,2025-12-01,2025.0,2025-12,707.0,1.0,False,True
 Lusha,Boston,United States,Sales,2025-12-10,2025.0,2025-12,24.0,0.08,True,False
 Tenstorrent,Toronto,Canada,Hardware,2025-12-09,2025.0,2025-12,80.0,0.07,True,False
 Whatfix,Bengaluru,India,AI,2025-12-09,2025.0,2025-12,60.0,0.06,True,False
 VSCO,SF Bay Area,United States,Consumer,2025-12-09,2025.0,2025-12,24.0,,True,False
-GenWise,New Delhi,India,Other,2025-12-09,2025.0,2025-12,707.0,1.0,False,True
+GenWise,New Delhi,India,Tech Services,2025-12-09,2025.0,2025-12,707.0,1.0,False,True
 Mobileye,Jerusalem,Israel,Transportation,2025-12-08,2025.0,2025-12,200.0,0.04,True,False
 Payoneer,New York City,United States,Finance,2025-12-08,2025.0,2025-12,60.0,0.06,True,False
 Teads,New York City,United States,Marketing,2025-12-04,2025.0,2025-12,180.0,0.1,True,False
-Cellebrite,Tel Aviv,Israel,Other,2025-12-03,2025.0,2025-12,20.0,0.01,True,False
+Cellebrite,Tel Aviv,Israel,Tech Services,2025-12-03,2025.0,2025-12,20.0,0.01,True,False
 Modern Hydrogen,Seattle,United States,Energy,2025-12-03,2025.0,2025-12,101.0,,False,True
 Aqua Security,Tel Aviv,United States,Security,2025-12-01,2025.0,2025-12,20.0,,True,False
 Inbound Health,Minneapolis,United States,Healthcare,2025-12-01,2025.0,2025-12,300.0,1.0,False,True
@@ -121,16 +121,16 @@ Junglee Games,New Delhi,India,Consumer,2025-11-26,2025.0,2025-11,350.0,,True,Fal
 Shopify,Ottawa,Canada,Retail,2025-11-06,2025.0,2025-11,2.0,,True,False
 HP,SF Bay Area,United States,Hardware,2025-11-25,2025.0,2025-11,4000.0,,True,False
 ezCater,Boston,United States,Food,2025-11-21,2025.0,2025-11,40.0,0.04,True,False
-Monarch Tractor,SF Bay Area,United States,Other,2025-11-19,2025.0,2025-11,102.0,,True,False
+Monarch Tractor,SF Bay Area,United States,Tech Services,2025-11-19,2025.0,2025-11,102.0,,True,False
 Pleo,Copenhagen,Denmark,Finance,2025-11-19,2025.0,2025-11,100.0,0.12,True,False
 Culture Amp,Melbourne,Australia,HR,2025-11-18,2025.0,2025-11,60.0,0.06,True,False
-Veson Nautical,Boston,United States,Other,2025-11-08,2025.0,2025-11,141.0,0.2,False,True
+Veson Nautical,Boston,United States,Tech Services,2025-11-08,2025.0,2025-11,141.0,0.2,False,True
 Playtika,Tel Aviv,Israel,Consumer,2025-11-17,2025.0,2025-11,700.0,0.2,True,False
 Pipe,SF Bay Area,United States,Finance,2025-11-16,2025.0,2025-11,200.0,0.5,True,False
 Flipkart,Bengaluru,India,Retail,2025-11-16,2025.0,2025-11,40.0,,True,False
 BharatAgri,Mumbai,India,Food,2025-11-13,2025.0,2025-11,37.0,1.0,True,False
 AI Fleet,Austin,United States,Transportation,2025-11-03,2025.0,2025-11,100.0,,False,True
-Synopsys,SF Bay Area,United States,Other,2025-11-12,2025.0,2025-11,2000.0,0.1,True,False
+Synopsys,SF Bay Area,United States,Enterprise Software,2025-11-12,2025.0,2025-11,2000.0,0.1,True,False
 Deepwatch,Tampa Bay,United States,Security,2025-11-12,2025.0,2025-11,80.0,0.32,True,False
 GamesKraft,Bengaluru,India,Consumer,2025-11-10,2025.0,2025-11,280.0,,True,False
 Sonder,SF Bay Area,United States,Travel,,,,714.0,1.0,False,True
@@ -158,7 +158,7 @@ Tia,New York City,United States,Healthcare,2025-10-07,2025.0,2025-10,69.0,0.23,F
 Bill.com,SF Bay Area,United States,Finance,2025-10-05,2025.0,2025-10,23.0,0.06,False,True
 OfferUp,Seattle,United States,Retail,2025-10-05,2025.0,2025-10,79.0,,False,True
 Handshake,SF Bay Area,United States,Recruiting,2025-10-14,2025.0,2025-10,100.0,0.15,True,False
-Smartsheet,Seattle,United States,Other,2025-10-02,2025.0,2025-10,120.0,,True,False
+Smartsheet,Seattle,United States,Tech Services,2025-10-02,2025.0,2025-10,120.0,,True,False
 Google,SF Bay Area,United States,Consumer,2025-10-02,2025.0,2025-10,50.0,,True,False
 Paycom,Oklahoma City,United States,HR,2025-10-01,2025.0,2025-10,500.0,,True,False
 Google,SF Bay Area,United States,Consumer,2025-10-01,2025.0,2025-10,100.0,,True,False
@@ -166,27 +166,27 @@ Simpl,Bengaluru,India,Finance,2025-10-01,2025.0,2025-10,80.0,,True,False
 Just Eat,Amsterdam,Netherlands,Food,2025-09-25,2025.0,2025-09,450.0,0.05,True,False
 GamesKraft,Bengaluru,India,Consumer,2025-09-18,2025.0,2025-09,120.0,,True,False
 ZipRecruiter,Tel Aviv,United States,Recruiting,2025-09-16,2025.0,2025-09,80.0,,True,False
-Fiverr,Tel Aviv,Israel,Other,2025-09-15,2025.0,2025-09,250.0,0.3,True,False
+Fiverr,Tel Aviv,Israel,Tech Services,2025-09-15,2025.0,2025-09,250.0,0.3,True,False
 Sorbet,Tel Aviv,Israel,Finance,2025-09-04,2025.0,2025-09,60.0,,False,True
 Hike,New Delhi,India,Consumer,2025-09-03,2025.0,2025-09,927.0,1.0,False,True
 xAI,SF Bay Area,United States,AI,2025-09-12,2025.0,2025-09,500.0,,True,False
 Zupee,New Delhi,India,Consumer,2025-09-11,2025.0,2025-09,170.0,0.3,True,False
-Atlassian,Sydney,Australia,Other,2025-09-10,2025.0,2025-09,200.0,,True,False
+Atlassian,Sydney,Australia,Enterprise Software,2025-09-10,2025.0,2025-09,200.0,,True,False
 Verbit,New York City,United States,Data,2025-09-10,2025.0,2025-09,22.0,,True,False
-Microsoft,Seattle,United States,Other,2025-09-08,2025.0,2025-09,42.0,,True,False
+Microsoft,Seattle,United States,Enterprise Software,2025-09-08,2025.0,2025-09,42.0,,True,False
 Rivian,Los Angeles,United States,Transportation,2025-09-05,2025.0,2025-09,200.0,0.01,True,False
 Scope3,New York City,United States,Energy,2025-09-05,2025.0,2025-09,101.0,,False,True
 Head Digital Works,Hyderabad,India,Consumer,2025-09-04,2025.0,2025-09,500.0,,True,False
 Salesforce,SF Bay Area,United States,Sales,2025-09-04,2025.0,2025-09,262.0,,True,False
-Oracle,SF Bay Area,United States,Other,2025-09-04,2025.0,2025-09,254.0,,True,False
-GupShup,SF Bay Area,India,Other,2025-09-04,2025.0,2025-09,100.0,,True,False
+Oracle,SF Bay Area,United States,Enterprise Software,2025-09-04,2025.0,2025-09,254.0,,True,False
+GupShup,SF Bay Area,India,Data,2025-09-04,2025.0,2025-09,100.0,,True,False
 Bobble AI,New Delhi,India,Consumer,2025-09-04,2025.0,2025-09,50.0,,True,False
-Oracle,Seattle,United States,Other,2025-09-03,2025.0,2025-09,101.0,,True,False
+Oracle,Seattle,United States,Enterprise Software,2025-09-03,2025.0,2025-09,101.0,,True,False
 Salesforce,Seattle,United States,Sales,2025-09-03,2025.0,2025-09,93.0,,True,False
-The Gist,Tel Aviv,Israel,Other,2025-09-03,2025.0,2025-09,707.0,1.0,False,True
-theGist,Tel Aviv,Israel,Other,2025-09-03,2025.0,2025-09,707.0,1.0,False,True
+The Gist,Tel Aviv,Israel,Tech Services,2025-09-03,2025.0,2025-09,707.0,1.0,False,True
+theGist,Tel Aviv,Israel,Tech Services,2025-09-03,2025.0,2025-09,707.0,1.0,False,True
 Vimeo,New York City,United States,Consumer,2025-09-03,2025.0,2025-09,93.0,0.1,False,True
-Oracle,Kansas City,United States,Other,2025-09-02,2025.0,2025-09,90.0,,False,True
+Oracle,Kansas City,United States,Enterprise Software,2025-09-02,2025.0,2025-09,90.0,,False,True
 Games 24x7,Mumbai,India,Consumer,2025-09-01,2025.0,2025-09,400.0,,True,False
 Mobile Premier,Bengaluru,India,Consumer,2025-09-01,2025.0,2025-09,300.0,,True,False
 Krutrim,Bengaluru,India,AI,2025-09-01,2025.0,2025-09,50.0,,True,False
@@ -197,10 +197,10 @@ Verily,SF Bay Area,United States,Healthcare,2025-08-06,2025.0,2025-08,2.0,,True,
 Klaviyo,Boston,United States,Marketing,2025-08-05,2025.0,2025-08,2.0,,True,False
 BeepKart,Bengaluru,India,Retail,2025-08-23,2025.0,2025-08,150.0,1.0,True,False
 Cisco,SF Bay Area,United States,Infrastru…,2025-08-19,2025.0,2025-08,221.0,,True,False
-Oracle,SF Bay Area,United States,Other,2025-08-19,2025.0,2025-08,101.0,,True,False
+Oracle,SF Bay Area,United States,Enterprise Software,2025-08-19,2025.0,2025-08,101.0,,True,False
 Kyte,SF Bay Area,United States,Transportation,2025-08-05,2025.0,2025-08,600.0,1.0,False,True
 Restaurant365,Los Angeles,United States,Food,2025-08-14,2025.0,2025-08,100.0,0.09,True,False
-Oracle,SF Bay Area,United States,Other,2025-08-13,2025.0,2025-08,289.0,,True,False
+Oracle,SF Bay Area,United States,Enterprise Software,2025-08-13,2025.0,2025-08,289.0,,True,False
 F5,Seattle,United States,Security,2025-08-13,2025.0,2025-08,106.0,0.02,True,False
 Micron,Boise,United States,Hardware,2025-08-12,2025.0,2025-08,300.0,,True,False
 BenchSci,Toronto,Canada,Healthcare,2025-08-12,2025.0,2025-08,83.0,0.23,True,False
@@ -213,10 +213,10 @@ Yotpo,New York City,United States,Marketing,2025-08-05,2025.0,2025-08,200.0,0.34
 Windsurf,SF Bay Area,United States,AI,2025-08-05,2025.0,2025-08,30.0,,True,False
 Wondery,Los Angeles,United States,Media,2025-08-04,2025.0,2025-08,100.0,,True,False
 Clear,Bengaluru,India,Finance,2025-08-01,2025.0,2025-08,145.0,0.16,True,False
-Atlassian,Sydney,Australia,Other,2025-07-30,2025.0,2025-07,150.0,,True,False
+Atlassian,Sydney,Australia,Enterprise Software,2025-07-30,2025.0,2025-07,150.0,,True,False
 Astra,Bengaluru,India,Sales,2025-07-28,2025.0,2025-07,106.0,1.0,True,False
 Krutrim,Bengaluru,India,AI,2025-07-28,2025.0,2025-07,100.0,,True,False
-Eyeo,Cologne,Germany,Other,2025-07-08,2025.0,2025-07,2.0,0.4,True,False
+Eyeo,Cologne,Germany,Tech Services,2025-07-08,2025.0,2025-07,2.0,0.4,True,False
 Ohm Mobility,Bengaluru,India,Transportation,2025-07-04,2025.0,2025-07,2.0,1.0,True,False
 Tipalti,SF Bay Area,United States,Finance,2025-07-04,2025.0,2025-07,2.0,,True,False
 PlaxidityX,Tel Aviv,Israel,Security,2025-07-23,2025.0,2025-07,65.0,0.36,True,False
@@ -230,7 +230,7 @@ Amicole,New York City,United States,Retail,2025-07-07,2025.0,2025-07,600.0,1.0,F
 CodeParrot,Bengaluru,India,Product,2025-07-07,2025.0,2025-07,240.0,1.0,False,True
 Scale AI,SF Bay Area,United States,Data,2025-07-16,2025.0,2025-07,200.0,0.14,True,False
 Lenovo,Raleigh,United States,Hardware,2025-07-16,2025.0,2025-07,100.0,0.03,True,False
-Jamf,Minneapolis,United States,Other,2025-07-15,2025.0,2025-07,166.0,0.06,True,False
+Jamf,Minneapolis,United States,Tech Services,2025-07-15,2025.0,2025-07,166.0,0.06,True,False
 King.com,Stockholm,Sweden,Consumer,2025-07-14,2025.0,2025-07,200.0,,True,False
 Blip,Bengaluru,India,Retail,2025-07-02,2025.0,2025-07,600.0,1.0,False,True
 Intel,Sacramento,United States,Hardware,2025-07-11,2025.0,2025-07,5000.0,,True,False
@@ -240,26 +240,26 @@ Augury,New York City,United States,Manufacturing,2025-07-10,2025.0,2025-07,60.0,
 Eigen Labs,Seattle,United States,Crypto,2025-07-08,2025.0,2025-07,29.0,0.25,True,False
 Nayax,Tel Aviv,Israel,Finance,2025-07-07,2025.0,2025-07,70.0,0.06,True,False
 Subtl AI,Hyderabad,India,AI,2025-07-03,2025.0,2025-07,185.0,1.0,False,True
-Microsoft,Seattle,United States,Other,2025-07-02,2025.0,2025-07,9000.0,0.04,True,False
+Microsoft,Seattle,United States,Enterprise Software,2025-07-02,2025.0,2025-07,9000.0,0.04,True,False
 Retrain.ai,New York City,Israel,HR,2025-07-02,2025.0,2025-07,20.0,1.0,True,False
 Okra,Lagos,Nigeria,Finance,2025-07-02,2025.0,2025-07,385.0,1.0,False,True
 TikTok,Dublin,Ireland,Consumer,2025-07-02,2025.0,2025-07,95.0,,False,True
-TomTom,Amsterdam,Netherlands,Other,2025-06-30,2025.0,2025-06,300.0,0.1,True,False
+TomTom,Amsterdam,Netherlands,Tech Services,2025-06-30,2025.0,2025-06,300.0,0.1,True,False
 Rivian,Los Angeles,United States,Transportation,2025-06-26,2025.0,2025-06,140.0,0.01,True,False
 Bumble,Austin,United States,Consumer,2025-06-25,2025.0,2025-06,240.0,0.3,True,False
 Klue,Vancouver,Canada,Sales,2025-06-25,2025.0,2025-06,85.0,0.4,True,False
 Google,SF Bay Area,United States,Consumer,2025-06-24,2025.0,2025-06,75.0,,True,False
 Intel,Sacramento,United States,Hardware,2025-06-04,2025.0,2025-06,2.0,,True,False
-Microsoft,Seattle,United States,Other,2025-06-04,2025.0,2025-06,2.0,,True,False
+Microsoft,Seattle,United States,Enterprise Software,2025-06-04,2025.0,2025-06,2.0,,True,False
 Pluralsight,Salt Lake City,United States,Education,2025-06-04,2025.0,2025-06,2.0,0.17,True,False
 Khoros,Austin,United States,Sales,2025-06-20,2025.0,2025-06,116.0,,True,False
 Sabi,Lagos,Nigeria,Retail,2025-06-19,2025.0,2025-06,50.0,0.2,True,False
 Intel,Tel Aviv,Israel,Hardware,2025-06-07,2025.0,2025-06,201.0,,False,True
-Salto,Tel Aviv,Israel,Other,2025-06-10,2025.0,2025-06,30.0,0.5,True,False
+Salto,Tel Aviv,Israel,Tech Services,2025-06-10,2025.0,2025-06,30.0,0.5,True,False
 ZoomInfo,Vancouver,Canada,Sales,2025-06-09,2025.0,2025-06,150.0,0.04,True,False
 Playtika,Tel Aviv,Israel,Consumer,2025-06-05,2025.0,2025-06,90.0,,True,False
 Airtime,New York City,United States,Consumer,2025-06-04,2025.0,2025-06,25.0,0.43,True,False
-Microsoft,Seattle,United States,Other,2025-06-02,2025.0,2025-06,305.0,0.03,True,False
+Microsoft,Seattle,United States,Enterprise Software,2025-06-02,2025.0,2025-06,305.0,0.03,True,False
 Hims & Hers,SF Bay Area,United States,Healthcare,2025-05-30,2025.0,2025-05,68.0,0.04,True,False
 Business Insider,New York City,United States,Media,2025-05-09,2025.0,2025-05,2.0,0.2,True,False
 eBay,Tel Aviv,Israel,Retail,2025-05-28,2025.0,2025-05,200.0,,True,False
@@ -269,18 +269,18 @@ Otipy,New Delhi,India,Food,2025-05-23,2025.0,2025-05,300.0,1.0,True,False
 LeddarTech,Quebec,Canada,Transportation,2025-05-22,2025.0,2025-05,138.0,0.95,True,False
 Climeworks,Zurich,Switzerland,Energy,2025-05-21,2025.0,2025-05,106.0,0.22,True,False
 Luminar,Orlando,United States,Transportation,,,,2.0,,True,False
-Blink Charging,Baltimore,United States,Other,2025-05-09,2025.0,2025-05,141.0,0.2,False,True
+Blink Charging,Baltimore,United States,Tech Services,2025-05-09,2025.0,2025-05,141.0,0.2,False,True
 VerSe Innovation,Bengaluru,India,Media,2025-05-18,2025.0,2025-05,350.0,,True,False
 GroundGame,Tampa Bay,United States,Healthcare,2025-05-15,2025.0,2025-05,97.0,,True,False
 Noogata,Tel Aviv,Israel,AI,2025-05-15,2025.0,2025-05,10.0,1.0,True,False
 Amazon,Seattle,United States,Retail,2025-05-14,2025.0,2025-05,100.0,,True,False
-Microsoft,Seattle,United States,Other,2025-05-13,2025.0,2025-05,6000.0,0.03,True,False
+Microsoft,Seattle,United States,Enterprise Software,2025-05-13,2025.0,2025-05,6000.0,0.03,True,False
 Chegg,SF Bay Area,United States,Education,2025-05-12,2025.0,2025-05,248.0,0.22,True,False
 Match Group,New York City,United States,Consumer,2025-05-08,2025.0,2025-05,325.0,0.13,True,False
 CrowdStrike,SF Bay Area,United States,Security,2025-05-07,2025.0,2025-05,500.0,0.05,True,False
 Games 24x7,Mumbai,India,Consumer,2025-05-07,2025.0,2025-05,180.0,,True,False
 OpenText,Waterloo,Canada,Data,2025-05-06,2025.0,2025-05,1600.0,,True,False
-GenWise,New Delhi,India,Other,2025-05-05,2025.0,2025-05,15.0,0.2,True,False
+GenWise,New Delhi,India,Tech Services,2025-05-05,2025.0,2025-05,15.0,0.2,True,False
 General Fusion,Vancouver,Canada,Energy,2025-05-05,2025.0,2025-05,118.0,0.25,False,True
 Deep Instinct,Tel Aviv,Israel,Security,2025-05-04,2025.0,2025-05,20.0,0.1,True,False
 Log 9 Materials,Bengaluru,India,Manufacturing,2025-05-02,2025.0,2025-05,394.0,1.0,False,True
@@ -289,7 +289,7 @@ NetApp,SF Bay Area,United States,Data,2025-04-30,2025.0,2025-04,700.0,0.06,True,
 Electronic Arts,SF Bay Area,United States,Consumer,2025-04-29,2025.0,2025-04,300.0,,True,False
 Stem,SF Bay Area,United States,Energy,2025-04-09,2025.0,2025-04,2.0,0.27,True,False
 Expedia,Seattle,United States,Travel,2025-04-08,2025.0,2025-04,2.0,0.03,True,False
-Spotter,Los Angeles,United States,Other,2025-04-08,2025.0,2025-04,2.0,,True,False
+Spotter,Los Angeles,United States,Tech Services,2025-04-08,2025.0,2025-04,2.0,,True,False
 Tomorrow,Seattle,United States,Hardware,2025-04-08,2025.0,2025-04,2.0,1.0,True,False
 Cars24,Gurugram,India,Transportation,2025-04-26,2025.0,2025-04,200.0,,True,False
 SambaNova,SF Bay Area,United States,AI,2025-04-25,2025.0,2025-04,77.0,0.15,True,False
@@ -299,7 +299,7 @@ Zopper,Noida,India,Finance,2025-04-17,2025.0,2025-04,100.0,,True,False
 Turo,SF Bay Area,United States,Transportation,2025-04-16,2025.0,2025-04,150.0,0.17,True,False
 AppLovin,SF Bay Area,United States,Marketing,2025-04-16,2025.0,2025-04,97.0,,True,False
 Smashing,SF Bay Area,United States,Consumer,2025-04-16,2025.0,2025-04,7.0,1.0,True,False
-GupShup,SF Bay Area,India,Other,2025-04-15,2025.0,2025-04,200.0,,True,False
+GupShup,SF Bay Area,India,Data,2025-04-15,2025.0,2025-04,200.0,,True,False
 Sonder,SF Bay Area,United States,Travel,2025-04-04,2025.0,2025-04,85.0,,False,True
 Forto,Berlin,Germany,Logistics,2025-04-12,2025.0,2025-04,200.0,,True,False
 Google,SF Bay Area,United States,Consumer,2025-04-01,2025.0,2025-04,95.0,,False,True
@@ -307,7 +307,7 @@ Marin Software,SF Bay Area,United States,Marketing,,,,400.0,1.0,False,True
 Wing Cloud,Tel Aviv,Israel,Infrastru…,2025-04-09,2025.0,2025-04,392.0,1.0,False,True
 Coho AI,Tel Aviv,Israel,Sales,2025-04-06,2025.0,2025-04,950.0,1.0,False,True
 Five9,SF Bay Area,United States,Support,2025-04-03,2025.0,2025-04,123.0,0.04,True,False
-Automattic,SF Bay Area,United States,Other,2025-04-02,2025.0,2025-04,281.0,0.16,True,False
+Automattic,SF Bay Area,United States,Tech Services,2025-04-02,2025.0,2025-04,281.0,0.16,True,False
 Canva,Sydney,Australia,Consumer,2025-04-02,2025.0,2025-04,10.0,,True,False
 WhyHive,Melbourne,Australia,Data,2025-04-02,2025.0,2025-04,397.0,1.0,False,True
 Zomato,Gurugram,India,Food,2025-04-01,2025.0,2025-04,600.0,,True,False
@@ -315,7 +315,7 @@ Northvolt,Stockholm,Sweden,Energy,2025-03-31,2025.0,2025-03,2800.0,0.62,True,Fal
 2U,Washington D,United States,Education,2025-03-01,2025.0,2025-03,3.0,,True,False
 Palantir,Denver,United States,Data,2025-03-27,2025.0,2025-03,120.0,,True,False
 Block,SF Bay Area,United States,Finance,2025-03-25,2025.0,2025-03,931.0,0.08,True,False
-Niantic,SF Bay Area,United States,Other,2025-03-25,2025.0,2025-03,68.0,,True,False
+Niantic,SF Bay Area,United States,Tech Services,2025-03-25,2025.0,2025-03,68.0,,True,False
 Prefect,Washington D,United States,Data,2025-03-25,2025.0,2025-03,20.0,,True,False
 Brightcove,Boston,United States,Marketing,2025-03-19,2025.0,2025-03,198.0,0.33,True,False
 Acxiom,Little Rock,United States,Marketing,2025-03-19,2025.0,2025-03,130.0,0.03,True,False
@@ -333,8 +333,8 @@ Rec Room,Seattle,United States,Consumer,2025-03-03,2025.0,2025-03,148.0,0.16,Fal
 ANS Commerce,Gurugram,India,Retail,2025-03-02,2025.0,2025-03,600.0,1.0,False,True
 HP,SF Bay Area,United States,Hardware,2025-02-28,2025.0,2025-02,4000.0,0.1,True,False
 Grubhub,SF Bay Area,United States,Food,2025-02-28,2025.0,2025-02,500.0,0.23,True,False
-Autodesk,SF Bay Area,United States,Other,2025-02-27,2025.0,2025-02,1350.0,0.09,True,False
-Digimarc,Portland,United States,Other,2025-02-27,2025.0,2025-02,90.0,0.4,True,False
+Autodesk,SF Bay Area,United States,Enterprise Software,2025-02-27,2025.0,2025-02,1350.0,0.09,True,False
+Digimarc,Portland,United States,Tech Services,2025-02-27,2025.0,2025-02,90.0,0.4,True,False
 Google,SF Bay Area,United States,Consumer,2025-02-07,2025.0,2025-02,2.0,,True,False
 Flywire,Boston,United States,Finance,2025-02-26,2025.0,2025-02,125.0,,True,False
 eBay,Tel Aviv,Israel,Retail,2025-02-26,2025.0,2025-02,20.0,,True,False
@@ -355,11 +355,11 @@ Blue Origin,Seattle,United States,Aerospace,2025-02-13,2025.0,2025-02,1000.0,0.1
 Metro Africa,Lagos,Nigeria,Logistics,2025-02-13,2025.0,2025-02,150.0,,True,False
 Redfin,Seattle,United States,Real Estate,2025-02-12,2025.0,2025-02,450.0,,True,False
 Getaround,SF Bay Area,United States,Transportation,2025-02-02,2025.0,2025-02,100.0,,False,True
-Unity,SF Bay Area,United States,Other,2025-02-01,2025.0,2025-02,90.0,,False,True
+Unity,SF Bay Area,United States,AI,2025-02-01,2025.0,2025-02,90.0,,False,True
 Meta,SF Bay Area,United States,Consumer,2025-02-10,2025.0,2025-02,3600.0,0.05,True,False
 Wise,Tampa Bay,United States,Finance,2025-02-10,2025.0,2025-02,300.0,,True,False
 Justworks,New York City,United States,HR,2025-02-10,2025.0,2025-02,200.0,,True,False
-MessageBird,Amsterdam,Netherlands,Other,2025-02-10,2025.0,2025-02,120.0,0.33,True,False
+MessageBird,Amsterdam,Netherlands,Tech Services,2025-02-10,2025.0,2025-02,120.0,0.33,True,False
 Sprinklr,New York City,United States,Support,2025-02-06,2025.0,2025-02,500.0,0.15,True,False
 NanoLock,Tel Aviv,Israel,Security,2025-02-06,2025.0,2025-02,625.0,1.0,False,True
 Workday,SF Bay Area,United States,HR,2025-02-05,2025.0,2025-02,1750.0,0.08,True,False
@@ -372,7 +372,7 @@ Hugging Face,New York City,United States,AI,2025-02-05,2025.0,2025-02,10.0,0.04,
 Cruise,SF Bay Area,United States,Transportation,2025-02-04,2025.0,2025-02,1000.0,0.5,True,False
 Okta,SF Bay Area,United States,Security,2025-02-04,2025.0,2025-02,180.0,0.03,True,False
 AppsFlyer,SF Bay Area,United States,Data,2025-02-04,2025.0,2025-02,100.0,0.07,True,False
-Asana,SF Bay Area,United States,Other,2025-02-04,2025.0,2025-02,100.0,,True,False
+Asana,SF Bay Area,United States,Tech Services,2025-02-04,2025.0,2025-02,100.0,,True,False
 TripAdvisor,Boston,United States,Travel,2025-02-04,2025.0,2025-02,75.0,,True,False
 Intel,Sacramento,United States,Hardware,2025-02-04,2025.0,2025-02,58.0,,True,False
 Innoviz,Tel Aviv,Israel,Transportation,2025-02-04,2025.0,2025-02,40.0,0.09,True,False
@@ -395,7 +395,7 @@ AppLovin,SF Bay Area,United States,Marketing,2025-01-15,2025.0,2025-01,89.0,,Tru
 ShareChat,Bengaluru,India,Marketing,2025-01-15,2025.0,2025-01,27.0,0.05,True,False
 Textio,Seattle,United States,Recruiting,2025-01-15,2025.0,2025-01,15.0,,True,False
 Advisor Credit,Philadelphia,United States,Finance,2025-01-04,2025.0,2025-01,385.0,1.0,False,True
-Microsoft,Seattle,United States,Other,2025-01-04,2025.0,2025-01,90.0,,False,True
+Microsoft,Seattle,United States,Enterprise Software,2025-01-04,2025.0,2025-01,90.0,,False,True
 TechCrunch,SF Bay Area,United States,Media,2025-01-04,2025.0,2025-01,36.0,,False,True
 Alza,New York City,United States,Finance,2025-01-03,2025.0,2025-01,385.0,1.0,False,True
 Boozt,Malmo,Sweden,Retail,2025-01-03,2025.0,2025-01,60.0,0.1,False,True
@@ -406,11 +406,11 @@ Icon,Austin,United States,Construction,2025-01-09,2025.0,2025-01,114.0,,True,Fal
 Redfin,Seattle,United States,Real Estate,2025-01-09,2025.0,2025-01,46.0,,True,False
 Altruist,SF Bay Area,United States,Finance,2025-01-07,2025.0,2025-01,37.0,0.1,True,False
 Aqua Security,Boston,United States,Security,2025-01-07,2025.0,2025-01,62.0,,False,True
-Cloud Software,SF Bay Area,United States,Other,2025-01-07,2025.0,2025-01,90.0,,False,True
-Microsoft,Seattle,United States,Other,2025-01-07,2025.0,2025-01,90.0,,False,True
+Cloud Software,SF Bay Area,United States,Tech Services,2025-01-07,2025.0,2025-01,90.0,,False,True
+Microsoft,Seattle,United States,Enterprise Software,2025-01-07,2025.0,2025-01,90.0,,False,True
 SolarEdge,Tel Aviv,Israel,Energy,2025-01-06,2025.0,2025-01,400.0,,True,False
 Level,New York City,United States,Finance,2025-01-02,2025.0,2025-01,385.0,1.0,False,True
-GupShup,SF Bay Area,India,Other,2024-12-31,2024.0,2024-12,300.0,,True,False
+GupShup,SF Bay Area,India,Data,2024-12-31,2024.0,2024-12,300.0,,True,False
 Brave Care,Portland,United States,Healthcare,2024-12-01,2024.0,2024-12,3.0,1.0,True,False
 Epicery,Paris,France,Food,2024-12-01,2024.0,2024-12,3.0,1.0,True,False
 Bench,Vancouver,Canada,Finance,2024-12-27,2024.0,2024-12,450.0,1.0,True,False
@@ -422,15 +422,15 @@ Thrive,Mumbai,India,Food,2024-12-04,2024.0,2024-12,389.0,1.0,False,True
 Cint,Stockholm,Sweden,Data,2024-12-02,2024.0,2024-12,48.0,0.12,False,True
 Yahoo,SF Bay Area,United States,Consumer,2024-12-02,2024.0,2024-12,95.0,,False,True
 Foundry,Rochester,United States,Crypto,2024-12-11,2024.0,2024-12,74.0,0.27,True,False
-Calendly,Atlanta,United States,Other,2024-12-11,2024.0,2024-12,70.0,0.13,True,False
+Calendly,Atlanta,United States,Tech Services,2024-12-11,2024.0,2024-12,70.0,0.13,True,False
 Canoo,Los Angeles,United States,Transportation,2024-12-11,2024.0,2024-12,20.0,,True,False
 OfferUp,Seattle,United States,Retail,2024-12-01,2024.0,2024-12,132.0,0.22,False,True
-Spotter,Los Angeles,United States,Other,2024-12-01,2024.0,2024-12,90.0,,False,True
+Spotter,Los Angeles,United States,Tech Services,2024-12-01,2024.0,2024-12,90.0,,False,True
 Bluevine,Tel Aviv,Israel,Finance,2024-12-10,2024.0,2024-12,100.0,0.18,True,False
 Spectrm,Berlin,Germany,Marketing,,,,49.0,,False,True
 EasyKnock,New York City,United States,Real Estate,2024-12-09,2024.0,2024-12,333.0,1.0,False,True
 Carousell,Singapore,Singapore,Retail,2024-12-06,2024.0,2024-12,76.0,0.07,True,False
-Mixtroz,Birmingham,United States,Other,2024-12-06,2024.0,2024-12,707.0,1.0,False,True
+Mixtroz,Birmingham,United States,Tech Services,2024-12-06,2024.0,2024-12,707.0,1.0,False,True
 Circle,Boston,United States,Crypto,2024-12-05,2024.0,2024-12,50.0,0.06,True,False
 Vox Media,Washington D,United States,Media,2024-12-05,2024.0,2024-12,36.0,,False,True
 Stash,New York City,United States,Finance,2024-12-04,2024.0,2024-12,88.0,0.4,True,False
@@ -441,7 +441,7 @@ Lightspeed,Montreal,Canada,Retail,2024-12-02,2024.0,2024-12,200.0,,True,False
 Kobo360,Lagos,Nigeria,Logistics,2024-11-30,2024.0,2024-11,30.0,,True,False
 Klub,Bengaluru,India,Finance,2024-11-29,2024.0,2024-11,60.0,,True,False
 SolarEdge,Tel Aviv,Israel,Energy,2024-11-27,2024.0,2024-11,500.0,0.12,True,False
-AlphaSense,New York City,United States,Other,2024-11-27,2024.0,2024-11,150.0,0.08,True,False
+AlphaSense,New York City,United States,Tech Services,2024-11-27,2024.0,2024-11,150.0,0.08,True,False
 Sprout Social,Chicago,United States,Marketing,2024-11-05,2024.0,2024-11,2.0,,True,False
 Apple,SF Bay Area,United States,Hardware,2024-11-04,2024.0,2024-11,2.0,,True,False
 Ola Electric,Bengaluru,India,Transportation,2024-11-22,2024.0,2024-11,500.0,,True,False
@@ -450,7 +450,7 @@ Hopper,Montreal,Canada,Travel,2024-11-02,2024.0,2024-11,2.0,,True,False
 LinkedIn,SF Bay Area,United States,Recruiting,2024-11-21,2024.0,2024-11,202.0,0.01,True,False
 Headspace,Los Angeles,United States,Healthcare,,,,2.0,0.13,True,False
 Own,New York City,United States,Data,2024-11-09,2024.0,2024-11,69.0,,False,True
-Better Collective,Copenhagen,Denmark,Other,2024-11-14,2024.0,2024-11,300.0,,True,False
+Better Collective,Copenhagen,Denmark,Tech Services,2024-11-14,2024.0,2024-11,300.0,,True,False
 Kuku FM,Mumbai,India,Media,2024-11-14,2024.0,2024-11,80.0,,True,False
 AMD,SF Bay Area,United States,Hardware,2024-11-13,2024.0,2024-11,1000.0,0.04,True,False
 AppLovin,SF Bay Area,United States,Marketing,2024-11-13,2024.0,2024-11,120.0,,True,False
@@ -462,7 +462,7 @@ Stoa,Bengaluru,India,Education,2024-11-02,2024.0,2024-11,400.0,1.0,False,True
 Enphase Energy,SF Bay Area,United States,Energy,2024-11-11,2024.0,2024-11,500.0,0.17,True,False
 23andMe,SF Bay Area,United States,Healthcare,2024-11-11,2024.0,2024-11,200.0,0.4,True,False
 Sword Health,New York City,United States,Healthcare,2024-11-11,2024.0,2024-11,13.0,,True,False
-Monarch Tractor,SF Bay Area,United States,Other,2024-11-08,2024.0,2024-11,35.0,0.1,True,False
+Monarch Tractor,SF Bay Area,United States,Tech Services,2024-11-08,2024.0,2024-11,35.0,0.1,True,False
 BigCommerce,Austin,United States,Retail,2024-11-08,2024.0,2024-11,79.0,,False,True
 Booking.com,Grand Rapids,United States,Travel,2024-11-08,2024.0,2024-11,85.0,,False,True
 Exosonic,Los Angeles,United States,Aerospace,2024-11-08,2024.0,2024-11,650.0,1.0,False,True
@@ -470,20 +470,20 @@ Freshworks,SF Bay Area,United States,Support,2024-11-07,2024.0,2024-11,660.0,0.1
 Just Eat,Amsterdam,Netherlands,Food,2024-11-07,2024.0,2024-11,300.0,0.02,True,False
 Opendoor,SF Bay Area,United States,Real Estate,2024-11-07,2024.0,2024-11,300.0,0.17,True,False
 Akamai,Boston,United States,Security,2024-11-07,2024.0,2024-11,250.0,0.02,True,False
-ShareFile,Raleigh,United States,Other,2024-11-07,2024.0,2024-11,199.0,,True,False
+ShareFile,Raleigh,United States,Tech Services,2024-11-07,2024.0,2024-11,199.0,,True,False
 Personio,Munich,Germany,HR,2024-11-07,2024.0,2024-11,115.0,0.06,True,False
 iRobot,Boston,United States,Consumer,2024-11-06,2024.0,2024-11,105.0,0.16,True,False
 Outreach,Seattle,United States,Sales,2024-11-06,2024.0,2024-11,67.0,0.09,True,False
-Avaya,Durham,United States,Other,2024-11-06,2024.0,2024-11,90.0,,False,True
+Avaya,Durham,United States,Tech Services,2024-11-06,2024.0,2024-11,90.0,,False,True
 Mozilla Foundation,SF Bay Area,United States,Consumer,2024-11-05,2024.0,2024-11,278.0,0.3,False,True
 Incredibuild,Tel Aviv,Israel,Product,2024-11-04,2024.0,2024-11,18.0,0.11,True,False
-Atera,Tel Aviv,Israel,Other,2024-11-03,2024.0,2024-11,20.0,0.06,True,False
+Atera,Tel Aviv,Israel,Tech Services,2024-11-03,2024.0,2024-11,20.0,0.06,True,False
 Maven Clinic,New York City,United States,Healthcare,2024-11-01,2024.0,2024-11,60.0,0.1,True,False
 Bowery Farming,New York City,United States,Food,2024-11-01,2024.0,2024-11,389.0,1.0,False,True
 Tidal,New York City,United States,Consumer,2024-10-01,2024.0,2024-10,3.0,,True,False
-Dropbox,SF Bay Area,United States,Other,2024-10-30,2024.0,2024-10,527.0,0.2,True,False
+Dropbox,SF Bay Area,United States,Enterprise Software,2024-10-30,2024.0,2024-10,527.0,0.2,True,False
 Kraken,SF Bay Area,United States,Crypto,2024-10-30,2024.0,2024-10,400.0,0.15,True,False
-Miro,SF Bay Area,United States,Other,2024-10-30,2024.0,2024-10,275.0,0.18,True,False
+Miro,SF Bay Area,United States,Tech Services,2024-10-30,2024.0,2024-10,275.0,0.18,True,False
 ConsenSys,New York City,United States,Crypto,2024-10-29,2024.0,2024-10,163.0,0.2,True,False
 F5,Seattle,United States,Security,2024-10-29,2024.0,2024-10,100.0,0.02,True,False
 Docker,SF Bay Area,United States,Infrastru…,2024-10-09,2024.0,2024-10,2.0,0.1,True,False
@@ -492,7 +492,7 @@ Coursera,SF Bay Area,United States,Education,2024-10-25,2024.0,2024-10,150.0,0.1
 Kyte,SF Bay Area,United States,Transportation,2024-10-05,2024.0,2024-10,2.0,0.4,True,False
 Twelve,SF Bay Area,United States,Energy,2024-10-05,2024.0,2024-10,2.0,,True,False
 Airthings,Oslo,Norway,Hardware,2024-10-04,2024.0,2024-10,2.0,,True,False
-Upwork,SF Bay Area,United States,Other,2024-10-03,2024.0,2024-10,2.0,0.21,True,False
+Upwork,SF Bay Area,United States,Tech Services,2024-10-03,2024.0,2024-10,2.0,0.21,True,False
 Venminder,Louisville,United States,Security,2024-10-21,2024.0,2024-10,100.0,,True,False
 Jellysmack,New York City,France,Media,2024-10-21,2024.0,2024-10,22.0,,True,False
 Chief,New York City,United States,HR,,,,2.0,,True,False
@@ -511,7 +511,7 @@ Grabango,SF Bay Area,United States,Food,2024-10-09,2024.0,2024-10,389.0,1.0,Fals
 BeepKart,Bengaluru,India,Retail,2024-10-08,2024.0,2024-10,130.0,0.4,True,False
 Eaze,SF Bay Area,United States,Consumer,2024-10-07,2024.0,2024-10,500.0,1.0,True,False
 PubMatic,SF Bay Area,United States,Marketing,2024-10-07,2024.0,2024-10,12.0,0.01,True,False
-Zapata Computing,Boston,United States,Other,2024-10-07,2024.0,2024-10,707.0,1.0,False,True
+Zapata Computing,Boston,United States,AI,2024-10-07,2024.0,2024-10,707.0,1.0,False,True
 AppLovin,SF Bay Area,United States,Marketing,2024-10-03,2024.0,2024-10,65.0,,True,False
 Tome,SF Bay Area,United States,Sales,2024-10-02,2024.0,2024-10,12.0,0.31,True,False
 Alma,New York City,United States,Healthcare,2024-10-02,2024.0,2024-10,27.0,0.09,False,True
@@ -537,13 +537,13 @@ Spendesk,Paris,France,Finance,2024-09-18,2024.0,2024-09,151.0,,True,False
 Aakash,New Delhi,India,Education,2024-09-18,2024.0,2024-09,80.0,,True,False
 IBM,New York City,United States,Hardware,2024-09-08,2024.0,2024-09,201.0,,False,True
 Runtastic,Linz,Austria,Fitness,2024-09-16,2024.0,2024-09,170.0,,True,False
-Microsoft,Seattle,United States,Other,2024-09-12,2024.0,2024-09,650.0,,True,False
+Microsoft,Seattle,United States,Enterprise Software,2024-09-12,2024.0,2024-09,650.0,,True,False
 Amperity,Seattle,United States,Marketing,2024-09-02,2024.0,2024-09,52.0,0.13,False,True
 Udemy,SF Bay Area,United States,Education,2024-09-11,2024.0,2024-09,280.0,,True,False
 Mobileye,Jerusalem,Israel,Transportation,2024-09-09,2024.0,2024-09,100.0,,True,False
 InsurStaq.ai,New Delhi,India,AI,2024-09-09,2024.0,2024-09,185.0,1.0,False,True
 Nori,Seattle,United States,Energy,2024-09-09,2024.0,2024-09,470.0,1.0,False,True
-WeTransfer,Amsterdam,Netherlands,Other,2024-09-08,2024.0,2024-09,260.0,0.75,True,False
+WeTransfer,Amsterdam,Netherlands,Tech Services,2024-09-08,2024.0,2024-09,260.0,0.75,True,False
 Center,Seattle,United States,Finance,2024-09-07,2024.0,2024-09,8.0,0.04,True,False
 Goop,Los Angeles,United States,Retail,2024-09-06,2024.0,2024-09,39.0,0.18,True,False
 Motif Foodworks,Boston,United States,Food,2024-09-06,2024.0,2024-09,389.0,1.0,False,True
@@ -589,7 +589,7 @@ Cisco,SF Bay Area,United States,Infrastru…,2024-08-09,2024.0,2024-08,5600.0,0.
 Branch.io,SF Bay Area,United States,Marketing,2024-08-09,2024.0,2024-08,100.0,,True,False
 iCIMS,Holmdel,United States,Recruiting,2024-08-09,2024.0,2024-08,69.0,,True,False
 Ready Robotics,Columbus,United States,Manufacturing,2024-08-09,2024.0,2024-08,100.0,,False,True
-Submittable,Missoula,United States,Other,2024-08-08,2024.0,2024-08,40.0,,True,False
+Submittable,Missoula,United States,Tech Services,2024-08-08,2024.0,2024-08,40.0,,True,False
 Fastly,SF Bay Area,United States,Infrastru…,2024-08-08,2024.0,2024-08,43.0,0.11,False,True
 Eventbrite,SF Bay Area,United States,Consumer,2024-08-07,2024.0,2024-08,100.0,0.11,True,False
 LegalZoom,Los Angeles,United States,Legal,2024-08-07,2024.0,2024-08,120.0,0.15,False,True
@@ -601,7 +601,7 @@ Jam City,Los Angeles,United States,Consumer,2024-08-05,2024.0,2024-08,85.0,0.1,T
 Dell,Austin,United States,Hardware,2024-08-05,2024.0,2024-08,201.0,,False,True
 ShareChat,Bengaluru,India,Marketing,2024-08-03,2024.0,2024-08,30.0,0.05,True,False
 Intel,SF Bay Area,United States,Hardware,2024-08-01,2024.0,2024-08,15000.0,0.15,True,False
-Avaya,Durham,United States,Other,2024-08-01,2024.0,2024-08,180.0,0.03,True,False
+Avaya,Durham,United States,Tech Services,2024-08-01,2024.0,2024-08,180.0,0.03,True,False
 Rad Power Bikes,Seattle,United States,Transportation,2024-08-01,2024.0,2024-08,100.0,,False,True
 Bungie,Seattle,United States,Consumer,2024-07-31,2024.0,2024-07,220.0,0.17,True,False
 Delivery Hero,Berlin,Germany,Food,2024-07-31,2024.0,2024-07,200.0,,True,False
@@ -631,10 +631,10 @@ MoxiWorks,Seattle,United States,Real Estate,2024-07-01,2024.0,2024-07,89.0,,Fals
 Intuit,SF Bay Area,United States,Finance,2024-07-10,2024.0,2024-07,1800.0,0.1,True,False
 Redbox,Chicago,United States,Media,2024-07-10,2024.0,2024-07,1000.0,1.0,True,False
 CyberProof,Los Angeles,United States,Security,,,,44.0,0.07,False,True
-UIPath,New York City,United States,Other,2024-07-09,2024.0,2024-07,420.0,0.1,True,False
+UIPath,New York City,United States,Tech Services,2024-07-09,2024.0,2024-07,420.0,0.1,True,False
 UKG,Boston,United States,HR,2024-07-03,2024.0,2024-07,2200.0,0.14,True,False
 OpenText,Waterloo,Canada,Data,2024-07-03,2024.0,2024-07,1200.0,0.02,True,False
-Microsoft,Seattle,United States,Other,2024-07-03,2024.0,2024-07,90.0,,False,True
+Microsoft,Seattle,United States,Enterprise Software,2024-07-03,2024.0,2024-07,90.0,,False,True
 Unacademy,Bengaluru,India,Education,2024-07-02,2024.0,2024-07,250.0,,True,False
 Koo,Bengaluru,India,Consumer,2024-07-02,2024.0,2024-07,927.0,1.0,False,True
 Lightricks,Jerusalem,Israel,Consumer,2024-07-01,2024.0,2024-07,70.0,0.12,True,False
@@ -675,7 +675,7 @@ SCiFi Foods,SF Bay Area,United States,Food,2024-06-02,2024.0,2024-06,389.0,1.0,F
 VRChat,SF Bay Area,United States,Consumer,2024-06-02,2024.0,2024-06,278.0,0.3,False,True
 Ladenzeile,Berlin,Germany,Retail,2024-06-01,2024.0,2024-06,600.0,1.0,False,True
 Paytm,Noida,India,Finance,2024-06-10,2024.0,2024-06,3500.0,,True,False
-Kissflow,Chennai,India,Other,2024-06-10,2024.0,2024-06,45.0,0.11,True,False
+Kissflow,Chennai,India,Tech Services,2024-06-10,2024.0,2024-06,45.0,0.11,True,False
 Copia,Nairobi,Kenya,Retail,2024-06-06,2024.0,2024-06,1060.0,,True,False
 Revel,New York City,United States,Transportation,2024-06-06,2024.0,2024-06,1000.0,,True,False
 Simpl,Bengaluru,India,Finance,2024-06-06,2024.0,2024-06,30.0,,True,False
@@ -684,7 +684,7 @@ Pagaya,Tel Aviv,Israel,Finance,2024-06-05,2024.0,2024-06,100.0,0.2,True,False
 Aleph Farms,Tel Aviv,Israel,Food,2024-06-05,2024.0,2024-06,30.0,0.3,True,False
 MoonPay,Dover,United States,Crypto,2024-06-05,2024.0,2024-06,30.0,0.1,True,False
 Yext,New York City,United States,Marketing,2024-06-05,2024.0,2024-06,48.0,0.12,False,True
-Microsoft,Seattle,United States,Other,2024-06-03,2024.0,2024-06,1000.0,,True,False
+Microsoft,Seattle,United States,Enterprise Software,2024-06-03,2024.0,2024-06,1000.0,,True,False
 OrCam,Jerusalem,Israel,Healthcare,2024-06-03,2024.0,2024-06,100.0,0.5,True,False
 Google,SF Bay Area,United States,Consumer,2024-05-31,2024.0,2024-05,100.0,,True,False
 Tropic,New York City,United States,Finance,2024-05-31,2024.0,2024-05,40.0,,True,False
@@ -707,21 +707,21 @@ Wefox,Berlin,Germany,Finance,2024-05-16,2024.0,2024-05,60.0,,True,False
 Replit,SF Bay Area,United States,Product,2024-05-16,2024.0,2024-05,30.0,0.2,True,False
 Gopuff,Philadelphia,United States,Food,2024-05-06,2024.0,2024-05,23.0,0.06,False,True
 SeekOut,Seattle,United States,Recruiting,2024-05-06,2024.0,2024-05,91.0,0.3,False,True
-Atmosphere,Austin,United States,Other,2024-05-15,2024.0,2024-05,100.0,,True,False
-Singularity 6,Los Angeles,United States,Other,2024-05-15,2024.0,2024-05,36.0,,True,False
+Atmosphere,Austin,United States,Tech Services,2024-05-15,2024.0,2024-05,100.0,,True,False
+Singularity 6,Los Angeles,United States,Tech Services,2024-05-15,2024.0,2024-05,36.0,,True,False
 Mainvest,Boston,United States,Finance,2024-05-04,2024.0,2024-05,385.0,1.0,False,True
 Indeed,Austin,United States,HR,2024-05-13,2024.0,2024-05,1000.0,0.08,True,False
 Motional,Pittsburgh,United States,Transportation,2024-05-10,2024.0,2024-05,550.0,0.4,True,False
 Rivian,Los Angeles,United States,Transportation,2024-05-10,2024.0,2024-05,120.0,,True,False
 Google,SF Bay Area,United States,Consumer,2024-05-10,2024.0,2024-05,57.0,,True,False
-Symend,Calgary,Canada,Other,,,,90.0,,False,True
+Symend,Calgary,Canada,Tech Services,,,,90.0,,False,True
 Vacasa,Portland,United States,Travel,2024-05-09,2024.0,2024-05,800.0,0.13,True,False
 Sight Diagnostics,Tel Aviv,Israel,Healthcare,2024-05-09,2024.0,2024-05,40.0,0.3,True,False
 PrepLadder,New Delhi,India,Education,2024-05-08,2024.0,2024-05,145.0,0.25,True,False
 Simpl,Bengaluru,India,Finance,2024-05-08,2024.0,2024-05,100.0,0.15,True,False
 Arkane Studios,Austin,United States,Consumer,2024-05-08,2024.0,2024-05,96.0,1.0,True,False
 Brilliant,SF Bay Area,United States,Hardware,2024-05-08,2024.0,2024-05,950.0,1.0,False,True
-Kinaxis,Ottawa,Canada,Other,2024-05-08,2024.0,2024-05,42.0,0.06,False,True
+Kinaxis,Ottawa,Canada,Tech Services,2024-05-08,2024.0,2024-05,42.0,0.06,False,True
 Enovix,SF Bay Area,United States,Energy,2024-05-06,2024.0,2024-05,170.0,0.33,True,False
 Cue Health,San Diego,United States,Healthcare,2024-05-03,2024.0,2024-05,230.0,0.49,True,False
 Rivian,Los Angeles,United States,Transportation,2024-05-03,2024.0,2024-05,150.0,0.01,True,False
@@ -752,7 +752,7 @@ Homie,Salt Lake City,United States,Real Estate,2024-04-09,2024.0,2024-04,89.0,,F
 The Good Glamm,New Delhi,India,Retail,2024-04-18,2024.0,2024-04,150.0,0.15,True,False
 Showpad,Ghent,Belgium,Marketing,2024-04-18,2024.0,2024-04,50.0,0.1,True,False
 Pax8,Denver,United States,Infrastru…,2024-04-08,2024.0,2024-04,20.0,0.05,False,True
-ConnectWise,Tampa Bay,United States,Other,2024-04-07,2024.0,2024-04,90.0,,False,True
+ConnectWise,Tampa Bay,United States,Tech Services,2024-04-07,2024.0,2024-04,90.0,,False,True
 Google,SF Bay Area,United States,Consumer,2024-04-07,2024.0,2024-04,95.0,,False,True
 Rivian,Detroit,United States,Transportation,2024-04-07,2024.0,2024-04,6.0,0.01,False,True
 Take-Two,New York City,United States,Consumer,2024-04-16,2024.0,2024-04,579.0,0.05,True,False
@@ -768,11 +768,11 @@ Scaler,Bengaluru,India,Education,2024-04-10,2024.0,2024-04,150.0,,True,False
 Checkr,SF Bay Area,United States,HR,2024-04-09,2024.0,2024-04,382.0,0.32,True,False
 Intel,SF Bay Area,United States,Hardware,2024-04-09,2024.0,2024-04,62.0,,True,False
 Trendsales,Copenhagen,Denmark,Retail,2024-04-08,2024.0,2024-04,79.0,1.0,True,False
-Singularity 6,Los Angeles,United States,Other,2024-04-08,2024.0,2024-04,49.0,0.35,True,False
-Fission,Vancouver,Canada,Other,2024-04-07,2024.0,2024-04,707.0,1.0,False,True
+Singularity 6,Los Angeles,United States,Tech Services,2024-04-08,2024.0,2024-04,49.0,0.35,True,False
+Fission,Vancouver,Canada,Tech Services,2024-04-07,2024.0,2024-04,707.0,1.0,False,True
 Bolt.Earth,Bengaluru,India,Energy,2024-04-06,2024.0,2024-04,70.0,0.4,True,False
 Apple,SF Bay Area,United States,Hardware,2024-04-04,2024.0,2024-04,614.0,,True,False
-Agility Robotics,Portland,United States,Other,2024-04-04,2024.0,2024-04,90.0,,False,True
+Agility Robotics,Portland,United States,Tech Services,2024-04-04,2024.0,2024-04,90.0,,False,True
 Lightspeed,Montreal,Canada,Retail,2024-04-03,2024.0,2024-04,280.0,,True,False
 Ghost Autonomy,SF Bay Area,United States,Transportation,2024-04-03,2024.0,2024-04,100.0,1.0,True,False
 Vivian Health,SF Bay Area,United States,Healthcare,2024-04-03,2024.0,2024-04,13.0,,True,False
@@ -815,7 +815,7 @@ Totango,SF Bay Area,United States,Support,2024-03-07,2024.0,2024-03,80.0,,False,
 Sorare,New York City,United States,Crypto,2024-03-06,2024.0,2024-03,22.0,0.13,True,False
 Meta,SF Bay Area,United States,Consumer,2024-03-06,2024.0,2024-03,95.0,,False,True
 PlanetScale,SF Bay Area,United States,Data,2024-03-06,2024.0,2024-03,69.0,,False,True
-MessageBird,Amsterdam,Netherlands,Other,2024-03-05,2024.0,2024-03,90.0,0.2,True,False
+MessageBird,Amsterdam,Netherlands,Tech Services,2024-03-05,2024.0,2024-03,90.0,0.2,True,False
 Form Energy,Boston,United States,Energy,2024-03-05,2024.0,2024-03,101.0,,False,True
 Verbit,New York City,United States,Data,2024-03-05,2024.0,2024-03,69.0,,False,True
 Edgio,Phoenix,United States,Infrastru…,2024-03-04,2024.0,2024-03,80.0,0.1,True,False
@@ -862,7 +862,7 @@ Away,New York City,United States,Retail,2024-02-04,2024.0,2024-02,150.0,0.25,Fal
 Instacart,SF Bay Area,United States,Food,2024-02-13,2024.0,2024-02,250.0,0.07,True,False
 Redesign Health,New York City,United States,Healthcare,2024-02-13,2024.0,2024-02,77.0,,True,False
 Mozilla,SF Bay Area,United States,Consumer,2024-02-13,2024.0,2024-02,60.0,0.05,True,False
-Impinj,Seattle,United States,Other,2024-02-13,2024.0,2024-02,50.0,0.1,True,False
+Impinj,Seattle,United States,Tech Services,2024-02-13,2024.0,2024-02,50.0,0.1,True,False
 Riskified,New York City,United States,Retail,2024-02-13,2024.0,2024-02,40.0,0.06,True,False
 Everybuddy,Tel Aviv,Israel,Consumer,2024-02-03,2024.0,2024-02,927.0,1.0,False,True
 Popcore,Berlin,Germany,Consumer,2024-02-03,2024.0,2024-02,95.0,,False,True
@@ -870,7 +870,7 @@ Wisense,Tel Aviv,Israel,Transportation,2024-02-03,2024.0,2024-02,600.0,1.0,False
 SiriusXM,New York City,United States,Media,2024-02-12,2024.0,2024-02,160.0,0.03,True,False
 Licious,Bengaluru,India,Food,2024-02-09,2024.0,2024-02,80.0,0.03,True,False
 BlissClub,Bengaluru,India,Retail,2024-02-09,2024.0,2024-02,21.0,0.18,True,False
-Kandji,San Diego,United States,Other,2024-02-09,2024.0,2024-02,90.0,,False,True
+Kandji,San Diego,United States,Tech Services,2024-02-09,2024.0,2024-02,90.0,,False,True
 Pure Storage,SF Bay Area,United States,Data,2024-02-08,2024.0,2024-02,275.0,,True,False
 Otovo,Oslo,Norway,Energy,2024-02-08,2024.0,2024-02,65.0,0.15,True,False
 Getaround,SF Bay Area,United States,Transportation,2024-02-08,2024.0,2024-02,180.0,0.3,False,True
@@ -895,9 +895,9 @@ Cue Health,San Diego,United States,Healthcare,2024-02-02,2024.0,2024-02,245.0,0.
 Top Hat,Toronto,Canada,Education,2024-02-02,2024.0,2024-02,35.0,0.07,True,False
 Cake Bikes,Stockholm,Sweden,Transportation,2024-02-02,2024.0,2024-02,600.0,1.0,False,True
 Okta,SF Bay Area,United States,Security,2024-02-01,2024.0,2024-02,400.0,0.07,True,False
-Zoom,SF Bay Area,United States,Other,2024-02-01,2024.0,2024-02,150.0,0.02,True,False
+Zoom,SF Bay Area,United States,Enterprise Software,2024-02-01,2024.0,2024-02,150.0,0.02,True,False
 Illumina,San Diego,United States,Healthcare,2024-02-01,2024.0,2024-02,111.0,,True,False
-Indigo,Boston,United States,Other,2024-02-01,2024.0,2024-02,90.0,,False,True
+Indigo,Boston,United States,Tech Services,2024-02-01,2024.0,2024-02,90.0,,False,True
 Proofpoint,SF Bay Area,United States,Security,2024-01-31,2024.0,2024-01,280.0,0.06,True,False
 Trove Recommerce,SF Bay Area,United States,Retail,2024-01-31,2024.0,2024-01,130.0,,True,False
 CircleCI,SF Bay Area,United States,Product,2024-01-31,2024.0,2024-01,100.0,,True,False
@@ -918,28 +918,28 @@ Loopio,Toronto,Canada,Sales,2024-01-09,2024.0,2024-01,2.0,0.06,True,False
 Salesforce,SF Bay Area,United States,Sales,2024-01-26,2024.0,2024-01,700.0,0.01,True,False
 Flexport,SF Bay Area,United States,Logistics,2024-01-06,2024.0,2024-01,2.0,0.2,True,False
 Productboard,SF Bay Area,United States,Product,2024-01-06,2024.0,2024-01,2.0,,True,False
-Microsoft,Seattle,United States,Other,2024-01-25,2024.0,2024-01,1900.0,,True,False
+Microsoft,Seattle,United States,Enterprise Software,2024-01-25,2024.0,2024-01,1900.0,,True,False
 Swiggy,Bengaluru,India,Food,2024-01-25,2024.0,2024-01,400.0,0.07,True,False
 Veho,Boulder,United States,Logistics,2024-01-25,2024.0,2024-01,65.0,0.19,True,False
 Amperity,Seattle,United States,Marketing,2024-01-25,2024.0,2024-01,20.0,,True,False
 MVPindex,Austin,United States,Marketing,2024-01-25,2024.0,2024-01,12.0,0.3,True,False
 Business Insider,New York City,United States,Media,2024-01-05,2024.0,2024-01,2.0,0.08,True,False
 Cova,Lagos,Nigeria,Finance,2024-01-05,2024.0,2024-01,2.0,1.0,True,False
-Jamf,Minneapolis,United States,Other,2024-01-05,2024.0,2024-01,2.0,0.06,True,False
+Jamf,Minneapolis,United States,Tech Services,2024-01-05,2024.0,2024-01,2.0,0.06,True,False
 Cult.fit,Bengaluru,India,Fitness,2024-01-24,2024.0,2024-01,100.0,,True,False
 Personio,Munich,Germany,HR,2024-01-24,2024.0,2024-01,100.0,,True,False
 Storytel,Stockholm,Sweden,Media,2024-01-24,2024.0,2024-01,80.0,0.13,True,False
 Aurora,Pittsburgh,United States,Transportation,2024-01-04,2024.0,2024-01,2.0,0.03,True,False
-Desktop Metal,Boston,United States,Other,2024-01-04,2024.0,2024-01,2.0,0.2,True,False
+Desktop Metal,Boston,United States,Tech Services,2024-01-04,2024.0,2024-01,2.0,0.2,True,False
 HubSpot,Boston,United States,Marketing,2024-01-04,2024.0,2024-01,2.0,,True,False
-SAP,Walldorf,Germany,Other,2024-01-23,2024.0,2024-01,8000.0,0.07,True,False
+SAP,Walldorf,Germany,Enterprise Software,2024-01-23,2024.0,2024-01,8000.0,0.07,True,False
 eBay,SF Bay Area,United States,Retail,2024-01-23,2024.0,2024-01,1000.0,0.09,True,False
 Vroom,New York City,United States,Transportation,2024-01-23,2024.0,2024-01,800.0,0.9,True,False
 Brex,SF Bay Area,United States,Finance,2024-01-23,2024.0,2024-01,282.0,0.2,True,False
 Cure.fit,Bengaluru,India,Fitness,2024-01-23,2024.0,2024-01,120.0,,True,False
 GoStudent,Vienna,Austria,Education,2024-01-23,2024.0,2024-01,100.0,,True,False
 Jellysmack,Paris,France,Media,2024-01-23,2024.0,2024-01,30.0,,True,False
-GoTo,Boston,United States,Other,2024-01-23,2024.0,2024-01,29.0,,True,False
+GoTo,Boston,United States,Tech Services,2024-01-23,2024.0,2024-01,29.0,,True,False
 Riot Games,Los Angeles,United States,Consumer,2024-01-22,2024.0,2024-01,530.0,0.11,True,False
 Xendit,Jakarta,Indonesia,Finance,2024-01-22,2024.0,2024-01,200.0,,True,False
 TikTok,Los Angeles,United States,Consumer,2024-01-22,2024.0,2024-01,60.0,,True,False
@@ -961,7 +961,7 @@ Veeam,Columbus,United States,Data,2024-01-12,2024.0,2024-01,300.0,,True,False
 Artifact,SF Bay Area,United States,Media,2024-01-02,2024.0,2024-01,273.0,1.0,False,True
 Dastgyr,Karachi,Pakistan,Retail,2024-01-02,2024.0,2024-01,480.0,0.8,False,True
 Hologram,Chicago,United States,Infrastru…,2024-01-02,2024.0,2024-01,50.0,,False,True
-Vendr,Boston,United States,Other,2024-01-02,2024.0,2024-01,90.0,,False,True
+Vendr,Boston,United States,Tech Services,2024-01-02,2024.0,2024-01,90.0,,False,True
 New Work SE,Hamburg,Germany,Consumer,2024-01-11,2024.0,2024-01,400.0,,True,False
 Playtika,Tel Aviv,Israel,Consumer,2024-01-11,2024.0,2024-01,300.0,0.1,True,False
 Discord,SF Bay Area,United States,Consumer,2024-01-11,2024.0,2024-01,170.0,0.17,True,False
@@ -971,7 +971,7 @@ Audible,New York City,United States,Media,2024-01-11,2024.0,2024-01,100.0,0.05,T
 Sisense,New York City,United States,Data,2024-01-11,2024.0,2024-01,60.0,0.13,True,False
 Cloudflare,SF Bay Area,United States,Security,2024-01-11,2024.0,2024-01,40.0,,True,False
 888,Tel Aviv,Israel,Consumer,2024-01-01,2024.0,2024-01,95.0,,False,True
-Certinia,SF Bay Area,United States,Other,2024-01-01,2024.0,2024-01,90.0,,False,True
+Certinia,SF Bay Area,United States,Tech Services,2024-01-01,2024.0,2024-01,90.0,,False,True
 Chief,New York City,United States,HR,2024-01-01,2024.0,2024-01,56.0,,False,True
 Dextrous Robotics,Memphis,United States,Logistics,2024-01-01,2024.0,2024-01,391.0,1.0,False,True
 Citrix,Miami,United States,Infrastru…,2024-01-10,2024.0,2024-01,1000.0,0.12,True,False
@@ -994,11 +994,11 @@ Humane,SF Bay Area,United States,Hardware,2024-01-09,2024.0,2024-01,10.0,0.04,Tr
 EVBox,Amsterdam,Netherlands,Energy,2024-01-09,2024.0,2024-01,101.0,,False,True
 Morning Consult,Washington D,United States,Data,2024-01-09,2024.0,2024-01,69.0,,False,True
 Trend Micro,Tokyo,Japan,Security,2024-01-09,2024.0,2024-01,12.0,0.02,False,True
-Unity,SF Bay Area,United States,Other,2024-01-08,2024.0,2024-01,1800.0,0.25,True,False
+Unity,SF Bay Area,United States,AI,2024-01-08,2024.0,2024-01,1800.0,0.25,True,False
 Flipkart,Bengaluru,India,Retail,2024-01-08,2024.0,2024-01,1100.0,0.05,True,False
 NuScale Power,Corvallis,United States,Energy,2024-01-08,2024.0,2024-01,154.0,0.28,True,False
 Flexe,Seattle,United States,Logistics,2024-01-08,2024.0,2024-01,99.0,0.38,True,False
-Pitch,Berlin,Germany,Other,2024-01-08,2024.0,2024-01,80.0,0.67,True,False
+Pitch,Berlin,Germany,Tech Services,2024-01-08,2024.0,2024-01,80.0,0.67,True,False
 BenchSci,Toronto,Canada,Healthcare,2024-01-08,2024.0,2024-01,70.0,0.17,True,False
 Here,Miami,United States,Real Estate,2024-01-08,2024.0,2024-01,333.0,1.0,False,True
 Ledger Investing,New York City,United States,Finance,2024-01-08,2024.0,2024-01,96.0,0.25,False,True
@@ -1043,7 +1043,7 @@ Stellar Pizza,Los Angeles,United States,Food,2023-12-04,2023.0,2023-12,194.0,0.5
 Invitae,SF Bay Area,United States,Healthcare,2023-12-13,2023.0,2023-12,235.0,0.15,True,False
 Etsy,New York City,United States,Retail,2023-12-13,2023.0,2023-12,225.0,0.11,True,False
 Analog Devices,SF Bay Area,United States,Manufacturing,2023-12-13,2023.0,2023-12,111.0,,True,False
-ForgeRock,SF Bay Area,United States,Other,2023-12-13,2023.0,2023-12,109.0,,True,False
+ForgeRock,SF Bay Area,United States,Tech Services,2023-12-13,2023.0,2023-12,109.0,,True,False
 Flex,SF Bay Area,United States,Manufacturing,2023-12-13,2023.0,2023-12,31.0,,True,False
 FourKites,Chicago,United States,Logistics,2023-12-03,2023.0,2023-12,59.0,0.15,False,True
 Sojern,SF Bay Area,United States,Marketing,2023-12-03,2023.0,2023-12,80.0,0.2,False,True
@@ -1056,7 +1056,7 @@ Zulily,Seattle,United States,Retail,2023-12-08,2023.0,2023-12,839.0,1.0,True,Fal
 D2iQ,SF Bay Area,United States,Infrastru…,2023-12-08,2023.0,2023-12,392.0,1.0,False,True
 Simplilearn,Bengaluru,India,Education,2023-12-07,2023.0,2023-12,200.0,,True,False
 Rivian,Detroit,United States,Transportation,2023-12-07,2023.0,2023-12,20.0,,True,False
-Atmosphere,Austin,United States,Other,2023-12-07,2023.0,2023-12,90.0,,False,True
+Atmosphere,Austin,United States,Tech Services,2023-12-07,2023.0,2023-12,90.0,,False,True
 Navan,SF Bay Area,United States,Travel,2023-12-06,2023.0,2023-12,145.0,,True,False
 Tidal,New York City,United States,Consumer,2023-12-06,2023.0,2023-12,40.0,0.1,True,False
 ZestMoney,Bengaluru,India,Finance,2023-12-05,2023.0,2023-12,150.0,1.0,True,False
@@ -1071,13 +1071,13 @@ Spotify,Stockholm,Sweden,Media,2023-12-04,2023.0,2023-12,1500.0,0.17,True,False
 TuSimple,San Diego,United States,Transportation,2023-12-04,2023.0,2023-12,150.0,,True,False
 Meow Wolf,Santa Fe,United States,Media,2023-12-04,2023.0,2023-12,8.0,,True,False
 DwellWell,Los Angeles,United States,Real Estate,2023-12-04,2023.0,2023-12,333.0,1.0,False,True
-Twilio,SF Bay Area,United States,Other,2023-12-04,2023.0,2023-12,35.0,0.05,False,True
-Filmic,Seattle,United States,Other,2023-12-01,2023.0,2023-12,707.0,1.0,False,True
+Twilio,SF Bay Area,United States,Enterprise Software,2023-12-04,2023.0,2023-12,35.0,0.05,False,True
+Filmic,Seattle,United States,Tech Services,2023-12-01,2023.0,2023-12,707.0,1.0,False,True
 Loco,Mumbai,India,Consumer,2023-11-30,2023.0,2023-11,40.0,0.36,True,False
 Domo,Salt Lake City,United States,Data,,,,3.0,0.07,True,False
 Mojo,New York City,United States,Consumer,,,,3.0,,True,False
 Vox Media,Washington D,United States,Media,,,,3.0,0.04,True,False
-Unity,SF Bay Area,United States,Other,2023-11-28,2023.0,2023-11,265.0,0.04,True,False
+Unity,SF Bay Area,United States,AI,2023-11-28,2023.0,2023-11,265.0,0.04,True,False
 Dataminr,New York City,United States,AI,2023-11-28,2023.0,2023-11,150.0,0.2,True,False
 Tier Mobility,Berlin,Germany,Transportation,2023-11-08,2023.0,2023-11,2.0,0.22,True,False
 VMware,SF Bay Area,United States,Infrastru…,2023-11-27,2023.0,2023-11,2837.0,,True,False
@@ -1115,7 +1115,7 @@ TripAdvisor,Boston,United States,Travel,2023-11-12,2023.0,2023-11,125.0,0.04,Tru
 Bowery Farming,New York City,United States,Food,,,,87.0,,False,True
 Carta,SF Bay Area,United States,HR,2023-11-09,2023.0,2023-11,56.0,,False,True
 Commure,SF Bay Area,United States,Healthcare,2023-11-09,2023.0,2023-11,63.0,,False,True
-OSlash,Bengaluru,India,Other,2023-11-09,2023.0,2023-11,707.0,1.0,False,True
+OSlash,Bengaluru,India,Tech Services,2023-11-09,2023.0,2023-11,707.0,1.0,False,True
 Snap,Los Angeles,United States,Consumer,2023-11-08,2023.0,2023-11,20.0,,True,False
 Amazon,Seattle,United States,Retail,2023-11-08,2023.0,2023-11,79.0,,False,True
 BigCommerce,Austin,United States,Retail,2023-11-08,2023.0,2023-11,42.0,0.07,False,True
@@ -1128,11 +1128,11 @@ Zeus Living,SF Bay Area,United States,Real Estate,2023-11-07,2023.0,2023-11,333.
 Ava Labs,New York City,United States,Crypto,2023-11-06,2023.0,2023-11,33.0,0.12,False,True
 Homie,Salt Lake City,United States,Real Estate,2023-11-06,2023.0,2023-11,89.0,,False,True
 Moore Threads,Beijing,China,Hardware,2023-11-06,2023.0,2023-11,201.0,,False,True
-Pico Interactive,SF Bay Area,United States,Other,2023-11-06,2023.0,2023-11,90.0,,False,True
+Pico Interactive,SF Bay Area,United States,Tech Services,2023-11-06,2023.0,2023-11,90.0,,False,True
 F5,Seattle,United States,Security,2023-11-03,2023.0,2023-11,120.0,0.02,True,False
 NIO,Shanghai,China,Transportation,2023-11-03,2023.0,2023-11,60.0,0.1,False,True
 OpenSea,New York City,United States,Crypto,2023-11-03,2023.0,2023-11,136.0,0.5,False,True
-Viasat,San Diego,United States,Other,2023-11-02,2023.0,2023-11,800.0,0.1,True,False
+Viasat,San Diego,United States,Telecommunications,2023-11-02,2023.0,2023-11,800.0,0.1,True,False
 Beyond Meat,Los Angeles,United States,Food,2023-11-02,2023.0,2023-11,65.0,0.08,True,False
 OpenSpace,SF Bay Area,United States,Construction,2023-11-02,2023.0,2023-11,70.0,,False,True
 Orchard,New York City,United States,Real Estate,2023-11-02,2023.0,2023-11,89.0,,False,True
@@ -1143,7 +1143,7 @@ Faire,SF Bay Area,United States,Retail,2023-11-01,2023.0,2023-11,250.0,0.2,True,
 Sana Benefits,Austin,United States,HR,2023-11-01,2023.0,2023-11,73.0,0.5,True,False
 Olive,Columbus,United States,Healthcare,2023-10-01,2023.0,2023-10,3.0,1.0,True,False
 StepStone,Berlin,Germany,Recruiting,2023-10-30,2023.0,2023-10,215.0,0.05,True,False
-Hubilo,SF Bay Area,United States,Other,2023-10-30,2023.0,2023-10,50.0,,True,False
+Hubilo,SF Bay Area,United States,Tech Services,2023-10-30,2023.0,2023-10,50.0,,True,False
 Karat Financial,Los Angeles,United States,Finance,2023-10-07,2023.0,2023-10,2.0,,True,False
 Hippo Insurance,SF Bay Area,United States,Finance,2023-10-26,2023.0,2023-10,120.0,0.2,True,False
 Graphy,Bengaluru,India,Education,2023-10-26,2023.0,2023-10,50.0,0.2,True,False
@@ -1165,7 +1165,7 @@ LegalZoom,Austin,United States,Legal,2023-10-19,2023.0,2023-10,100.0,,True,False
 StellarAlgo,Calgary,Canada,Data,2023-10-19,2023.0,2023-10,21.0,0.28,True,False
 ManoMano,Paris,France,Retail,2023-10-18,2023.0,2023-10,230.0,0.25,True,False
 Google,SF Bay Area,United States,Consumer,2023-10-18,2023.0,2023-10,40.0,,True,False
-WeTransfer,Amsterdam,Netherlands,Other,2023-10-18,2023.0,2023-10,35.0,0.1,True,False
+WeTransfer,Amsterdam,Netherlands,Tech Services,2023-10-18,2023.0,2023-10,35.0,0.1,True,False
 Plume,Denver,United States,Healthcare,2023-10-18,2023.0,2023-10,24.0,,True,False
 Belora Paris,Gurugram,India,Retail,2023-10-08,2023.0,2023-10,600.0,1.0,False,True
 Made Renovation,SF Bay Area,United States,Construction,2023-10-08,2023.0,2023-10,280.0,1.0,False,True
@@ -1176,7 +1176,7 @@ LinkedIn,SF Bay Area,United States,Recruiting,2023-10-16,2023.0,2023-10,660.0,0.
 CityMall,Gurugram,India,Retail,2023-10-16,2023.0,2023-10,90.0,,True,False
 C2FO,Kansas City,United States,Finance,2023-10-16,2023.0,2023-10,80.0,0.03,True,False
 Kayak / OpenTable,Stamford,United States,Travel,2023-10-16,2023.0,2023-10,80.0,,True,False
-Bandcamp,SF Bay Area,United States,Other,2023-10-16,2023.0,2023-10,58.0,0.5,True,False
+Bandcamp,SF Bay Area,United States,Tech Services,2023-10-16,2023.0,2023-10,58.0,0.5,True,False
 Stack Overflow,New York City,United States,Recruiting,2023-10-06,2023.0,2023-10,85.0,0.28,False,True
 Adda247,Gurugram,India,Education,2023-10-14,2023.0,2023-10,300.0,,True,False
 Flexport,SF Bay Area,United States,Logistics,2023-10-03,2023.0,2023-10,78.0,0.2,False,True
@@ -1204,7 +1204,7 @@ Bizongo,Mumbai,India,Retail,2023-10-05,2023.0,2023-10,50.0,,True,False
 SchoolMint,SF Bay Area,United States,Education,2023-10-05,2023.0,2023-10,29.0,0.14,True,False
 SeekOut,Seattle,United States,Recruiting,2023-10-05,2023.0,2023-10,16.0,0.07,True,False
 Ledger,Paris,France,Crypto,2023-10-05,2023.0,2023-10,33.0,0.12,False,True
-Qualtrics,Salt Lake City,United States,Other,2023-10-04,2023.0,2023-10,780.0,0.14,True,False
+Qualtrics,Salt Lake City,United States,Enterprise Software,2023-10-04,2023.0,2023-10,780.0,0.14,True,False
 Hopper,Montreal,Canada,Travel,2023-10-04,2023.0,2023-10,250.0,0.3,True,False
 Bird,Los Angeles,United States,Transportation,2023-10-04,2023.0,2023-10,100.0,,False,True
 Block,SF Bay Area,United States,Finance,2023-10-04,2023.0,2023-10,60.0,,False,True
@@ -1228,9 +1228,9 @@ Fi.Money,Bengaluru,India,Finance,2023-09-27,2023.0,2023-09,30.0,0.1,True,False
 Dunzo,Bengaluru,India,Food,2023-09-26,2023.0,2023-09,150.0,0.3,True,False
 Flexe,Seattle,United States,Logistics,2023-09-26,2023.0,2023-09,131.0,0.33,True,False
 Talkdesk,SF Bay Area,United States,Support,2023-09-06,2023.0,2023-09,2.0,,True,False
-Lucid Software,Salt Lake City,United States,Other,2023-09-25,2023.0,2023-09,75.0,0.07,True,False
+Lucid Software,Salt Lake City,United States,Tech Services,2023-09-25,2023.0,2023-09,75.0,0.07,True,False
 Eat Just,SF Bay Area,United States,Food,2023-09-22,2023.0,2023-09,40.0,,True,False
-Appsmith,SF Bay Area,United States,Other,2023-09-22,2023.0,2023-09,35.0,0.25,True,False
+Appsmith,SF Bay Area,United States,Tech Services,2023-09-22,2023.0,2023-09,35.0,0.25,True,False
 Roblox,New York City,United States,Consumer,2023-09-22,2023.0,2023-09,30.0,,True,False
 Foodpanda,Singapore,Singapore,Food,2023-09-02,2023.0,2023-09,2.0,,True,False
 DealShare,Bengaluru,India,Retail,2023-09-21,2023.0,2023-09,130.0,,True,False
@@ -1259,7 +1259,7 @@ At-Bay,SF Bay Area,United States,Security,2023-09-12,2023.0,2023-09,27.0,0.09,Tr
 Chargebee,SF Bay Area,United States,Finance,2023-09-11,2023.0,2023-09,100.0,0.1,True,False
 Divvy Homes,SF Bay Area,United States,Real Estate,2023-09-11,2023.0,2023-09,94.0,,True,False
 Grabango,SF Bay Area,United States,Food,2023-09-11,2023.0,2023-09,34.0,0.4,True,False
-Bonterra,Austin,United States,Other,2023-09-01,2023.0,2023-09,90.0,,False,True
+Bonterra,Austin,United States,Tech Services,2023-09-01,2023.0,2023-09,90.0,,False,True
 Mollie,Amsterdam,Netherlands,Finance,2023-09-01,2023.0,2023-09,60.0,,False,True
 Oyster,Charlotte,United States,HR,2023-09-01,2023.0,2023-09,56.0,,False,True
 ChargePoint,SF Bay Area,United States,Manufacturing,2023-09-08,2023.0,2023-09,39.0,0.1,False,True
@@ -1278,13 +1278,13 @@ Talent.com,Montreal,Canada,Recruiting,2023-09-05,2023.0,2023-09,53.0,,False,True
 Nexar,New York City,United States,Transportation,2023-09-04,2023.0,2023-09,17.0,0.14,True,False
 Khatabook,Bengaluru,India,Finance,2023-09-01,2023.0,2023-09,42.0,,True,False
 Clearcover,Chicago,United States,Finance,2023-09-01,2023.0,2023-09,108.0,0.28,False,True
-Gated,SF Bay Area,United States,Other,2023-09-01,2023.0,2023-09,707.0,1.0,False,True
+Gated,SF Bay Area,United States,Tech Services,2023-09-01,2023.0,2023-09,707.0,1.0,False,True
 Pegasystems,Boston,United States,HR,2023-08-31,2023.0,2023-08,240.0,0.04,True,False
 Biofourmis,Boston,United States,Healthcare,2023-08-31,2023.0,2023-08,120.0,,True,False
 Malwarebytes,SF Bay Area,United States,Security,2023-08-31,2023.0,2023-08,100.0,,True,False
 Expedia,Seattle,United States,Travel,2023-08-01,2023.0,2023-08,3.0,,True,False
 Productboard,SF Bay Area,United States,Product,2023-08-01,2023.0,2023-08,3.0,0.1,True,False
-SkyKick,Seattle,United States,Other,2023-08-30,2023.0,2023-08,140.0,,True,False
+SkyKick,Seattle,United States,Tech Services,2023-08-30,2023.0,2023-08,140.0,,True,False
 Omuni,Bengaluru,India,Retail,2023-08-30,2023.0,2023-08,60.0,0.35,True,False
 Kenko Health,Mumbai,India,Healthcare,2023-08-30,2023.0,2023-08,50.0,0.2,True,False
 Zeplin,SF Bay Area,United States,Product,2023-08-30,2023.0,2023-08,37.0,0.35,True,False
@@ -1306,7 +1306,7 @@ JOIN,Berlin,Germany,Recruiting,2023-08-03,2023.0,2023-08,2.0,,True,False
 CoinDCX,Mumbai,India,Crypto,2023-08-02,2023.0,2023-08,2.0,0.12,True,False
 Datagen,Tel Aviv,Israel,AI,2023-08-02,2023.0,2023-08,2.0,,True,False
 Hypefast,Jakarta,Indonesia,Retail,2023-08-02,2023.0,2023-08,2.0,0.3,True,False
-Tempo Automation,SF Bay Area,United States,Other,2023-08-02,2023.0,2023-08,2.0,,True,False
+Tempo Automation,SF Bay Area,United States,Tech Services,2023-08-02,2023.0,2023-08,2.0,,True,False
 Recur,Miami,United States,Crypto,2023-08-01,2023.0,2023-08,2.0,,True,False
 Unite Us,New York City,United States,Healthcare,2023-08-01,2023.0,2023-08,2.0,,True,False
 Twiga,Nairobi,Kenya,Food,2023-08-20,2023.0,2023-08,283.0,0.33,True,False
@@ -1314,7 +1314,7 @@ Spartan Poker,Kolkata,India,Consumer,2023-08-19,2023.0,2023-08,125.0,0.4,True,Fa
 Times Internet,Gurugram,India,Media,2023-08-18,2023.0,2023-08,100.0,0.05,True,False
 Detectify,Stockholm,Sweden,Security,2023-08-18,2023.0,2023-08,30.0,,True,False
 Embrace,SF Bay Area,United States,Product,2023-08-08,2023.0,2023-08,23.0,,False,True
-Zylo,Indianapolis,United States,Other,2023-08-08,2023.0,2023-08,71.0,0.1,False,True
+Zylo,Indianapolis,United States,Tech Services,2023-08-08,2023.0,2023-08,71.0,0.1,False,True
 Illumina,San Diego,United States,Healthcare,2023-08-17,2023.0,2023-08,151.0,,True,False
 AppFolio,Santa Barbara,United States,Real Estate,2023-08-17,2023.0,2023-08,149.0,0.09,True,False
 Intel,SF Bay Area,United States,Hardware,2023-08-17,2023.0,2023-08,140.0,,True,False
@@ -1326,19 +1326,19 @@ Noice,Helsinki,Finland,Consumer,2023-08-05,2023.0,2023-08,95.0,,False,True
 SecureWorks,Atlanta,United States,Security,2023-08-14,2023.0,2023-08,300.0,0.15,True,False
 Easee,Sandnes,Norway,Energy,2023-08-14,2023.0,2023-08,200.0,0.57,True,False
 CoinDesk,New York City,United States,Crypto,2023-08-04,2023.0,2023-08,47.0,,False,True
-iQiyi Smart,Beijing,China,Other,2023-08-04,2023.0,2023-08,90.0,,False,True
+iQiyi Smart,Beijing,China,Tech Services,2023-08-04,2023.0,2023-08,90.0,,False,True
 LingoAce,Singapore,Singapore,Education,2023-08-01,2023.0,2023-08,80.0,,False,True
 Shutterfly,Minneapolis,United States,Manufacturing,2023-08-10,2023.0,2023-08,246.0,,True,False
-SHINE,Milwaukee,United States,Other,2023-08-10,2023.0,2023-08,59.0,,True,False
+SHINE,Milwaukee,United States,Tech Services,2023-08-10,2023.0,2023-08,59.0,,True,False
 Hike,New Delhi,India,Consumer,2023-08-10,2023.0,2023-08,55.0,,True,False
 Blend,SF Bay Area,United States,Finance,2023-08-09,2023.0,2023-08,150.0,0.19,True,False
-Niantic,Los Angeles,United States,Other,2023-08-09,2023.0,2023-08,100.0,,True,False
+Niantic,Los Angeles,United States,Tech Services,2023-08-09,2023.0,2023-08,100.0,,True,False
 Dealtale,Tel Aviv,Israel,Sales,2023-08-09,2023.0,2023-08,70.0,1.0,True,False
 Bukalapak,Jakarta,Indonesia,Retail,2023-08-09,2023.0,2023-08,79.0,,False,True
 Podium,Lehi,United States,Support,2023-08-09,2023.0,2023-08,80.0,,False,True
 Quizy,Gurugram,India,Consumer,2023-08-09,2023.0,2023-08,927.0,1.0,False,True
 StyleSeat,SF Bay Area,United States,Consumer,2023-08-09,2023.0,2023-08,158.0,0.17,False,True
-Thoughtworks,Chicago,United States,Other,2023-08-08,2023.0,2023-08,579.0,0.05,True,False
+Thoughtworks,Chicago,United States,Enterprise Software,2023-08-08,2023.0,2023-08,579.0,0.05,True,False
 Rapid7,Boston,United States,Security,2023-08-08,2023.0,2023-08,470.0,0.18,True,False
 MPL,Bengaluru,India,Consumer,2023-08-08,2023.0,2023-08,350.0,,True,False
 Doximity,SF Bay Area,United States,Healthcare,2023-08-08,2023.0,2023-08,100.0,0.1,True,False
@@ -1357,7 +1357,7 @@ Aware,Columbus,United States,Security,2023-08-03,2023.0,2023-08,62.0,,False,True
 Ayoconnect,Jakarta,Indonesia,Finance,2023-08-03,2023.0,2023-08,38.0,0.1,False,True
 Finastra,Tel Aviv,Israel,Finance,2023-08-03,2023.0,2023-08,60.0,,False,True
 Spinny,Gurugram,India,Transportation,2023-08-02,2023.0,2023-08,300.0,0.05,True,False
-Tekion,Bengaluru,India,Other,2023-08-02,2023.0,2023-08,300.0,0.1,True,False
+Tekion,Bengaluru,India,Tech Services,2023-08-02,2023.0,2023-08,300.0,0.1,True,False
 BetterUp,SF Bay Area,United States,HR,2023-08-02,2023.0,2023-08,100.0,0.16,True,False
 Augury,New York City,United States,Manufacturing,2023-08-02,2023.0,2023-08,70.0,0.18,True,False
 Gem,SF Bay Area,United States,Recruiting,2023-08-02,2023.0,2023-08,70.0,,True,False
@@ -1374,11 +1374,11 @@ Planet,SF Bay Area,United States,Aerospace,2023-08-01,2023.0,2023-08,117.0,0.1,T
 Paper,Montreal,Canada,Education,2023-08-01,2023.0,2023-08,106.0,0.04,True,False
 Archipelago,SF Bay Area,United States,Real Estate,2023-08-01,2023.0,2023-08,40.0,0.3,True,False
 Increff,Bengaluru,India,Retail,2023-08-01,2023.0,2023-08,120.0,0.2,False,True
-Indigo,Boston,United States,Other,2023-08-01,2023.0,2023-08,90.0,,False,True
+Indigo,Boston,United States,Tech Services,2023-08-01,2023.0,2023-08,90.0,,False,True
 inDrive,SF Bay Area,United States,Transportation,2023-08-01,2023.0,2023-08,60.0,0.1,False,True
 Outreach,Seattle,United States,Sales,2023-08-01,2023.0,2023-08,48.0,0.05,False,True
 Qoala,Jakarta,Indonesia,Finance,2023-07-31,2023.0,2023-07,80.0,,True,False
-Fable,Toronto,Canada,Other,2023-07-31,2023.0,2023-07,13.0,0.09,True,False
+Fable,Toronto,Canada,Tech Services,2023-07-31,2023.0,2023-07,13.0,0.09,True,False
 Nexar,New York City,United States,Transportation,2023-07-31,2023.0,2023-07,12.0,,True,False
 Cambricon,Beijing,China,Hardware,2023-07-01,2023.0,2023-07,3.0,,True,False
 Eroad,Auckland,New Zealand,Transportation,2023-07-28,2023.0,2023-07,200.0,0.31,True,False
@@ -1388,11 +1388,11 @@ Wish,SF Bay Area,United States,Retail,2023-07-27,2023.0,2023-07,255.0,0.34,True,
 Point,SF Bay Area,United States,Real Estate,2023-07-27,2023.0,2023-07,61.0,0.28,True,False
 Akseleran,Jakarta,Indonesia,Finance,2023-07-27,2023.0,2023-07,60.0,,True,False
 Verbit,New York City,United States,Data,2023-07-27,2023.0,2023-07,60.0,0.06,True,False
-Datree,SF Bay Area,United States,Other,2023-07-07,2023.0,2023-07,2.0,1.0,True,False
+Datree,SF Bay Area,United States,Tech Services,2023-07-07,2023.0,2023-07,2.0,1.0,True,False
 Degreed,SF Bay Area,United States,Education,2023-07-07,2023.0,2023-07,2.0,,True,False
 Copia,Nairobi,Kenya,Retail,2023-07-26,2023.0,2023-07,350.0,0.25,True,False
 Figure,SF Bay Area,United States,Crypto,2023-07-26,2023.0,2023-07,90.0,0.2,True,False
-Calendly,Atlanta,United States,Other,2023-07-26,2023.0,2023-07,60.0,0.1,True,False
+Calendly,Atlanta,United States,Tech Services,2023-07-26,2023.0,2023-07,60.0,0.1,True,False
 Myntra,Bengaluru,India,Retail,2023-07-26,2023.0,2023-07,50.0,,True,False
 Ripl,Seattle,United States,Marketing,2023-07-06,2023.0,2023-07,2.0,,True,False
 Deep Instict,New York City,United States,Security,2023-07-25,2023.0,2023-07,46.0,0.15,True,False
@@ -1404,13 +1404,13 @@ Bundle Africa,Lagos,Nigeria,Crypto,2023-07-01,2023.0,2023-07,2.0,1.0,True,False
 Viaplay,Stockholm,Sweden,Media,2023-07-20,2023.0,2023-07,450.0,0.25,True,False
 Stoa,Phoenix,United States,Real Estate,2023-07-20,2023.0,2023-07,80.0,0.8,True,False
 Dunzo,Bengaluru,India,Food,,,,2.0,,True,False
-Phunware,Austin,United States,Other,,,,2.0,,True,False
+Phunware,Austin,United States,Tech Services,,,,2.0,,True,False
 Saarthi.ai,Bengaluru,India,Support,,,,2.0,,True,False
 AgentSync,Denver,United States,Finance,2023-07-19,2023.0,2023-07,67.0,0.24,True,False
 Inspirato,Denver,United States,Travel,2023-07-19,2023.0,2023-07,50.0,0.06,True,False
 Tilia,SF Bay Area,United States,Finance,2023-07-19,2023.0,2023-07,28.0,0.32,True,False
 Blue Apron,New York City,United States,Food,2023-07-09,2023.0,2023-07,78.0,0.2,False,True
-Microsoft,Seattle,United States,Other,2023-07-18,2023.0,2023-07,1000.0,,True,False
+Microsoft,Seattle,United States,Enterprise Software,2023-07-18,2023.0,2023-07,1000.0,,True,False
 Cameo,Chicago,United States,Consumer,2023-07-18,2023.0,2023-07,80.0,,True,False
 Square Roots,New York City,United States,Food,2023-07-08,2023.0,2023-07,87.0,,False,True
 Sarcos,Salt Lake City,United States,Aerospace,2023-07-17,2023.0,2023-07,75.0,0.25,True,False
@@ -1422,8 +1422,8 @@ PayScale,Seattle,United States,HR,2023-07-14,2023.0,2023-07,14.0,0.02,True,False
 Navi Technologies,Bengaluru,India,Finance,2023-07-13,2023.0,2023-07,200.0,,True,False
 Skill Lync,Chennai,India,Education,2023-07-13,2023.0,2023-07,200.0,,True,False
 Amazon,Seattle,United States,Retail,2023-07-13,2023.0,2023-07,80.0,,True,False
-AudioCodes,Tel Aviv,Israel,Other,2023-07-13,2023.0,2023-07,80.0,0.06,True,False
-Tempo Automation,SF Bay Area,United States,Other,2023-07-13,2023.0,2023-07,62.0,,True,False
+AudioCodes,Tel Aviv,Israel,Tech Services,2023-07-13,2023.0,2023-07,80.0,0.06,True,False
+Tempo Automation,SF Bay Area,United States,Tech Services,2023-07-13,2023.0,2023-07,62.0,,True,False
 Uber Freight,SF Bay Area,United States,Logistics,2023-07-13,2023.0,2023-07,40.0,,True,False
 Deepwatch,Tampa Bay,United States,Security,2023-07-13,2023.0,2023-07,30.0,0.07,True,False
 Centr,Sydney,Australia,Fitness,2023-07-13,2023.0,2023-07,22.0,,True,False
@@ -1431,7 +1431,7 @@ Factorial,Barcelona,Spain,HR,2023-07-13,2023.0,2023-07,20.0,,True,False
 Peloton,New York City,United States,Fitness,2023-07-13,2023.0,2023-07,11.0,,True,False
 Bark,New York City,United States,Retail,2023-07-03,2023.0,2023-07,48.0,0.08,False,True
 Khoros,Austin,United States,Sales,2023-07-03,2023.0,2023-07,48.0,0.05,False,True
-Netlify,SF Bay Area,United States,Other,2023-07-03,2023.0,2023-07,90.0,,False,True
+Netlify,SF Bay Area,United States,Tech Services,2023-07-03,2023.0,2023-07,90.0,,False,True
 SAS,Raleigh,United States,Data,2023-07-03,2023.0,2023-07,69.0,,False,True
 Stitch Fix,Philadelphia,United States,Retail,2023-07-12,2023.0,2023-07,400.0,,True,False
 Dapper Labs,Vancouver,Canada,Crypto,2023-07-12,2023.0,2023-07,51.0,,True,False
@@ -1475,22 +1475,22 @@ Buzzer,New York City,United States,Consumer,,,,3.0,1.0,True,False
 Lunya,Los Angeles,United States,Retail,,,,3.0,1.0,True,False
 MediaMath,New York City,United States,Marketing,,,,3.0,1.0,True,False
 Petal,New York City,United States,Finance,,,,3.0,0.2,True,False
-Niantic,SF Bay Area,United States,Other,2023-06-29,2023.0,2023-06,230.0,,True,False
+Niantic,SF Bay Area,United States,Tech Services,2023-06-29,2023.0,2023-06,230.0,,True,False
 Headspace,Los Angeles,United States,Healthcare,2023-06-29,2023.0,2023-06,181.0,0.15,True,False
 Artsy,New York City,United States,Retail,2023-06-29,2023.0,2023-06,35.0,0.15,True,False
 Candy Digital,New York City,United States,Crypto,2023-06-29,2023.0,2023-06,30.0,,True,False
-Xiaomi India,Bengaluru,India,Other,2023-06-29,2023.0,2023-06,30.0,,True,False
-Torii,Ra'anana,Israel,Other,2023-06-29,2023.0,2023-06,28.0,0.3,True,False
+Xiaomi India,Bengaluru,India,Tech Services,2023-06-29,2023.0,2023-06,30.0,,True,False
+Torii,Ra'anana,Israel,Tech Services,2023-06-29,2023.0,2023-06,28.0,0.3,True,False
 Insider Intelligence,New York City,United States,Media,2023-06-29,2023.0,2023-06,20.0,,True,False
 Merama,Mexico City,Mexico,Retail,2023-06-09,2023.0,2023-06,2.0,0.1,True,False
-Qyuki,Bengaluru,India,Other,2023-06-09,2023.0,2023-06,2.0,0.3,True,False
+Qyuki,Bengaluru,India,Tech Services,2023-06-09,2023.0,2023-06,2.0,0.3,True,False
 Stripe,SF Bay Area,United States,Finance,2023-06-09,2023.0,2023-06,2.0,,True,False
-Vowel,New York City,United States,Other,2023-06-09,2023.0,2023-06,2.0,1.0,True,False
-ClickUp,San Diego,United States,Other,2023-06-28,2023.0,2023-06,90.0,0.1,True,False
+Vowel,New York City,United States,Tech Services,2023-06-09,2023.0,2023-06,2.0,1.0,True,False
+ClickUp,San Diego,United States,Tech Services,2023-06-28,2023.0,2023-06,90.0,0.1,True,False
 Karat,Seattle,United States,HR,2023-06-28,2023.0,2023-06,47.0,,True,False
 Plex,SF Bay Area,United States,Media,2023-06-28,2023.0,2023-06,37.0,0.2,True,False
 Starburst,Boston,United States,Data,2023-06-08,2023.0,2023-06,2.0,0.15,True,False
-Zapier,SF Bay Area,United States,Other,2023-06-08,2023.0,2023-06,2.0,0.1,True,False
+Zapier,SF Bay Area,United States,Tech Services,2023-06-08,2023.0,2023-06,2.0,0.1,True,False
 New Relic,SF Bay Area,United States,Infrastru…,2023-06-27,2023.0,2023-06,255.0,0.1,True,False
 Tibber,Førde,Norway,Energy,2023-06-27,2023.0,2023-06,50.0,,True,False
 Eyowo,Lagos,Nigeria,Finance,2023-06-07,2023.0,2023-06,2.0,1.0,True,False
@@ -1503,8 +1503,8 @@ Robinhood,SF Bay Area,United States,Finance,2023-06-26,2023.0,2023-06,150.0,0.07
 Convoy,Seattle,United States,Logistics,2023-06-26,2023.0,2023-06,30.0,0.05,True,False
 Joonko,New York City,United States,Recruiting,2023-06-05,2023.0,2023-06,2.0,1.0,True,False
 IRL,SF Bay Area,United States,Consumer,2023-06-03,2023.0,2023-06,2.0,1.0,True,False
-Retool,SF Bay Area,United States,Other,2023-06-02,2023.0,2023-06,2.0,0.09,True,False
-Anaplan,SF Bay Area,United States,Other,2023-06-21,2023.0,2023-06,300.0,,True,False
+Retool,SF Bay Area,United States,Tech Services,2023-06-02,2023.0,2023-06,2.0,0.09,True,False
+Anaplan,SF Bay Area,United States,Tech Services,2023-06-21,2023.0,2023-06,300.0,,True,False
 Uber,SF Bay Area,United States,Transportation,2023-06-21,2023.0,2023-06,200.0,,True,False
 Tackle.io,Boise,United States,Infrastru…,2023-06-21,2023.0,2023-06,75.0,,True,False
 Ritual,Toronto,Canada,Food,2023-06-21,2023.0,2023-06,38.0,0.4,True,False
@@ -1563,7 +1563,7 @@ Edgio,Phoenix,United States,Infrastru…,2023-06-06,2023.0,2023-06,134.0,0.12,Tr
 Reddit,SF Bay Area,United States,Consumer,2023-06-06,2023.0,2023-06,90.0,0.05,True,False
 Linktree,Melbourne,Australia,Consumer,2023-06-06,2023.0,2023-06,60.0,0.27,True,False
 Dragos,Baltimore,United States,Security,2023-06-06,2023.0,2023-06,50.0,0.09,True,False
-Unity,SF Bay Area,United States,Other,2023-06-06,2023.0,2023-06,50.0,,True,False
+Unity,SF Bay Area,United States,AI,2023-06-06,2023.0,2023-06,50.0,,True,False
 Mara,Nairobi,Kenya,Crypto,2023-06-06,2023.0,2023-06,6.0,,True,False
 Bunnii,New York City,United States,Healthcare,2023-06-06,2023.0,2023-06,300.0,1.0,False,True
 Spotify,Stockholm,Sweden,Media,2023-06-05,2023.0,2023-06,200.0,0.02,True,False
@@ -1571,7 +1571,7 @@ Azibo,Reno,United States,Finance,2023-06-05,2023.0,2023-06,60.0,,False,True
 Flyhomes,Seattle,United States,Real Estate,2023-06-05,2023.0,2023-06,89.0,,False,True
 Meati Foods,Denver,United States,Food,2023-06-03,2023.0,2023-06,19.0,0.05,False,True
 ZoomInfo,Vancouver,Canada,Sales,2023-06-02,2023.0,2023-06,120.0,0.03,True,False
-Staffbase,Chemnitz,Germany,Other,2023-06-02,2023.0,2023-06,90.0,,True,False
+Staffbase,Chemnitz,Germany,Tech Services,2023-06-02,2023.0,2023-06,90.0,,True,False
 Zume,SF Bay Area,United States,Food,2023-06-02,2023.0,2023-06,389.0,1.0,False,True
 Haven,New York City,United States,Finance,2023-06-01,2023.0,2023-06,280.0,0.7,True,False
 Mural,SF Bay Area,United States,Product,2023-06-01,2023.0,2023-06,170.0,,True,False
@@ -1579,12 +1579,12 @@ Glamyo Health,New Delhi,India,Healthcare,2023-06-01,2023.0,2023-06,160.0,,True,F
 Outbrain,New York City,United States,Marketing,2023-06-01,2023.0,2023-06,90.0,0.1,True,False
 CloudTrucks,SF Bay Area,United States,Logistics,2023-06-01,2023.0,2023-06,60.0,,False,True
 CoachHub,Berlin,Germany,HR,2023-06-01,2023.0,2023-06,45.0,0.1,False,True
-Fractal Software,New York City,United States,Other,2023-06-01,2023.0,2023-06,90.0,,False,True
+Fractal Software,New York City,United States,Tech Services,2023-06-01,2023.0,2023-06,90.0,,False,True
 SentinelOne,SF Bay Area,United States,Security,2023-06-01,2023.0,2023-06,31.0,0.05,False,True
 SmartAsset,New York City,United States,Finance,2023-06-01,2023.0,2023-06,73.0,0.19,False,True
 Zendesk,SF Bay Area,United States,Support,2023-05-31,2023.0,2023-05,320.0,0.08,True,False
 ZipRecruiter,Los Angeles,United States,Recruiting,2023-05-31,2023.0,2023-05,270.0,0.2,True,False
-Vendr,Boston,United States,Other,2023-05-31,2023.0,2023-05,100.0,0.25,True,False
+Vendr,Boston,United States,Tech Services,2023-05-31,2023.0,2023-05,100.0,0.25,True,False
 McMakler,Berlin,Germany,Real Estate,2023-05-31,2023.0,2023-05,60.0,,True,False
 Mux,SF Bay Area,United States,Infrastru…,2023-05-31,2023.0,2023-05,40.0,0.3,True,False
 Away,New York City,United States,Retail,2023-05-31,2023.0,2023-05,22.0,0.08,True,False
@@ -1618,11 +1618,11 @@ Moss,Berlin,Germany,Finance,2023-05-19,2023.0,2023-05,30.0,,True,False
 Pie Insurance,Washington D,United States,Finance,2023-05-18,2023.0,2023-05,63.0,0.14,True,False
 Clearbit,SF Bay Area,United States,Sales,2023-05-08,2023.0,2023-05,67.0,,False,True
 dbt Labs,Philadelphia,United States,Data,2023-05-08,2023.0,2023-05,60.0,0.15,False,True
-L1ght,Tel Aviv,Israel,Other,2023-05-08,2023.0,2023-05,707.0,1.0,False,True
+L1ght,Tel Aviv,Israel,Tech Services,2023-05-08,2023.0,2023-05,707.0,1.0,False,True
 Nextbite,Denver,United States,Food,2023-05-08,2023.0,2023-05,87.0,,False,True
 TuSimple,San Diego,United States,Transportation,2023-05-08,2023.0,2023-05,180.0,0.3,False,True
 Stash,New York City,United States,Finance,2023-05-17,2023.0,2023-05,40.0,0.1,True,False
-Formstack,Indianapolis,United States,Other,2023-05-07,2023.0,2023-05,283.0,0.4,False,True
+Formstack,Indianapolis,United States,Tech Services,2023-05-07,2023.0,2023-05,283.0,0.4,False,True
 Cerner,Kansas City,United States,Healthcare,2023-05-16,2023.0,2023-05,3000.0,0.11,True,False
 Lemonade,New York City,United States,Finance,2023-05-16,2023.0,2023-05,45.0,0.03,True,False
 DroneUp,Norfolk,United States,Logistics,2023-05-06,2023.0,2023-05,60.0,,False,True
@@ -1638,13 +1638,13 @@ Tessera,New York City,United States,Crypto,2023-05-02,2023.0,2023-05,271.0,1.0,F
 Cornershop,Santiago,Chile,Food,2023-05-11,2023.0,2023-05,250.0,0.11,True,False
 Varo,SF Bay Area,United States,Finance,2023-05-11,2023.0,2023-05,97.0,,True,False
 CS Disco,Austin,United States,Legal,2023-05-01,2023.0,2023-05,64.0,0.08,False,True
-Microsoft,Seattle,United States,Other,2023-05-10,2023.0,2023-05,158.0,,True,False
+Microsoft,Seattle,United States,Enterprise Software,2023-05-10,2023.0,2023-05,158.0,,True,False
 Redbubble,Melbourne,Australia,Retail,2023-05-10,2023.0,2023-05,70.0,0.23,True,False
-Similarweb,New York City,United States,Other,2023-05-10,2023.0,2023-05,60.0,0.06,True,False
+Similarweb,New York City,United States,Tech Services,2023-05-10,2023.0,2023-05,60.0,0.06,True,False
 Stack Overflow,New York City,United States,Recruiting,2023-05-10,2023.0,2023-05,58.0,0.1,True,False
 Akamai,Boston,United States,Security,2023-05-09,2023.0,2023-05,290.0,0.03,True,False
 Sonatype,Baltimore,United States,Security,2023-05-09,2023.0,2023-05,100.0,0.14,True,False
-AudioCodes,Tel Aviv,Israel,Other,2023-05-09,2023.0,2023-05,80.0,0.06,True,False
+AudioCodes,Tel Aviv,Israel,Tech Services,2023-05-09,2023.0,2023-05,80.0,0.06,True,False
 Buzzer,New York City,United States,Media,2023-05-09,2023.0,2023-05,36.0,,False,True
 Marqeta,SF Bay Area,United States,Finance,2023-05-09,2023.0,2023-05,58.0,0.15,False,True
 LinkedIn,SF Bay Area,United States,Recruiting,2023-05-08,2023.0,2023-05,716.0,0.04,True,False
@@ -1662,12 +1662,12 @@ Scribe Media,Austin,United States,Marketing,2023-05-04,2023.0,2023-05,90.0,1.0,T
 Autograph,Los Angeles,United States,Crypto,2023-05-04,2023.0,2023-05,30.0,0.33,True,False
 Earnix,Tel Aviv,Israel,Finance,2023-05-04,2023.0,2023-05,30.0,0.1,True,False
 Karma,Tel Aviv,Israel,Retail,2023-05-04,2023.0,2023-05,20.0,0.28,True,False
-Unity,SF Bay Area,United States,Other,2023-05-03,2023.0,2023-05,600.0,0.08,True,False
-Upwork,SF Bay Area,United States,Other,2023-05-03,2023.0,2023-05,137.0,0.15,True,False
+Unity,SF Bay Area,United States,AI,2023-05-03,2023.0,2023-05,600.0,0.08,True,False
+Upwork,SF Bay Area,United States,Tech Services,2023-05-03,2023.0,2023-05,137.0,0.15,True,False
 Cars24,Jakarta,Indonesia,Transportation,2023-05-03,2023.0,2023-05,100.0,,True,False
 Brightcove,Boston,United States,Marketing,2023-05-03,2023.0,2023-05,70.0,0.1,True,False
 Healthy.io,Tel Aviv,Israel,Healthcare,2023-05-03,2023.0,2023-05,70.0,0.33,True,False
-Zymergen,SF Bay Area,United States,Other,2023-05-03,2023.0,2023-05,27.0,,True,False
+Zymergen,SF Bay Area,United States,Tech Services,2023-05-03,2023.0,2023-05,27.0,,True,False
 TheSkimm,New York City,United States,Media,2023-05-03,2023.0,2023-05,22.0,0.13,True,False
 Brightline,SF Bay Area,United States,Healthcare,2023-05-03,2023.0,2023-05,60.0,0.2,False,True
 Bishop Fox,Phoenix,United States,Security,2023-05-02,2023.0,2023-05,50.0,0.13,True,False
@@ -1683,7 +1683,7 @@ N26,Berlin,Germany,Finance,2023-04-28,2023.0,2023-04,71.0,0.04,True,False
 Embark Vet,Boston,United States,Healthcare,2023-04-28,2023.0,2023-04,28.0,,True,False
 Poparazzi,Los Angeles,United States,Consumer,2023-04-08,2023.0,2023-04,2.0,1.0,True,False
 Providoor,Melbourne,Australia,Food,2023-04-08,2023.0,2023-04,2.0,1.0,True,False
-Dropbox,SF Bay Area,United States,Other,2023-04-27,2023.0,2023-04,500.0,0.16,True,False
+Dropbox,SF Bay Area,United States,Enterprise Software,2023-04-27,2023.0,2023-04,500.0,0.16,True,False
 Alteryx,Los Angeles,United States,Data,2023-04-27,2023.0,2023-04,320.0,0.11,True,False
 Vroom,New York City,United States,Transportation,2023-04-27,2023.0,2023-04,120.0,0.11,True,False
 Greenhouse,New York City,United States,Recruiting,2023-04-27,2023.0,2023-04,100.0,0.12,True,False
@@ -1691,7 +1691,7 @@ Rebellion Defense,Washington D,United States,Data,2023-04-27,2023.0,2023-04,90.0
 Poppulo,Denver,United States,HR,2023-04-27,2023.0,2023-04,85.0,,True,False
 Megaport,Brisbane,Australia,Infrastru…,2023-04-27,2023.0,2023-04,50.0,0.16,True,False
 Airtasker,Sydney,Australia,Retail,2023-04-27,2023.0,2023-04,45.0,0.2,True,False
-Chief,New York City,United States,Other,2023-04-27,2023.0,2023-04,43.0,0.14,True,False
+Chief,New York City,United States,Tech Services,2023-04-27,2023.0,2023-04,43.0,0.14,True,False
 Tickertape,Bengaluru,India,Finance,2023-04-27,2023.0,2023-04,29.0,0.29,True,False
 Clubhouse,SF Bay Area,United States,Consumer,2023-04-07,2023.0,2023-04,2.0,0.5,True,False
 Oddle,Singapore,Singapore,Food,2023-04-07,2023.0,2023-04,2.0,0.25,True,False
@@ -1702,10 +1702,10 @@ RenoRun,Montreal,Canada,Construction,2023-04-06,2023.0,2023-04,2.0,1.0,True,Fals
 Skill Lync,Chennai,India,Education,2023-04-25,2023.0,2023-04,400.0,,True,False
 Rapid,SF Bay Area,United States,Finance,2023-04-25,2023.0,2023-04,115.0,0.5,True,False
 Flink,Berlin,Germany,Food,2023-04-24,2023.0,2023-04,8000.0,0.4,True,False
-Red Hat,Raleigh,United States,Other,2023-04-24,2023.0,2023-04,760.0,0.04,True,False
+Red Hat,Raleigh,United States,Enterprise Software,2023-04-24,2023.0,2023-04,760.0,0.04,True,False
 BigPanda,SF Bay Area,United States,Infrastru…,2023-04-24,2023.0,2023-04,40.0,0.13,True,False
 Lyft,SF Bay Area,United States,Transportation,2023-04-21,2023.0,2023-04,1072.0,0.26,True,False
-Benchling,SF Bay Area,United States,Other,2023-04-21,2023.0,2023-04,74.0,0.09,True,False
+Benchling,SF Bay Area,United States,Tech Services,2023-04-21,2023.0,2023-04,74.0,0.09,True,False
 Pluralsight,Salt Lake City,United States,Education,2023-04-01,2023.0,2023-04,2.0,,True,False
 BuzzFeed,New York City,United States,Media,2023-04-20,2023.0,2023-04,180.0,0.15,True,False
 Koo,Bengaluru,India,Consumer,2023-04-20,2023.0,2023-04,78.0,0.3,True,False
@@ -1715,7 +1715,7 @@ Insider,New York City,United States,Media,,,,2.0,0.1,True,False
 Iress,Melbourne,Australia,Finance,,,,2.0,0.1,True,False
 Lenovo,Raleigh,United States,Hardware,,,,2.0,,True,False
 F5,Seattle,United States,Security,2023-04-19,2023.0,2023-04,623.0,0.09,True,False
-WalkMe,SF Bay Area,United States,Other,2023-04-19,2023.0,2023-04,112.0,0.1,True,False
+WalkMe,SF Bay Area,United States,Tech Services,2023-04-19,2023.0,2023-04,112.0,0.1,True,False
 Opendoor,SF Bay Area,United States,Real Estate,2023-04-18,2023.0,2023-04,560.0,0.22,True,False
 Culture Amp,Melbourne,Australia,HR,2023-04-18,2023.0,2023-04,90.0,0.09,True,False
 TRM Labs,SF Bay Area,United States,Crypto,2023-04-18,2023.0,2023-04,16.0,0.09,True,False
@@ -1726,7 +1726,7 @@ Paper,Montreal,Canada,Education,2023-04-17,2023.0,2023-04,81.0,0.03,True,False
 Ynsect,Paris,France,Food,2023-04-17,2023.0,2023-04,17.0,0.25,True,False
 FamPay,Bengaluru,India,Finance,2023-04-07,2023.0,2023-04,60.0,,False,True
 Kumu,Manila,Philippines,Media,2023-04-07,2023.0,2023-04,36.0,,False,True
-Utopia Music,Zug,Switzerland,Other,2023-04-07,2023.0,2023-04,106.0,0.15,False,True
+Utopia Music,Zug,Switzerland,Tech Services,2023-04-07,2023.0,2023-04,106.0,0.15,False,True
 Quadream,Tel Aviv,Israel,Security,2023-04-06,2023.0,2023-04,625.0,1.0,False,True
 Drip Capital,SF Bay Area,United States,Finance,2023-04-14,2023.0,2023-04,75.0,0.2,True,False
 Community,New York City,United States,Crypto,2023-04-14,2023.0,2023-04,17.0,0.17,True,False
@@ -1738,7 +1738,7 @@ Astronomer,Cincinnati,United States,Data,2023-04-13,2023.0,2023-04,100.0,0.4,Tru
 Bluepad,Bengaluru,India,Media,2023-04-03,2023.0,2023-04,273.0,1.0,False,True
 Lazerpay,Lagos,Nigeria,Crypto,2023-04-03,2023.0,2023-04,271.0,1.0,False,True
 Mediafly,Chicago,United States,Sales,2023-04-03,2023.0,2023-04,67.0,,False,True
-Viasat,San Diego,United States,Other,2023-04-12,2023.0,2023-04,300.0,0.04,True,False
+Viasat,San Diego,United States,Telecommunications,2023-04-12,2023.0,2023-04,300.0,0.04,True,False
 Science 37,Los Angeles,United States,Healthcare,2023-04-12,2023.0,2023-04,140.0,,True,False
 Medtronic,SF Bay Area,United States,Healthcare,2023-04-12,2023.0,2023-04,59.0,,True,False
 Milkrun,Sydney,Australia,Food,2023-04-11,2023.0,2023-04,400.0,1.0,True,False
@@ -1764,8 +1764,8 @@ Foundation,Boston,United States,Healthcare,2023-04-04,2023.0,2023-04,135.0,,True
 Finder,Sydney,Australia,Retail,2023-04-04,2023.0,2023-04,40.0,,True,False
 Boost,New York City,United States,Finance,2023-04-04,2023.0,2023-04,15.0,0.2,True,False
 Cin7,Auckland,New Zealand,Retail,2023-04-04,2023.0,2023-04,79.0,,False,True
-Hyland Software,Cleveland,United States,Other,2023-04-03,2023.0,2023-04,1000.0,0.2,True,False
-View,SF Bay Area,United States,Other,2023-04-03,2023.0,2023-04,170.0,0.23,True,False
+Hyland Software,Cleveland,United States,Enterprise Software,2023-04-03,2023.0,2023-04,1000.0,0.2,True,False
+View,SF Bay Area,United States,Tech Services,2023-04-03,2023.0,2023-04,170.0,0.23,True,False
 Guideline,SF Bay Area,United States,Finance,2023-04-03,2023.0,2023-04,48.0,0.11,True,False
 Textio,Seattle,United States,Recruiting,2023-04-03,2023.0,2023-04,15.0,0.12,True,False
 Apple,SF Bay Area,United States,Retail,2023-04-03,2023.0,2023-04,79.0,,False,True
@@ -1789,7 +1789,7 @@ Electronic Arts,SF Bay Area,United States,Consumer,2023-03-29,2023.0,2023-03,780
 Seagate,SF Bay Area,United States,Hardware,2023-03-29,2023.0,2023-03,480.0,,True,False
 Drizly,Boston,United States,Retail,2023-03-29,2023.0,2023-03,100.0,,True,False
 iCAD,Nashua,United States,Healthcare,2023-03-29,2023.0,2023-03,23.0,0.28,True,False
-Anyline,Vienna,Austria,Other,2023-03-09,2023.0,2023-03,2.0,0.25,True,False
+Anyline,Vienna,Austria,Tech Services,2023-03-09,2023.0,2023-03,2.0,0.25,True,False
 OnePipe,Lagos,Nigeria,Finance,2023-03-09,2023.0,2023-03,2.0,,True,False
 Shift,SF Bay Area,United States,Transportation,2023-03-09,2023.0,2023-03,2.0,0.3,True,False
 Lucid Motors,SF Bay Area,United States,Transportation,2023-03-28,2023.0,2023-03,1300.0,0.18,True,False
@@ -1803,7 +1803,7 @@ Cimpress,Paris,France,Retail,2023-03-23,2023.0,2023-03,500.0,,True,False
 Veeam,Columbus,United States,Data,2023-03-23,2023.0,2023-03,200.0,,True,False
 Glovo,Barcelona,Spain,Food,2023-03-23,2023.0,2023-03,140.0,,True,False
 TakeOff,Kyiv,Ukraine,Retail,2023-03-23,2023.0,2023-03,50.0,,True,False
-Slite,Paris,France,Other,2023-03-23,2023.0,2023-03,10.0,0.25,True,False
+Slite,Paris,France,Tech Services,2023-03-23,2023.0,2023-03,10.0,0.25,True,False
 Indeed,Austin,United States,HR,2023-03-22,2023.0,2023-03,2200.0,0.15,True,False
 Logitech,Geneva,Switzerland,Hardware,2023-03-22,2023.0,2023-03,300.0,,True,False
 Glassdoor,SF Bay Area,United States,HR,2023-03-22,2023.0,2023-03,140.0,0.15,True,False
@@ -1822,7 +1822,7 @@ Laybuy,Auckland,New Zealand,Finance,2023-03-01,2023.0,2023-03,2.0,0.1,True,False
 Amazon,Seattle,United States,Retail,2023-03-20,2023.0,2023-03,9000.0,,True,False
 Huuuge Games,Warsaw,Poland,Consumer,,,,2.0,0.1,True,False
 Livspace,Bengaluru,India,Retail,2023-03-17,2023.0,2023-03,100.0,0.02,True,False
-Symend,Calgary,Canada,Other,2023-03-17,2023.0,2023-03,50.0,0.25,True,False
+Symend,Calgary,Canada,Tech Services,2023-03-17,2023.0,2023-03,50.0,0.25,True,False
 Candor Technology,Atlanta,United States,Real Estate,2023-03-07,2023.0,2023-03,89.0,,False,True
 Freshworks,SF Bay Area,United States,Support,2023-03-16,2023.0,2023-03,114.0,0.02,True,False
 Coherent,SF Bay Area,United States,Manufacturing,2023-03-16,2023.0,2023-03,108.0,,True,False
@@ -1859,7 +1859,7 @@ Zwift,Los Angeles,United States,Fitness,2023-03-07,2023.0,2023-03,80.0,0.15,True
 Catch,New York City,United States,Finance,2023-03-07,2023.0,2023-03,385.0,1.0,False,True
 Take-Two,New York City,United States,Consumer,2023-03-07,2023.0,2023-03,95.0,,False,True
 Zulily,Seattle,United States,Retail,2023-03-07,2023.0,2023-03,79.0,,False,True
-Atlassian,Sydney,Australia,Other,2023-03-06,2023.0,2023-03,500.0,0.05,True,False
+Atlassian,Sydney,Australia,Enterprise Software,2023-03-06,2023.0,2023-03,500.0,0.05,True,False
 SiriusXM,New York City,United States,Media,2023-03-06,2023.0,2023-03,475.0,0.08,True,False
 Alerzo,Ibadan,Nigeria,Retail,2023-03-06,2023.0,2023-03,400.0,,True,False
 UKG,Miami,United States,HR,2023-03-06,2023.0,2023-03,265.0,,True,False
@@ -1873,7 +1873,7 @@ Lendi,Sydney,Australia,Real Estate,2023-03-03,2023.0,2023-03,100.0,,True,False
 UserTesting,SF Bay Area,United States,Marketing,2023-03-03,2023.0,2023-03,63.0,,True,False
 Airbnb,SF Bay Area,United States,Travel,2023-03-03,2023.0,2023-03,30.0,,True,False
 Accolade,Seattle,United States,Healthcare,2023-03-03,2023.0,2023-03,63.0,,False,True
-Indigo,Boston,United States,Other,2023-03-03,2023.0,2023-03,90.0,,False,True
+Indigo,Boston,United States,Tech Services,2023-03-03,2023.0,2023-03,90.0,,False,True
 Zscaler,SF Bay Area,United States,Security,2023-03-02,2023.0,2023-03,177.0,0.03,True,False
 MasterClass,SF Bay Area,United States,Education,2023-03-02,2023.0,2023-03,79.0,,True,False
 Ambev Tech,Blumenau,Brazil,Food,2023-03-02,2023.0,2023-03,50.0,,True,False
@@ -1884,7 +1884,7 @@ Flipkart,Bengaluru,India,Retail,2023-03-02,2023.0,2023-03,79.0,,False,True
 Kandela,Los Angeles,United States,Consumer,2023-03-02,2023.0,2023-03,927.0,1.0,False,True
 Orchard,New York City,United States,Real Estate,2023-03-02,2023.0,2023-03,89.0,,False,True
 Truckstop.com,Boise,United States,Logistics,2023-03-02,2023.0,2023-03,60.0,,False,True
-Thoughtworks,Chicago,United States,Other,2023-03-01,2023.0,2023-03,500.0,0.04,True,False
+Thoughtworks,Chicago,United States,Enterprise Software,2023-03-01,2023.0,2023-03,500.0,0.04,True,False
 iFood,Sao Paulo,Brazil,Food,2023-03-01,2023.0,2023-03,355.0,0.06,True,False
 Color Health,SF Bay Area,United States,Healthcare,2023-03-01,2023.0,2023-03,300.0,,True,False
 Waymo,SF Bay Area,United States,Transportation,2023-03-01,2023.0,2023-03,209.0,0.08,True,False
@@ -1905,8 +1905,8 @@ Outreach,Seattle,United States,Sales,2023-02-27,2023.0,2023-02,70.0,0.07,True,Fa
 Stytch,SF Bay Area,United States,Security,2023-02-27,2023.0,2023-02,19.0,0.25,True,False
 BitSight,Tel Aviv,Israel,Security,2023-02-26,2023.0,2023-02,40.0,,True,False
 Twitter,SF Bay Area,United States,Consumer,2023-02-25,2023.0,2023-02,200.0,0.1,True,False
-Ericsson,Stockholm,Sweden,Other,2023-02-24,2023.0,2023-02,8500.0,0.08,True,False
-SAP Labs,Bengaluru,India,Other,2023-02-24,2023.0,2023-02,300.0,,True,False
+Ericsson,Stockholm,Sweden,Telecommunications,2023-02-24,2023.0,2023-02,8500.0,0.08,True,False
+SAP Labs,Bengaluru,India,Tech Services,2023-02-24,2023.0,2023-02,300.0,,True,False
 Velodyne Lidar,SF Bay Area,United States,Transportation,2023-02-24,2023.0,2023-02,220.0,,True,False
 Medallia,SF Bay Area,United States,Support,2023-02-24,2023.0,2023-02,59.0,,True,False
 Eat Just,SF Bay Area,United States,Food,2023-02-24,2023.0,2023-02,40.0,,True,False
@@ -1936,21 +1936,21 @@ Bolt,Lagos,Nigeria,Transportation,2023-02-21,2023.0,2023-02,17.0,,True,False
 Criteo,Paris,France,Marketing,2023-02-01,2023.0,2023-02,2.0,,True,False
 PeerStreet,Los Angeles,United States,Real Estate,2023-02-01,2023.0,2023-02,2.0,,True,False
 Zalando,Berlin,Germany,Retail,2023-02-01,2023.0,2023-02,2.0,,True,False
-MyGate,Bengaluru,India,Other,2023-02-20,2023.0,2023-02,200.0,0.3,True,False
+MyGate,Bengaluru,India,Tech Services,2023-02-20,2023.0,2023-02,200.0,0.3,True,False
 Fireblocks,New York City,United States,Crypto,2023-02-20,2023.0,2023-02,30.0,0.05,True,False
-Kinde,Sydney,Australia,Other,2023-02-20,2023.0,2023-02,8.0,0.28,True,False
+Kinde,Sydney,Australia,Tech Services,2023-02-20,2023.0,2023-02,8.0,0.28,True,False
 Fipola,Chennai,India,Food,,,,2.0,1.0,True,False
 HP,Tel Aviv,Israel,Hardware,2023-02-19,2023.0,2023-02,100.0,,True,False
 Micron,Boise,United States,Hardware,2023-02-17,2023.0,2023-02,2400.0,0.05,True,False
 Tencent,Shenzen,China,Consumer,2023-02-17,2023.0,2023-02,300.0,,True,False
 Evernote,SF Bay Area,United States,Consumer,2023-02-17,2023.0,2023-02,129.0,,True,False
 Chipper Cash,SF Bay Area,United States,Finance,2023-02-17,2023.0,2023-02,100.0,0.33,True,False
-Digimarc,Portland,United States,Other,2023-02-07,2023.0,2023-02,90.0,,False,True
+Digimarc,Portland,United States,Tech Services,2023-02-07,2023.0,2023-02,90.0,,False,True
 Reserve,SF Bay Area,United States,Crypto,2023-02-07,2023.0,2023-02,47.0,,False,True
 DocuSign,SF Bay Area,United States,Sales,2023-02-16,2023.0,2023-02,680.0,0.1,True,False
-Pico Interactive,SF Bay Area,United States,Other,2023-02-16,2023.0,2023-02,400.0,0.2,True,False
+Pico Interactive,SF Bay Area,United States,Tech Services,2023-02-16,2023.0,2023-02,400.0,0.2,True,False
 The RealReal,SF Bay Area,United States,Retail,2023-02-16,2023.0,2023-02,230.0,0.07,True,False
-Smartsheet,Seattle,United States,Other,2023-02-16,2023.0,2023-02,85.0,0.03,True,False
+Smartsheet,Seattle,United States,Tech Services,2023-02-16,2023.0,2023-02,85.0,0.03,True,False
 Convoy,Atlanta,United States,Logistics,2023-02-06,2023.0,2023-02,60.0,,False,True
 Wix,Tel Aviv,Israel,Marketing,2023-02-15,2023.0,2023-02,370.0,0.06,True,False
 ServiceTitan,Los Angeles,United States,Sales,2023-02-15,2023.0,2023-02,221.0,0.08,True,False
@@ -1964,16 +1964,16 @@ Milkrun,Sydney,Australia,Food,2023-02-05,2023.0,2023-02,78.0,0.2,False,True
 Observe.AI,SF Bay Area,United States,Support,2023-02-05,2023.0,2023-02,80.0,,False,True
 Religion of Sports,Los Angeles,United States,Media,2023-02-05,2023.0,2023-02,36.0,,False,True
 SurveyMonkey,SF Bay Area,United States,Marketing,2023-02-05,2023.0,2023-02,56.0,0.14,False,True
-Tackle,Boise,United States,Other,2023-02-05,2023.0,2023-02,106.0,0.15,False,True
+Tackle,Boise,United States,Tech Services,2023-02-05,2023.0,2023-02,106.0,0.15,False,True
 Vicarious Surgical,Boston,United States,Healthcare,2023-02-05,2023.0,2023-02,42.0,0.14,False,True
-Blackbaud,Charleston,United States,Other,2023-02-14,2023.0,2023-02,500.0,0.14,True,False
+Blackbaud,Charleston,United States,Tech Services,2023-02-14,2023.0,2023-02,500.0,0.14,True,False
 CommerceHub,Albany,United States,Retail,2023-02-14,2023.0,2023-02,371.0,0.31,True,False
 Dropp,Berlin,Germany,Retail,2023-02-14,2023.0,2023-02,60.0,1.0,True,False
 HackerEarth,SF Bay Area,United States,HR,2023-02-04,2023.0,2023-02,36.0,0.08,False,True
 PhableCare,Bengaluru,India,Healthcare,2023-02-04,2023.0,2023-02,210.0,0.7,False,True
 Udemy,SF Bay Area,United States,Education,2023-02-04,2023.0,2023-02,40.0,0.1,False,True
-Twilio,SF Bay Area,United States,Other,2023-02-13,2023.0,2023-02,1500.0,0.17,True,False
-Electric,New York City,United States,Other,2023-02-13,2023.0,2023-02,141.0,0.25,True,False
+Twilio,SF Bay Area,United States,Enterprise Software,2023-02-13,2023.0,2023-02,1500.0,0.17,True,False
+Electric,New York City,United States,Tech Services,2023-02-13,2023.0,2023-02,141.0,0.25,True,False
 EMX Digital,New York City,United States,Marketing,2023-02-13,2023.0,2023-02,100.0,1.0,True,False
 PetLove,Sao Paulo,Brazil,Retail,2023-02-13,2023.0,2023-02,94.0,,True,False
 iRobot,Boston,United States,Consumer,2023-02-13,2023.0,2023-02,85.0,0.07,True,False
@@ -2010,7 +2010,7 @@ Baraja,Sydney,Australia,Transportation,2023-02-08,2023.0,2023-02,450.0,0.75,Fals
 Koho,Toronto,Canada,Finance,2023-02-08,2023.0,2023-02,54.0,0.14,False,True
 Medly,New York City,United States,Healthcare,2023-02-08,2023.0,2023-02,300.0,1.0,False,True
 Nearmap,Sydney,Australia,Construction,2023-02-08,2023.0,2023-02,56.0,0.2,False,True
-Zoom,SF Bay Area,United States,Other,2023-02-07,2023.0,2023-02,1300.0,0.15,True,False
+Zoom,SF Bay Area,United States,Enterprise Software,2023-02-07,2023.0,2023-02,1300.0,0.15,True,False
 eBay,SF Bay Area,United States,Retail,2023-02-07,2023.0,2023-02,500.0,0.04,True,False
 SecureWorks,Atlanta,United States,Security,2023-02-07,2023.0,2023-02,212.0,0.09,True,False
 Salesloft,Atlanta,United States,Sales,2023-02-07,2023.0,2023-02,100.0,0.1,True,False
@@ -2036,14 +2036,14 @@ Built Technologies,Nashville,United States,Construction,2023-02-03,2023.0,2023-0
 Finder,Sydney,Australia,Retail,2023-02-03,2023.0,2023-02,90.0,0.15,False,True
 Byju's,Bengaluru,India,Education,2023-02-02,2023.0,2023-02,1500.0,,True,False
 Okta,SF Bay Area,United States,Security,2023-02-02,2023.0,2023-02,300.0,0.05,True,False
-Autodesk,SF Bay Area,United States,Other,2023-02-02,2023.0,2023-02,250.0,0.02,True,False
+Autodesk,SF Bay Area,United States,Enterprise Software,2023-02-02,2023.0,2023-02,250.0,0.02,True,False
 Mindstrong,SF Bay Area,United States,Healthcare,2023-02-02,2023.0,2023-02,127.0,,True,False
-Miro,SF Bay Area,United States,Other,2023-02-02,2023.0,2023-02,119.0,0.07,True,False
+Miro,SF Bay Area,United States,Tech Services,2023-02-02,2023.0,2023-02,119.0,0.07,True,False
 Getir,New York City,United States,Food,2023-02-02,2023.0,2023-02,100.0,,True,False
 Highspot,Seattle,United States,Sales,2023-02-02,2023.0,2023-02,100.0,0.1,True,False
 Bittrex,Seattle,United States,Crypto,2023-02-02,2023.0,2023-02,80.0,,True,False
 Articulate,New York City,United States,Education,2023-02-02,2023.0,2023-02,38.0,,True,False
-Desktop Metal,Boston,United States,Other,2023-02-02,2023.0,2023-02,90.0,,False,True
+Desktop Metal,Boston,United States,Tech Services,2023-02-02,2023.0,2023-02,90.0,,False,True
 Getaround,SF Bay Area,United States,Transportation,2023-02-02,2023.0,2023-02,60.0,0.1,False,True
 NCSoft,Seoul,South Korea,Consumer,2023-02-02,2023.0,2023-02,185.0,0.2,False,True
 Sharesies,Wellington,New Zealand,Finance,2023-02-02,2023.0,2023-02,60.0,,False,True
@@ -2052,7 +2052,7 @@ Splunk,SF Bay Area,United States,Data,2023-02-01,2023.0,2023-02,325.0,0.04,True,
 Pinterest,SF Bay Area,United States,Consumer,2023-02-01,2023.0,2023-02,150.0,,True,False
 DraftKings,Boston,United States,Consumer,2023-02-01,2023.0,2023-02,140.0,0.04,True,False
 Cyren,Washington D,United States,Security,2023-02-01,2023.0,2023-02,121.0,,True,False
-Workato,SF Bay Area,United States,Other,2023-02-01,2023.0,2023-02,90.0,0.1,True,False
+Workato,SF Bay Area,United States,Tech Services,2023-02-01,2023.0,2023-02,90.0,0.1,True,False
 VerticalScope,Toronto,Canada,Media,2023-02-01,2023.0,2023-02,60.0,0.22,True,False
 Wheel,Austin,United States,Healthcare,2023-02-01,2023.0,2023-02,56.0,0.28,True,False
 Chainalysis,New York City,United States,Crypto,2023-02-01,2023.0,2023-02,44.0,0.05,True,False
@@ -2099,7 +2099,7 @@ CoinTracker,SF Bay Area,United States,Crypto,2023-01-28,2023.0,2023-01,19.0,,Tru
 SSense,Montreal,Canada,Retail,2023-01-27,2023.0,2023-01,138.0,0.07,True,False
 DealShare,Bengaluru,India,Retail,2023-01-27,2023.0,2023-01,100.0,0.06,True,False
 Ruggable,Los Angeles,United States,Retail,2023-01-27,2023.0,2023-01,100.0,,True,False
-Synopsys,SF Bay Area,United States,Other,2023-01-27,2023.0,2023-01,100.0,,True,False
+Synopsys,SF Bay Area,United States,Enterprise Software,2023-01-27,2023.0,2023-01,100.0,,True,False
 Heycar,Berlin,Germany,Transportation,2023-01-27,2023.0,2023-01,73.0,,True,False
 Matrixport,Singapore,Singapore,Crypto,2023-01-27,2023.0,2023-01,29.0,0.1,True,False
 Shakepay,Montreal,Canada,Crypto,2023-01-27,2023.0,2023-01,21.0,0.25,True,False
@@ -2107,11 +2107,11 @@ Shakepay,Montreal,Canada,Crypto,2023-01-27,2023.0,2023-01,21.0,0.25,True,False
 Decent,SF Bay Area,United States,Healthcare,2023-01-07,2023.0,2023-01,2.0,,True,False
 Feedzai,Coimbra,Portugal,Finance,2023-01-07,2023.0,2023-01,2.0,,True,False
 Nate,New York City,United States,Retail,2023-01-07,2023.0,2023-01,2.0,,True,False
-Soundwide,Berlin,Germany,Other,2023-01-07,2023.0,2023-01,2.0,0.08,True,False
-SAP,Walldorf,Germany,Other,2023-01-26,2023.0,2023-01,3000.0,0.03,True,False
+Soundwide,Berlin,Germany,Tech Services,2023-01-07,2023.0,2023-01,2.0,0.08,True,False
+SAP,Walldorf,Germany,Enterprise Software,2023-01-26,2023.0,2023-01,3000.0,0.03,True,False
 Confluent,SF Bay Area,United States,Data,2023-01-26,2023.0,2023-01,221.0,0.08,True,False
 DriveWealth,Jersey City,United States,Finance,2023-01-06,2023.0,2023-01,2.0,0.2,True,False
-Plus One Robotics,San Antonio,United States,Other,2023-01-06,2023.0,2023-01,2.0,0.1,True,False
+Plus One Robotics,San Antonio,United States,Tech Services,2023-01-06,2023.0,2023-01,2.0,0.1,True,False
 Quora,SF Bay Area,United States,Consumer,2023-01-06,2023.0,2023-01,2.0,,True,False
 IBM,New York City,United States,Hardware,2023-01-25,2023.0,2023-01,3900.0,0.02,True,False
 Lam Research,SF Bay Area,United States,Hardware,2023-01-25,2023.0,2023-01,1300.0,0.07,True,False
@@ -2124,7 +2124,7 @@ CareRev,Los Angeles,United States,Healthcare,2023-01-05,2023.0,2023-01,2.0,,True
 Finastra,Tel Aviv,Israel,Finance,2023-01-05,2023.0,2023-01,2.0,,True,False
 Noom,New York City,United States,Fitness,2023-01-05,2023.0,2023-01,2.0,,True,False
 PagSeguro,Sao Paulo,Brazil,Finance,2023-01-05,2023.0,2023-01,2.0,0.07,True,False
-Prosus,Amsterdam,Netherlands,Other,2023-01-05,2023.0,2023-01,2.0,0.3,True,False
+Prosus,Amsterdam,Netherlands,Tech Services,2023-01-05,2023.0,2023-01,2.0,0.3,True,False
 Vacasa,Portland,United States,Travel,2023-01-24,2023.0,2023-01,1300.0,0.17,True,False
 Innovaccer,SF Bay Area,United States,Healthcare,2023-01-24,2023.0,2023-01,245.0,0.15,True,False
 Bolt,SF Bay Area,United States,Finance,2023-01-24,2023.0,2023-01,50.0,0.1,True,False
@@ -2165,7 +2165,7 @@ Zappos,Las Vegas,United States,Retail,,,,2.0,,True,False
 Capital One,Washington D,United States,Finance,2023-01-19,2023.0,2023-01,1100.0,,True,False
 Proterra,SF Bay Area,United States,Transportation,2023-01-19,2023.0,2023-01,300.0,,True,False
 WeWork,New York City,United States,Real Estate,2023-01-19,2023.0,2023-01,300.0,,True,False
-Hubilo,SF Bay Area,United States,Other,2023-01-19,2023.0,2023-01,115.0,0.35,True,False
+Hubilo,SF Bay Area,United States,Tech Services,2023-01-19,2023.0,2023-01,115.0,0.35,True,False
 Saks.com,New York City,United States,Retail,2023-01-19,2023.0,2023-01,100.0,0.05,True,False
 CS Disco,Austin,United States,Legal,2023-01-19,2023.0,2023-01,62.0,0.09,True,False
 Riot Games,Los Angeles,United States,Consumer,2023-01-19,2023.0,2023-01,46.0,,True,False
@@ -2180,16 +2180,16 @@ Personalis,SF Bay Area,United States,Healthcare,2023-01-09,2023.0,2023-01,90.0,0
 Prisma,SF Bay Area,United States,Data,2023-01-09,2023.0,2023-01,111.0,0.28,False,True
 Spaceship,Sydney,Australia,Finance,2023-01-09,2023.0,2023-01,60.0,,False,True
 Wallbox,Barcelona,Spain,Energy,2023-01-09,2023.0,2023-01,70.0,0.15,False,True
-Microsoft,Seattle,United States,Other,2023-01-18,2023.0,2023-01,10000.0,0.05,True,False
+Microsoft,Seattle,United States,Enterprise Software,2023-01-18,2023.0,2023-01,10000.0,0.05,True,False
 Teladoc Health,New York City,United States,Healthcare,2023-01-18,2023.0,2023-01,300.0,0.06,True,False
 Vroom,New York City,United States,Transportation,2023-01-18,2023.0,2023-01,275.0,0.2,True,False
 8x8,SF Bay Area,United States,Support,2023-01-18,2023.0,2023-01,155.0,0.07,True,False
 Pagaya,Tel Aviv,Israel,Finance,2023-01-18,2023.0,2023-01,140.0,0.2,True,False
-Benevity,Calgary,Canada,Other,2023-01-18,2023.0,2023-01,137.0,0.14,True,False
+Benevity,Calgary,Canada,Tech Services,2023-01-18,2023.0,2023-01,137.0,0.14,True,False
 Inspirato,Denver,United States,Travel,2023-01-18,2023.0,2023-01,109.0,0.12,True,False
 Jumpcloud,Boulder,United States,Security,2023-01-18,2023.0,2023-01,100.0,0.12,True,False
 nCino,Wilmington,United States,Finance,2023-01-18,2023.0,2023-01,100.0,0.07,True,False
-Starry,Boston,United States,Other,2023-01-18,2023.0,2023-01,100.0,0.24,True,False
+Starry,Boston,United States,Tech Services,2023-01-18,2023.0,2023-01,100.0,0.24,True,False
 Hootsuite,Vancouver,Canada,Marketing,2023-01-18,2023.0,2023-01,70.0,0.07,True,False
 Clue,Berlin,Germany,Healthcare,2023-01-18,2023.0,2023-01,31.0,0.31,True,False
 Addepar,SF Bay Area,United States,Finance,2023-01-18,2023.0,2023-01,20.0,0.03,True,False
@@ -2197,25 +2197,25 @@ Addepar,SF Bay Area,United States,Finance,2023-01-18,2023.0,2023-01,20.0,0.03,Tr
 Aiven,Helsinki,Finland,Infrastru…,2023-01-08,2023.0,2023-01,78.0,0.2,False,True
 Bally's Interactive,Providence,United States,Consumer,2023-01-08,2023.0,2023-01,139.0,0.15,False,True
 Betterfly,Santiago,Chile,Healthcare,2023-01-08,2023.0,2023-01,90.0,0.3,False,True
-Coda,SF Bay Area,United States,Other,2023-01-08,2023.0,2023-01,90.0,,False,True
+Coda,SF Bay Area,United States,Tech Services,2023-01-08,2023.0,2023-01,90.0,,False,True
 Cypress.io,Atlanta,United States,Product,2023-01-08,2023.0,2023-01,23.0,,False,True
 Lucid Diagnostics,New York City,United States,Healthcare,2023-01-08,2023.0,2023-01,60.0,0.2,False,True
 Mavenir,Dallas,United States,Infrastru…,2023-01-08,2023.0,2023-01,50.0,,False,True
 Redbubble,Melbourne,Australia,Retail,2023-01-08,2023.0,2023-01,84.0,0.14,False,True
 Lightspeed,Montreal,Canada,Retail,2023-01-17,2023.0,2023-01,300.0,0.1,True,False
-Unity,SF Bay Area,United States,Other,2023-01-17,2023.0,2023-01,284.0,0.03,True,False
+Unity,SF Bay Area,United States,AI,2023-01-17,2023.0,2023-01,284.0,0.03,True,False
 Clutch,Toronto,Canada,Transportation,2023-01-17,2023.0,2023-01,150.0,,True,False
 Exotel,Bengaluru,India,Support,2023-01-17,2023.0,2023-01,142.0,0.15,True,False
-Unico,Sao Paulo,Brazil,Other,2023-01-17,2023.0,2023-01,110.0,0.1,True,False
+Unico,Sao Paulo,Brazil,Tech Services,2023-01-17,2023.0,2023-01,110.0,0.1,True,False
 Tul,Bogota,Colombia,Construction,2023-01-17,2023.0,2023-01,100.0,,True,False
-American Robotics,Boston,United States,Other,2023-01-17,2023.0,2023-01,50.0,0.65,True,False
+American Robotics,Boston,United States,Tech Services,2023-01-17,2023.0,2023-01,50.0,0.65,True,False
 Luxury Presence,Los Angeles,United States,Real Estate,2023-01-17,2023.0,2023-01,44.0,,True,False
-RingCentral,SF Bay Area,United States,Other,2023-01-17,2023.0,2023-01,30.0,,True,False
-Avaya,Durham,United States,Other,2023-01-07,2023.0,2023-01,90.0,,False,True
+RingCentral,SF Bay Area,United States,Tech Services,2023-01-17,2023.0,2023-01,30.0,,True,False
+Avaya,Durham,United States,Tech Services,2023-01-07,2023.0,2023-01,90.0,,False,True
 Fishbrain,Stockholm,Sweden,Consumer,2023-01-07,2023.0,2023-01,95.0,,False,True
 GoMechanic,Gurugram,India,Transportation,2023-01-07,2023.0,2023-01,420.0,0.7,False,True
 LiveVox,SF Bay Area,United States,Support,2023-01-07,2023.0,2023-01,157.0,0.16,False,True
-Oracle,SF Bay Area,United States,Other,2023-01-07,2023.0,2023-01,90.0,,False,True
+Oracle,SF Bay Area,United States,Enterprise Software,2023-01-07,2023.0,2023-01,90.0,,False,True
 Rappi,Buenos Aires,Argentina,Food,2023-01-07,2023.0,2023-01,87.0,,False,True
 RateGenius,Austin,United States,Finance,2023-01-07,2023.0,2023-01,60.0,,False,True
 XP,Sao Paulo,Brazil,Finance,2023-01-07,2023.0,2023-01,60.0,,False,True
@@ -2232,12 +2232,12 @@ BharatAgri,Mumbai,India,Food,2023-01-15,2023.0,2023-01,40.0,0.43,True,False
 DeHaat,Patna,India,Food,2023-01-05,2023.0,2023-01,19.0,0.05,False,True
 Black Shark,Shenzen,China,Hardware,2023-01-13,2023.0,2023-01,900.0,,True,False
 Ola,Bengaluru,India,Transportation,2023-01-13,2023.0,2023-01,200.0,,True,False
-Bonterra,Austin,United States,Other,2023-01-13,2023.0,2023-01,140.0,0.1,True,False
+Bonterra,Austin,United States,Tech Services,2023-01-13,2023.0,2023-01,140.0,0.1,True,False
 Vial,SF Bay Area,United States,Healthcare,2023-01-13,2023.0,2023-01,40.0,,True,False
 Arch Oncology,Brisbane,United States,Healthcare,2023-01-03,2023.0,2023-01,300.0,1.0,False,True
 Carvana,Phoenix,United States,Transportation,2023-01-03,2023.0,2023-01,100.0,,False,True
 CoSchedule,Bismarck,United States,Marketing,2023-01-03,2023.0,2023-01,49.0,,False,True
-GoCanvas,Washington D,United States,Other,2023-01-03,2023.0,2023-01,90.0,,False,True
+GoCanvas,Washington D,United States,Tech Services,2023-01-03,2023.0,2023-01,90.0,,False,True
 Jellyfish,Boston,United States,Product,2023-01-03,2023.0,2023-01,22.0,0.09,False,True
 Lending Club,SF Bay Area,United States,Finance,2023-01-12,2023.0,2023-01,225.0,0.14,True,False
 SmartNews,Tokyo,Japan,Media,2023-01-12,2023.0,2023-01,120.0,0.4,True,False
@@ -2254,14 +2254,14 @@ Crypto.com,Singapore,Singapore,Crypto,2023-01-02,2023.0,2023-01,54.0,0.2,False,T
 Life360,SF Bay Area,United States,Consumer,2023-01-02,2023.0,2023-01,130.0,0.14,False,True
 Rock Content,Miami,United States,Marketing,2023-01-02,2023.0,2023-01,60.0,0.15,False,True
 Flexport,SF Bay Area,United States,Logistics,2023-01-11,2023.0,2023-01,640.0,0.2,True,False
-Qualtrics,Salt Lake City,United States,Other,2023-01-11,2023.0,2023-01,270.0,0.05,True,False
+Qualtrics,Salt Lake City,United States,Enterprise Software,2023-01-11,2023.0,2023-01,270.0,0.05,True,False
 Verily,SF Bay Area,United States,Healthcare,2023-01-11,2023.0,2023-01,250.0,0.15,True,False
 Tipalti,SF Bay Area,United States,Finance,2023-01-11,2023.0,2023-01,123.0,0.11,True,False
 Jumio,SF Bay Area,United States,Security,2023-01-11,2023.0,2023-01,100.0,0.06,True,False
 CoinDCX,Mumbai,India,Crypto,2023-01-11,2023.0,2023-01,80.0,,True,False
 HashiCorp,SF Bay Area,United States,Security,2023-01-11,2023.0,2023-01,69.0,,True,False
 Embark Vet,Boston,United States,Healthcare,2023-01-11,2023.0,2023-01,41.0,,True,False
-Intrinsic,SF Bay Area,United States,Other,2023-01-11,2023.0,2023-01,40.0,0.2,True,False
+Intrinsic,SF Bay Area,United States,Tech Services,2023-01-11,2023.0,2023-01,40.0,0.2,True,False
 Citizen,New York City,United States,Consumer,2023-01-11,2023.0,2023-01,33.0,,True,False
 Carta,SF Bay Area,United States,HR,2023-01-01,2023.0,2023-01,45.0,0.1,False,True
 Limeade,Seattle,United States,HR,2023-01-01,2023.0,2023-01,68.0,0.15,False,True
@@ -2282,13 +2282,13 @@ Cart.com,Austin,United States,Retail,2023-01-10,2023.0,2023-01,25.0,0.04,True,Fa
 100 Thieves,Los Angeles,United States,Retail,,,,79.0,,False,True
 Cart.com,Austin,United States,Retail,,,,79.0,,False,True
 Citrix,Miami,United States,Infrastru…,,,,59.0,0.15,False,True
-Esper,Seattle,United States,Other,,,,148.0,0.21,False,True
+Esper,Seattle,United States,Tech Services,,,,148.0,0.21,False,True
 WHOOP,Boston,United States,Fitness,,,,31.0,0.04,False,True
 Fate Therapeutics,San Diego,United States,Healthcare,2023-01-09,2023.0,2023-01,315.0,0.57,True,False
 Century,Philadelphia,United States,Healthcare,2023-01-09,2023.0,2023-01,63.0,,False,True
 Editas Medicine,Boston,United States,Healthcare,2023-01-09,2023.0,2023-01,60.0,0.2,False,True
 Scale AI,SF Bay Area,United States,Data,2023-01-09,2023.0,2023-01,79.0,0.2,False,True
-WalkMe,SF Bay Area,United States,Other,2023-01-08,2023.0,2023-01,43.0,0.03,True,False
+WalkMe,SF Bay Area,United States,Tech Services,2023-01-08,2023.0,2023-01,43.0,0.03,True,False
 Integrate,Phoenix,United States,Marketing,2023-01-07,2023.0,2023-01,49.0,,False,True
 Huobi,Beijing,China,Crypto,2023-01-06,2023.0,2023-01,275.0,0.2,True,False
 Carbon Health,SF Bay Area,United States,Healthcare,2023-01-06,2023.0,2023-01,200.0,,True,False
@@ -2300,7 +2300,7 @@ Lantern,Grand Rapids,United States,Retail,2023-01-06,2023.0,2023-01,600.0,1.0,Fa
 Mojo Vision,SF Bay Area,United States,Hardware,2023-01-06,2023.0,2023-01,950.0,0.75,False,True
 SuperRare,Wilmington,United States,Crypto,2023-01-06,2023.0,2023-01,81.0,0.3,False,True
 Cue,San Diego,United States,Healthcare,2023-01-05,2023.0,2023-01,388.0,,True,False
-SoundHound,SF Bay Area,United States,Other,2023-01-05,2023.0,2023-01,200.0,0.5,True,False
+SoundHound,SF Bay Area,United States,Tech Services,2023-01-05,2023.0,2023-01,200.0,0.5,True,False
 Socure,Reno,United States,Finance,2023-01-05,2023.0,2023-01,104.0,0.19,True,False
 Genesis,New York City,United States,Crypto,2023-01-05,2023.0,2023-01,60.0,0.3,True,False
 Moglix,Singapore,Singapore,Retail,2023-01-05,2023.0,2023-01,40.0,0.02,True,False
@@ -2338,7 +2338,7 @@ Willow,Sydney,Australia,Real Estate,2022-12-23,2022.0,2022-12,99.0,0.22,True,Fal
 Back Market,Paris,France,Retail,2022-12-23,2022.0,2022-12,93.0,0.13,True,False
 Qualcomm,San Diego,United States,Hardware,2022-12-22,2022.0,2022-12,153.0,,True,False
 TuSimple,San Diego,United States,Transportation,2022-12-21,2022.0,2022-12,350.0,0.25,True,False
-Lendis,Berlin,Germany,Other,2022-12-01,2022.0,2022-12,2.0,0.5,True,False
+Lendis,Berlin,Germany,Tech Services,2022-12-01,2022.0,2022-12,2.0,0.5,True,False
 Chope,Singapore,Singapore,Food,2022-12-20,2022.0,2022-12,65.0,0.24,True,False
 Briza,Toronto,Canada,Finance,2022-12-20,2022.0,2022-12,26.0,0.4,True,False
 Zhihu,Beijing,China,Consumer,,,,2.0,0.1,True,False
@@ -2356,7 +2356,7 @@ Reach,Calgary,Canada,Retail,2022-12-06,2022.0,2022-12,72.0,0.12,False,True
 SonderMind,Denver,United States,Healthcare,2022-12-06,2022.0,2022-12,45.0,0.15,False,True
 BigCommerce,Austin,United States,Retail,2022-12-15,2022.0,2022-12,180.0,0.13,True,False
 Freshworks,SF Bay Area,United States,Support,2022-12-15,2022.0,2022-12,90.0,0.02,True,False
-LeafLink,New York City,United States,Other,2022-12-15,2022.0,2022-12,80.0,0.31,True,False
+LeafLink,New York City,United States,Tech Services,2022-12-15,2022.0,2022-12,80.0,0.31,True,False
 Workmotion,Berlin,Germany,HR,2022-12-15,2022.0,2022-12,60.0,0.2,True,False
 Apollo,SF Bay Area,United States,Product,2022-12-05,2022.0,2022-12,36.0,0.15,False,True
 JD.ID,Jakarta,Indonesia,Retail,2022-12-14,2022.0,2022-12,200.0,0.3,True,False
@@ -2385,9 +2385,9 @@ Share Now,Berlin,Germany,Transportation,2022-12-09,2022.0,2022-12,150.0,0.36,Tru
 Alice,Sao Paulo,Brazil,Healthcare,2022-12-09,2022.0,2022-12,113.0,0.16,True,False
 OneFootball,Berlin,Germany,Marketing,2022-12-09,2022.0,2022-12,62.0,0.12,True,False
 C2FO,Kansas City,United States,Finance,2022-12-09,2022.0,2022-12,20.0,0.02,True,False
-Brodmann17,Tel Aviv,Israel,Other,2022-12-09,2022.0,2022-12,707.0,1.0,False,True
+Brodmann17,Tel Aviv,Israel,AI,2022-12-09,2022.0,2022-12,707.0,1.0,False,True
 Digital Surge,Brisbane,Australia,Crypto,2022-12-09,2022.0,2022-12,271.0,1.0,False,True
-N-able,Raleigh,United States,Other,2022-12-09,2022.0,2022-12,90.0,,False,True
+N-able,Raleigh,United States,Tech Services,2022-12-09,2022.0,2022-12,90.0,,False,True
 ZenLedger,Seattle,United States,Crypto,2022-12-09,2022.0,2022-12,27.0,0.1,False,True
 Airtable,SF Bay Area,United States,Product,2022-12-08,2022.0,2022-12,254.0,0.2,True,False
 Swiggy,Bengaluru,India,Food,2022-12-08,2022.0,2022-12,250.0,0.03,True,False
@@ -2425,7 +2425,7 @@ Zywave,Milwaukee,United States,Finance,2022-12-07,2022.0,2022-12,60.0,,False,Tru
 Doma,SF Bay Area,United States,Finance,2022-12-06,2022.0,2022-12,515.0,0.4,True,False
 Intel,SF Bay Area,United States,Hardware,2022-12-06,2022.0,2022-12,201.0,,True,False
 BuzzFeed,New York City,United States,Media,2022-12-06,2022.0,2022-12,180.0,0.12,True,False
-Weedmaps,Los Angeles,United States,Other,2022-12-06,2022.0,2022-12,175.0,0.25,True,False
+Weedmaps,Los Angeles,United States,Tech Services,2022-12-06,2022.0,2022-12,175.0,0.25,True,False
 Adobe,SF Bay Area,United States,Marketing,2022-12-06,2022.0,2022-12,100.0,,True,False
 Chipper Cash,SF Bay Area,United States,Finance,2022-12-06,2022.0,2022-12,50.0,0.13,True,False
 Stash,New York City,United States,Finance,2022-12-06,2022.0,2022-12,32.0,0.08,True,False
@@ -2433,7 +2433,7 @@ Perimeter 81,Tel Aviv,Israel,Security,2022-12-06,2022.0,2022-12,20.0,0.08,True,F
 Bridgit,Waterloo,Canada,Construction,2022-12-06,2022.0,2022-12,13.0,0.13,True,False
 Filevine,Salt Lake City,United States,Legal,2022-12-06,2022.0,2022-12,62.0,,False,True
 Moove,Lagos,Nigeria,Transportation,2022-12-06,2022.0,2022-12,100.0,,False,True
-Nextiva,Phoenix,United States,Other,2022-12-06,2022.0,2022-12,120.0,0.17,False,True
+Nextiva,Phoenix,United States,Tech Services,2022-12-06,2022.0,2022-12,120.0,0.17,False,True
 OneStudyTeam,Boston,United States,Healthcare,2022-12-06,2022.0,2022-12,75.0,0.25,False,True
 Zuora,SF Bay Area,United States,Finance,2022-12-06,2022.0,2022-12,42.0,0.11,False,True
 Swyftx,Brisbane,Australia,Crypto,2022-12-05,2022.0,2022-12,90.0,0.4,True,False
@@ -2468,7 +2468,7 @@ StudySmarter,Berlin,Germany,Education,2022-11-30,2022.0,2022-11,70.0,,True,False
 Grin,Sacramento,United States,Marketing,2022-11-30,2022.0,2022-11,60.0,0.13,True,False
 Ualá,Buenos Aires,Argentina,Finance,2022-11-30,2022.0,2022-11,53.0,0.03,True,False
 Teachmint,Bengaluru,India,Education,2022-11-30,2022.0,2022-11,45.0,0.05,True,False
-Etermax,Buenos Aires,Argentina,Other,2022-11-30,2022.0,2022-11,40.0,,True,False
+Etermax,Buenos Aires,Argentina,Tech Services,2022-11-30,2022.0,2022-11,40.0,,True,False
 Nexar,New York City,United States,Transportation,2022-11-30,2022.0,2022-11,25.0,,True,False
 Elastic,SF Bay Area,United States,Data,,,,3.0,0.13,True,False
 Motional,Boston,United States,Transportation,,,,3.0,,True,False
@@ -2481,16 +2481,16 @@ Bitfront,SF Bay Area,United States,Crypto,2022-11-09,2022.0,2022-11,2.0,1.0,True
 Codexis,SF Bay Area,United States,Healthcare,2022-11-09,2022.0,2022-11,2.0,0.18,True,False
 Firework,SF Bay Area,United States,Retail,2022-11-09,2022.0,2022-11,2.0,0.1,True,False
 Lazerpay,Lagos,Nigeria,Crypto,2022-11-09,2022.0,2022-11,2.0,,True,False
-MessageBird,Amsterdam,Netherlands,Other,2022-11-09,2022.0,2022-11,2.0,0.31,True,False
+MessageBird,Amsterdam,Netherlands,Tech Services,2022-11-09,2022.0,2022-11,2.0,0.31,True,False
 Plerk,Guadalajara,Mexico,Finance,2022-11-09,2022.0,2022-11,2.0,0.4,True,False
 Proton.ai,Boston,United States,Sales,2022-11-09,2022.0,2022-11,2.0,,True,False
-Infarm,Berlin,Germany,Other,2022-11-28,2022.0,2022-11,500.0,0.5,True,False
+Infarm,Berlin,Germany,Tech Services,2022-11-28,2022.0,2022-11,500.0,0.5,True,False
 Wildlife Studios,Sao Paulo,Brazil,Consumer,2022-11-28,2022.0,2022-11,300.0,0.2,True,False
 Hirect,Bengaluru,India,Recruiting,2022-11-28,2022.0,2022-11,200.0,0.4,True,False
 ApplyBoard,Waterloo,Canada,Education,2022-11-28,2022.0,2022-11,90.0,0.06,True,False
 Ajaib,Jakarta,Indonesia,Finance,2022-11-28,2022.0,2022-11,67.0,0.08,True,False
 Candy Digital,New York City,United States,Crypto,2022-11-28,2022.0,2022-11,33.0,0.33,True,False
-ResearchGate,Berlin,Germany,Other,2022-11-28,2022.0,2022-11,25.0,0.1,True,False
+ResearchGate,Berlin,Germany,Tech Services,2022-11-28,2022.0,2022-11,25.0,0.1,True,False
 BlockFi,New York City,United States,Crypto,2022-11-08,2022.0,2022-11,2.0,1.0,True,False
 Inspectify,Seattle,United States,Real Estate,2022-11-08,2022.0,2022-11,2.0,,True,False
 Ledn,Toronto,Canada,Crypto,2022-11-08,2022.0,2022-11,2.0,,True,False
@@ -2505,7 +2505,7 @@ Menulog,Sydney,Australia,Food,2022-11-04,2022.0,2022-11,2.0,,True,False
 Utopia Music,Zug,Switzerland,Media,2022-11-04,2022.0,2022-11,2.0,,True,False
 Assure,Salt Lake City,United States,Finance,2022-11-03,2022.0,2022-11,2.0,1.0,True,False
 GoodGood,Toronto,Canada,Retail,2022-11-03,2022.0,2022-11,2.0,1.0,True,False
-Muni Tienda,Bogota,Colombia,Other,2022-11-03,2022.0,2022-11,2.0,1.0,True,False
+Muni Tienda,Bogota,Colombia,Tech Services,2022-11-03,2022.0,2022-11,2.0,1.0,True,False
 SWVL,Cairo,Egypt,Transportation,2022-11-03,2022.0,2022-11,2.0,0.5,True,False
 Western Digital,SF Bay Area,United States,Hardware,2022-11-22,2022.0,2022-11,251.0,,True,False
 SIRCLO,Jakarta,Indonesia,Retail,2022-11-22,2022.0,2022-11,160.0,0.08,True,False
@@ -2535,19 +2535,19 @@ Homepoint,Phoenix,United States,Real Estate,2022-11-17,2022.0,2022-11,113.0,,Tru
 Juni,Gothenburg,Sweden,Finance,2022-11-17,2022.0,2022-11,72.0,0.33,True,False
 Chili Piper,New York City,United States,Sales,2022-11-17,2022.0,2022-11,58.0,,True,False
 Capitolis,New York City,United States,Finance,2022-11-17,2022.0,2022-11,37.0,0.25,True,False
-TealBook,Toronto,Canada,Other,2022-11-17,2022.0,2022-11,34.0,0.19,True,False
+TealBook,Toronto,Canada,Tech Services,2022-11-17,2022.0,2022-11,34.0,0.19,True,False
 Koho,Toronto,Canada,Finance,2022-11-17,2022.0,2022-11,15.0,0.04,True,False
 &Open,Dublin,Ireland,Marketing,2022-11-17,2022.0,2022-11,9.0,0.09,True,False
-Kandji,San Diego,United States,Other,2022-11-07,2022.0,2022-11,120.0,0.17,False,True
+Kandji,San Diego,United States,Tech Services,2022-11-07,2022.0,2022-11,120.0,0.17,False,True
 Morning Brew,New York City,United States,Media,2022-11-07,2022.0,2022-11,38.0,0.14,False,True
-Symend,Calgary,Canada,Other,2022-11-07,2022.0,2022-11,92.0,0.13,False,True
+Symend,Calgary,Canada,Tech Services,2022-11-07,2022.0,2022-11,92.0,0.13,False,True
 Amazon,Seattle,United States,Retail,2022-11-16,2022.0,2022-11,10000.0,0.03,True,False
 Cisco,SF Bay Area,United States,Infrastru…,2022-11-16,2022.0,2022-11,4100.0,0.05,True,False
 Twiga,Nairobi,Kenya,Food,2022-11-16,2022.0,2022-11,211.0,0.21,True,False
 Wayflyer,Dublin,Ireland,Marketing,2022-11-16,2022.0,2022-11,200.0,0.4,True,False
-Similarweb,New York City,United States,Other,2022-11-16,2022.0,2022-11,120.0,0.1,True,False
+Similarweb,New York City,United States,Tech Services,2022-11-16,2022.0,2022-11,120.0,0.1,True,False
 Salsify,Boston,United States,Retail,2022-11-16,2022.0,2022-11,90.0,0.11,True,False
-Lokalise,Dover,United States,Other,2022-11-16,2022.0,2022-11,76.0,0.23,True,False
+Lokalise,Dover,United States,Tech Services,2022-11-16,2022.0,2022-11,76.0,0.23,True,False
 Yotpo,New York City,United States,Marketing,2022-11-16,2022.0,2022-11,70.0,0.09,True,False
 Pear Therapeutics,Boston,United States,Healthcare,2022-11-16,2022.0,2022-11,59.0,0.22,True,False
 D2L,Waterloo,Canada,Education,2022-11-06,2022.0,2022-11,20.0,0.05,False,True
@@ -2555,13 +2555,13 @@ Dance,Berlin,Germany,Transportation,2022-11-06,2022.0,2022-11,96.0,0.16,False,Tr
 Homeward,Austin,United States,Real Estate,2022-11-06,2022.0,2022-11,83.0,0.25,False,True
 Kite,SF Bay Area,United States,Product,2022-11-06,2022.0,2022-11,240.0,1.0,False,True
 UiPath,New York City,United States,Data,2022-11-15,2022.0,2022-11,241.0,0.06,True,False
-Asana,SF Bay Area,United States,Other,2022-11-15,2022.0,2022-11,180.0,0.09,True,False
+Asana,SF Bay Area,United States,Tech Services,2022-11-15,2022.0,2022-11,180.0,0.09,True,False
 OwnBackup,New York City,United States,Security,2022-11-15,2022.0,2022-11,170.0,0.17,True,False
 Deliveroo Australia,Melbourne,Australia,Food,2022-11-15,2022.0,2022-11,120.0,1.0,True,False
 Productboard,SF Bay Area,United States,Product,2022-11-15,2022.0,2022-11,100.0,0.2,True,False
 Properly,Toronto,Canada,Real Estate,2022-11-15,2022.0,2022-11,71.0,,True,False
 Protocol,SF Bay Area,United States,Media,2022-11-15,2022.0,2022-11,60.0,1.0,True,False
-Jimdo,Hamburg,Germany,Other,2022-11-15,2022.0,2022-11,50.0,0.16,True,False
+Jimdo,Hamburg,Germany,Tech Services,2022-11-15,2022.0,2022-11,50.0,0.16,True,False
 The Zebra,Austin,United States,Finance,2022-11-15,2022.0,2022-11,50.0,,True,False
 CaptivateIQ,SF Bay Area,United States,Sales,2022-11-15,2022.0,2022-11,31.0,0.1,True,False
 Apollo Insurance,Vancouver,Canada,Finance,2022-11-05,2022.0,2022-11,96.0,0.25,False,True
@@ -2569,10 +2569,10 @@ Nirvana Money,Miami,United States,Finance,2022-11-05,2022.0,2022-11,385.0,1.0,Fa
 Oatly,Malmö,Sweden,Food,2022-11-05,2022.0,2022-11,87.0,,False,True
 OfferUp,Seattle,United States,Retail,2022-11-05,2022.0,2022-11,114.0,0.19,False,True
 Outside,Boulder,United States,Media,2022-11-05,2022.0,2022-11,33.0,0.12,False,True
-Rubicon,Lexington,United States,Other,2022-11-05,2022.0,2022-11,78.0,0.11,False,True
+Rubicon,Lexington,United States,Tech Services,2022-11-05,2022.0,2022-11,78.0,0.11,False,True
 Tencent,Shenzen,China,Consumer,2022-11-05,2022.0,2022-11,95.0,,False,True
 Typeform,Barcelona,Spain,Marketing,2022-11-05,2022.0,2022-11,49.0,,False,True
-Whispir,Melbourne,Australia,Other,2022-11-05,2022.0,2022-11,212.0,0.3,False,True
+Whispir,Melbourne,Australia,Tech Services,2022-11-05,2022.0,2022-11,212.0,0.3,False,True
 Illumina,San Diego,United States,Healthcare,2022-11-14,2022.0,2022-11,500.0,0.05,True,False
 Sema4,Stamford,United States,Healthcare,2022-11-14,2022.0,2022-11,500.0,,True,False
 iFit,Logan,United States,Fitness,2022-11-14,2022.0,2022-11,300.0,0.2,True,False
@@ -2596,7 +2596,7 @@ Juul,SF Bay Area,United States,Consumer,2022-11-10,2022.0,2022-11,400.0,0.3,True
 Blend,SF Bay Area,United States,Finance,2022-11-10,2022.0,2022-11,100.0,0.06,True,False
 InfluxData,SF Bay Area,United States,Data,2022-11-10,2022.0,2022-11,65.0,0.27,True,False
 Coinbase,SF Bay Area,United States,Crypto,2022-11-10,2022.0,2022-11,60.0,,True,False
-SoundHound,SF Bay Area,United States,Other,2022-11-10,2022.0,2022-11,45.0,0.1,True,False
+SoundHound,SF Bay Area,United States,Tech Services,2022-11-10,2022.0,2022-11,45.0,0.1,True,False
 Wistia,Boston,United States,Marketing,2022-11-10,2022.0,2022-11,40.0,,True,False
 Ocavu,Lehi,United States,Crypto,2022-11-10,2022.0,2022-11,20.0,0.48,True,False
 Avast,Phoenix,United States,Security,,,,156.0,0.25,False,True
@@ -2604,7 +2604,7 @@ Reforge,SF Bay Area,United States,Education,,,,80.0,,False,True
 SendCloud,Eindhoven,Netherlands,Logistics,,,,39.0,0.1,False,True
 Voly,Sydney,Australia,Food,,,,87.0,,False,True
 Wavely,SF Bay Area,United States,HR,,,,450.0,1.0,False,True
-ZenBusiness,Austin,United States,Other,,,,90.0,,False,True
+ZenBusiness,Austin,United States,Tech Services,,,,90.0,,False,True
 Meta,SF Bay Area,United States,Consumer,2022-11-09,2022.0,2022-11,11000.0,0.13,True,False
 Redfin,Seattle,United States,Real Estate,2022-11-09,2022.0,2022-11,862.0,0.13,True,False
 Flyhomes,Seattle,United States,Real Estate,2022-11-09,2022.0,2022-11,300.0,0.4,True,False
@@ -2620,14 +2620,14 @@ Amobee,SF Bay Area,United States,Marketing,2022-11-09,2022.0,2022-11,49.0,,False
 CloudFactory,Nairobi,Kenya,Data,2022-11-09,2022.0,2022-11,48.0,0.12,False,True
 Coursera,SF Bay Area,United States,Education,2022-11-09,2022.0,2022-11,80.0,,False,True
 Faze Medicines,Boston,United States,Healthcare,2022-11-09,2022.0,2022-11,300.0,1.0,False,True
-RingCentral,SF Bay Area,United States,Other,2022-11-09,2022.0,2022-11,71.0,0.1,False,True
+RingCentral,SF Bay Area,United States,Tech Services,2022-11-09,2022.0,2022-11,71.0,0.1,False,True
 Spotify,Stockholm,Sweden,Media,2022-11-09,2022.0,2022-11,36.0,,False,True
-EverBridge,Boston,United States,Other,2022-11-08,2022.0,2022-11,200.0,,True,False
+EverBridge,Boston,United States,Tech Services,2022-11-08,2022.0,2022-11,200.0,,True,False
 Repertoire Immune,Boston,United States,Healthcare,2022-11-08,2022.0,2022-11,65.0,0.5,True,False
 Astra,SF Bay Area,United States,Aerospace,2022-11-08,2022.0,2022-11,104.0,0.16,False,True
 Beat,Athens,Greece,Transportation,2022-11-08,2022.0,2022-11,100.0,,False,True
 NanoString,Seattle,United States,Healthcare,2022-11-08,2022.0,2022-11,30.0,0.1,False,True
-SADA,Los Angeles,United States,Other,2022-11-08,2022.0,2022-11,78.0,0.11,False,True
+SADA,Los Angeles,United States,Tech Services,2022-11-08,2022.0,2022-11,78.0,0.11,False,True
 Salesforce,SF Bay Area,United States,Sales,2022-11-07,2022.0,2022-11,1000.0,0.01,True,False
 Unacademy,Bengaluru,India,Education,2022-11-07,2022.0,2022-11,350.0,0.1,True,False
 Zendesk,SF Bay Area,United States,Support,2022-11-07,2022.0,2022-11,350.0,0.05,True,False
@@ -2639,7 +2639,7 @@ Brainly,Krakow,Poland,Education,2022-11-06,2022.0,2022-11,25.0,,True,False
 Practically,Hyderabad,India,Education,2022-11-06,2022.0,2022-11,80.0,,False,True
 Twitter,SF Bay Area,United States,Consumer,2022-11-04,2022.0,2022-11,3700.0,0.5,True,False
 Udaan,Bengaluru,India,Retail,2022-11-04,2022.0,2022-11,350.0,,True,False
-Planetly,Berlin,Germany,Other,2022-11-04,2022.0,2022-11,200.0,1.0,True,False
+Planetly,Berlin,Germany,Tech Services,2022-11-04,2022.0,2022-11,200.0,1.0,True,False
 KoinWorks,Jakarta,Indonesia,Finance,2022-11-04,2022.0,2022-11,70.0,0.08,True,False
 Exodus,Nebraska City,United States,Crypto,2022-11-04,2022.0,2022-11,59.0,0.22,True,False
 Benitago Group,New York City,United States,Retail,2022-11-04,2022.0,2022-11,84.0,0.14,False,True
@@ -2668,7 +2668,7 @@ Digital Currency,Stamford,United States,Crypto,2022-11-02,2022.0,2022-11,10.0,0.
 Signicat,Trondheim,Norway,Security,2022-11-02,2022.0,2022-11,62.0,,False,True
 Argo AI,SF Bay Area,United States,Transportation,2022-11-01,2022.0,2022-11,259.0,,True,False
 Booking.com,Grand Rapids,United States,Travel,2022-11-01,2022.0,2022-11,226.0,,True,False
-Oracle,SF Bay Area,United States,Other,2022-11-01,2022.0,2022-11,200.0,,True,False
+Oracle,SF Bay Area,United States,Enterprise Software,2022-11-01,2022.0,2022-11,200.0,,True,False
 Upstart,SF Bay Area,United States,Finance,2022-11-01,2022.0,2022-11,140.0,0.07,True,False
 Gem,SF Bay Area,United States,Recruiting,2022-11-01,2022.0,2022-11,100.0,0.33,True,False
 Oda,Oslo,Sweden,Food,2022-11-01,2022.0,2022-11,70.0,0.18,True,False
@@ -2708,7 +2708,7 @@ Philips,Amsterdam,Netherlands,Healthcare,2022-10-24,2022.0,2022-10,4000.0,0.05,T
 Cerebral,SF Bay Area,United States,Healthcare,2022-10-24,2022.0,2022-10,400.0,0.2,True,False
 Snyk,Boston,United States,Security,2022-10-24,2022.0,2022-10,198.0,0.14,True,False
 McMakler,Berlin,Germany,Real Estate,2022-10-24,2022.0,2022-10,100.0,,True,False
-Unico,Sao Paulo,Brazil,Other,2022-10-24,2022.0,2022-10,50.0,0.04,True,False
+Unico,Sao Paulo,Brazil,Tech Services,2022-10-24,2022.0,2022-10,50.0,0.04,True,False
 OrCam,Jerusalem,Israel,Healthcare,2022-10-23,2022.0,2022-10,62.0,0.16,True,False
 Antidote Health,Tel Aviv,Israel,Healthcare,2022-10-23,2022.0,2022-10,23.0,0.38,True,False
 Khoros,Austin,United States,Sales,2022-10-21,2022.0,2022-10,120.0,0.1,True,False
@@ -2721,7 +2721,7 @@ Zeus Living,SF Bay Area,United States,Real Estate,2022-10-20,2022.0,2022-10,64.0
 Loom,SF Bay Area,United States,Product,2022-10-20,2022.0,2022-10,23.0,0.11,True,False
 Sales Boomerang,Baltimore,United States,Sales,2022-10-20,2022.0,2022-10,20.0,,True,False
 Roofstock,SF Bay Area,United States,Real Estate,,,,2.0,0.2,True,False
-Starry,Boston,United States,Other,,,,2.0,0.5,True,False
+Starry,Boston,United States,Tech Services,,,,2.0,0.5,True,False
 Gopuff,Philadelphia,United States,Food,2022-10-19,2022.0,2022-10,250.0,,True,False
 AtoB,SF Bay Area,United States,Finance,2022-10-19,2022.0,2022-10,32.0,0.3,True,False
 Clever Real Estate,St. Louis,United States,Real Estate,2022-10-09,2022.0,2022-10,89.0,,False,True
@@ -2731,7 +2731,7 @@ Faire,SF Bay Area,United States,Retail,2022-10-18,2022.0,2022-10,84.0,0.07,True,
 Leafly,Seattle,United States,Retail,2022-10-18,2022.0,2022-10,56.0,0.21,True,False
 Ada Health,Berlin,Germany,Healthcare,2022-10-17,2022.0,2022-10,50.0,,True,False
 Tiendanube,Buenos Aires,Argentina,Marketing,2022-10-17,2022.0,2022-10,50.0,0.05,True,False
-Microsoft,Seattle,United States,Other,2022-10-07,2022.0,2022-10,90.0,,False,True
+Microsoft,Seattle,United States,Enterprise Software,2022-10-07,2022.0,2022-10,90.0,,False,True
 Nuri,Berlin,Germany,Crypto,2022-10-07,2022.0,2022-10,271.0,1.0,False,True
 Flipboard,SF Bay Area,United States,Media,2022-10-16,2022.0,2022-10,24.0,0.21,True,False
 Huawei,Shenzen,China,Hardware,2022-10-06,2022.0,2022-10,201.0,,False,True
@@ -2743,13 +2743,13 @@ Playdots,New York City,United States,Consumer,2022-10-13,2022.0,2022-10,65.0,1.0
 ExtraHop,Seattle,United States,Security,2022-10-03,2022.0,2022-10,62.0,,False,True
 Byju's,Bengaluru,India,Education,2022-10-12,2022.0,2022-10,2500.0,0.05,True,False
 6sense,SF Bay Area,United States,Sales,2022-10-12,2022.0,2022-10,150.0,0.1,True,False
-Sinch,Stockholm,Sweden,Other,2022-10-12,2022.0,2022-10,150.0,,True,False
+Sinch,Stockholm,Sweden,Tech Services,2022-10-12,2022.0,2022-10,150.0,,True,False
 FrontRow,Bengaluru,India,Education,2022-10-12,2022.0,2022-10,130.0,0.75,True,False
 Noom,New York City,United States,Healthcare,2022-10-11,2022.0,2022-10,500.0,0.1,True,False
 MX,Lehi,United States,Finance,2022-10-11,2022.0,2022-10,200.0,,True,False
 Brex,SF Bay Area,United States,Finance,2022-10-11,2022.0,2022-10,136.0,0.11,True,False
 Pacaso,SF Bay Area,United States,Real Estate,2022-10-11,2022.0,2022-10,100.0,0.3,True,False
-Sketch,The Hague,Netherlands,Other,2022-10-11,2022.0,2022-10,80.0,,True,False
+Sketch,The Hague,Netherlands,Tech Services,2022-10-11,2022.0,2022-10,80.0,,True,False
 Udacity,SF Bay Area,United States,Education,2022-10-11,2022.0,2022-10,55.0,0.13,True,False
 Linkfire,Copenhagen,Denmark,Marketing,2022-10-11,2022.0,2022-10,35.0,0.35,True,False
 VanHack,Vancouver,Canada,HR,2022-10-01,2022.0,2022-10,56.0,,False,True
@@ -2797,7 +2797,7 @@ Konfio,Mexico City,Mexico,Finance,2022-09-23,2022.0,2022-09,180.0,,True,False
 Moss,Berlin,Germany,Finance,2022-09-23,2022.0,2022-09,70.0,0.15,True,False
 Foxtrot,Chicago,United States,Food,2022-09-23,2022.0,2022-09,26.0,0.04,True,False
 Truiloo,Vancouver,Canada,Security,2022-09-23,2022.0,2022-09,24.0,0.05,True,False
-Pesto,SF Bay Area,United States,Other,2022-09-03,2022.0,2022-09,2.0,1.0,True,False
+Pesto,SF Bay Area,United States,Tech Services,2022-09-03,2022.0,2022-09,2.0,1.0,True,False
 NYDIG,New York City,United States,Crypto,2022-09-22,2022.0,2022-09,110.0,0.33,True,False
 Klarna,Stockholm,Sweden,Finance,2022-09-22,2022.0,2022-09,100.0,,True,False
 Kitty Hawk,SF Bay Area,United States,Aerospace,2022-09-21,2022.0,2022-09,100.0,1.0,True,False
@@ -2817,9 +2817,9 @@ Acast,Stockholm,Sweden,Media,2022-09-15,2022.0,2022-09,70.0,0.15,True,False
 WorkRamp,SF Bay Area,United States,HR,2022-09-15,2022.0,2022-09,35.0,0.2,True,False
 DayTwo,SF Bay Area,United States,Healthcare,2022-09-05,2022.0,2022-09,63.0,,False,True
 NextRoll,SF Bay Area,United States,Marketing,2022-09-05,2022.0,2022-09,28.0,0.07,False,True
-Twilio,SF Bay Area,United States,Other,2022-09-14,2022.0,2022-09,800.0,0.11,True,False
+Twilio,SF Bay Area,United States,Enterprise Software,2022-09-14,2022.0,2022-09,800.0,0.11,True,False
 Pitch,Berlin,Germany,Marketing,2022-09-14,2022.0,2022-09,59.0,0.3,True,False
-Infarm,Berlin,Germany,Other,2022-09-14,2022.0,2022-09,50.0,0.05,True,False
+Infarm,Berlin,Germany,Tech Services,2022-09-14,2022.0,2022-09,50.0,0.05,True,False
 Netflix,SF Bay Area,United States,Media,2022-09-14,2022.0,2022-09,30.0,,True,False
 Bitrise,Budapest,Hungary,Infrastru…,2022-09-04,2022.0,2022-09,55.0,0.14,False,True
 Rubius,Boston,United States,Healthcare,2022-09-13,2022.0,2022-09,160.0,0.75,True,False
@@ -2830,7 +2830,7 @@ Propzy,Ho Chi Minh C,Vietnam,Real Estate,2022-09-03,2022.0,2022-09,333.0,1.0,Fal
 Quicko,Sao Paulo,Brazil,Transportation,2022-09-12,2022.0,2022-09,60.0,,True,False
 Mode Analytics,SF Bay Area,United States,Data,2022-09-12,2022.0,2022-09,25.0,,True,False
 Compete,Tel Aviv,Israel,HR,2022-09-12,2022.0,2022-09,11.0,0.28,True,False
-Karbon,SF Bay Area,United States,Other,2022-09-02,2022.0,2022-09,163.0,0.23,False,True
+Karbon,SF Bay Area,United States,Tech Services,2022-09-02,2022.0,2022-09,163.0,0.23,False,True
 Rent the Runway,New York City,United States,Retail,2022-09-02,2022.0,2022-09,144.0,0.24,False,True
 Sama,SF Bay Area,United States,Data,2022-09-02,2022.0,2022-09,69.0,,False,True
 SkipTheDishes,Winnipeg,Canada,Food,2022-09-09,2022.0,2022-09,350.0,,True,False
@@ -2854,7 +2854,7 @@ Pendo,Raleigh,United States,Product,2022-09-07,2022.0,2022-09,45.0,0.05,True,Fal
 Demandbase,SF Bay Area,United States,Sales,2022-09-07,2022.0,2022-09,27.0,0.03,True,False
 Firebolt,Tel Aviv,Israel,Data,2022-09-07,2022.0,2022-09,69.0,,False,True
 Medly,New York City,United States,Healthcare,2022-09-07,2022.0,2022-09,150.0,0.5,False,True
-Xsight Labs,Tel Aviv,Israel,Other,2022-09-07,2022.0,2022-09,90.0,,False,True
+Xsight Labs,Tel Aviv,Israel,Tech Services,2022-09-07,2022.0,2022-09,90.0,,False,True
 Brave Care,Portland,United States,Healthcare,2022-09-06,2022.0,2022-09,40.0,0.33,True,False
 Lawgeex,Tel Aviv,Israel,Legal,2022-09-06,2022.0,2022-09,30.0,0.33,True,False
 Juniper Square,SF Bay Area,United States,Real Estate,2022-09-06,2022.0,2022-09,47.0,0.14,False,True
@@ -2878,14 +2878,14 @@ Apartment List,SF Bay Area,United States,Real Estate,2022-08-31,2022.0,2022-08,2
 Artnight,Berlin,Germany,Retail,2022-08-31,2022.0,2022-08,26.0,0.36,True,False
 Snagajob,Richmond,United States,HR,2022-08-01,2022.0,2022-08,3.0,,True,False
 The Wing,New York City,United States,Real Estate,2022-08-01,2022.0,2022-08,3.0,1.0,True,False
-Electric,New York City,United States,Other,2022-08-30,2022.0,2022-08,81.0,,True,False
+Electric,New York City,United States,Tech Services,2022-08-30,2022.0,2022-08,81.0,,True,False
 Nate,New York City,United States,Retail,2022-08-30,2022.0,2022-08,30.0,,True,False
 Meesho,Bengaluru,India,Retail,2022-08-29,2022.0,2022-08,300.0,,True,False
 54gene,Washington D,United States,Healthcare,2022-08-29,2022.0,2022-08,95.0,0.3,True,False
 Fungible,SF Bay Area,United States,Crypto,2022-08-09,2022.0,2022-08,2.0,,True,False
 Skillz,SF Bay Area,United States,Consumer,2022-08-09,2022.0,2022-08,2.0,,True,False
 Otonomo,Tel Aviv,Israel,Transportation,2022-08-08,2022.0,2022-08,2.0,,True,False
-Zymergen,SF Bay Area,United States,Other,2022-08-26,2022.0,2022-08,80.0,,True,False
+Zymergen,SF Bay Area,United States,Tech Services,2022-08-26,2022.0,2022-08,80.0,,True,False
 Okta,SF Bay Area,United States,Security,2022-08-26,2022.0,2022-08,24.0,,True,False
 Argyle,New York City,United States,Finance,2022-08-26,2022.0,2022-08,20.0,0.07,True,False
 Better.com,New York City,United States,Real Estate,2022-08-06,2022.0,2022-08,2.0,,True,False
@@ -2898,7 +2898,7 @@ Loop,Washington D,United States,Finance,2022-08-24,2022.0,2022-08,15.0,0.2,True,
 Pix,SF Bay Area,United States,Food,2022-08-04,2022.0,2022-08,2.0,,True,False
 Tier Mobility,Berlin,Germany,Transportation,2022-08-23,2022.0,2022-08,180.0,0.16,True,False
 Packable,New York City,United States,Retail,2022-08-23,2022.0,2022-08,138.0,0.2,True,False
-Q4,Toronto,Canada,Other,2022-08-23,2022.0,2022-08,50.0,0.08,True,False
+Q4,Toronto,Canada,Tech Services,2022-08-23,2022.0,2022-08,50.0,0.08,True,False
 Skedulo,SF Bay Area,United States,HR,2022-08-23,2022.0,2022-08,31.0,0.08,True,False
 Plato,SF Bay Area,United States,HR,2022-08-23,2022.0,2022-08,29.0,0.5,True,False
 DataRobot,Boston,United States,Data,2022-08-03,2022.0,2022-08,2.0,0.26,True,False
@@ -2918,9 +2918,9 @@ Petal,New York City,United States,Finance,2022-08-08,2022.0,2022-08,38.0,0.1,Fal
 Thirty Madison,New York City,United States,Healthcare,2022-08-08,2022.0,2022-08,30.0,0.1,False,True
 Vendasta,Saskatoon,Canada,Marketing,2022-08-08,2022.0,2022-08,20.0,0.05,False,True
 Malwarebytes,SF Bay Area,United States,Security,2022-08-17,2022.0,2022-08,125.0,0.14,True,False
-Fluke,Sao Paulo,Brazil,Other,2022-08-17,2022.0,2022-08,83.0,0.82,True,False
+Fluke,Sao Paulo,Brazil,Tech Services,2022-08-17,2022.0,2022-08,83.0,0.82,True,False
 Swyftx,Brisbane,Australia,Crypto,2022-08-17,2022.0,2022-08,74.0,0.21,True,False
-Tempo Automation,SF Bay Area,United States,Other,2022-08-17,2022.0,2022-08,54.0,,True,False
+Tempo Automation,SF Bay Area,United States,Tech Services,2022-08-17,2022.0,2022-08,54.0,,True,False
 Genesis,New York City,United States,Crypto,2022-08-17,2022.0,2022-08,52.0,0.2,True,False
 Warren,Porto Alegre,Brazil,Finance,2022-08-17,2022.0,2022-08,50.0,,True,False
 AlayaCare,Montreal,Canada,Healthcare,2022-08-16,2022.0,2022-08,80.0,0.14,True,False
@@ -2929,16 +2929,16 @@ Woven,Indianapolis,United States,HR,2022-08-16,2022.0,2022-08,5.0,0.15,True,Fals
 Crypto.com,Singapore,Singapore,Crypto,2022-08-06,2022.0,2022-08,47.0,,False,True
 Edmodo,SF Bay Area,United States,Education,2022-08-06,2022.0,2022-08,400.0,1.0,False,True
 Snapdocs,SF Bay Area,United States,Real Estate,2022-08-06,2022.0,2022-08,33.0,0.1,False,True
-Updater,New York City,United States,Other,2022-08-06,2022.0,2022-08,90.0,,False,True
+Updater,New York City,United States,Tech Services,2022-08-06,2022.0,2022-08,90.0,,False,True
 Sema4,Stamford,United States,Healthcare,2022-08-15,2022.0,2022-08,250.0,0.13,True,False
 Blend,SF Bay Area,United States,Finance,2022-08-15,2022.0,2022-08,220.0,0.12,True,False
 ContraFect,New York City,United States,Healthcare,2022-08-15,2022.0,2022-08,16.0,0.37,True,False
 ThredUp,Chicago,United States,Retail,2022-08-05,2022.0,2022-08,90.0,0.15,False,True
 Anywell,Tel Aviv,Israel,Real Estate,2022-08-14,2022.0,2022-08,11.0,,True,False
-Almanac,SF Bay Area,United States,Other,2022-08-03,2022.0,2022-08,90.0,,False,True
+Almanac,SF Bay Area,United States,Tech Services,2022-08-03,2022.0,2022-08,90.0,,False,True
 Peloton,New York City,United States,Fitness,2022-08-12,2022.0,2022-08,784.0,0.13,True,False
 Core Scientific,Austin,United States,Crypto,2022-08-02,2022.0,2022-08,27.0,0.1,False,True
-Orbit,SF Bay Area,United States,Other,2022-08-02,2022.0,2022-08,90.0,,False,True
+Orbit,SF Bay Area,United States,Tech Services,2022-08-02,2022.0,2022-08,90.0,,False,True
 Truepill,SF Bay Area,United States,Healthcare,2022-08-11,2022.0,2022-08,175.0,0.33,True,False
 Calm,SF Bay Area,United States,Healthcare,2022-08-11,2022.0,2022-08,90.0,0.2,True,False
 FourKites,Chicago,United States,Logistics,2022-08-11,2022.0,2022-08,60.0,0.08,True,False
@@ -2991,7 +2991,7 @@ RingCentral,SF Bay Area,United States,Support,2022-08-04,2022.0,2022-08,50.0,,Tr
 Medly,New York City,United States,Healthcare,2022-08-04,2022.0,2022-08,48.0,0.16,False,True
 Nomad,Sao Paulo,Brazil,Finance,2022-08-04,2022.0,2022-08,77.0,0.2,False,True
 StubHub,SF Bay Area,United States,Consumer,2022-08-04,2022.0,2022-08,95.0,,False,True
-Weedmaps,Los Angeles,United States,Other,2022-08-04,2022.0,2022-08,71.0,0.1,False,True
+Weedmaps,Los Angeles,United States,Tech Services,2022-08-04,2022.0,2022-08,71.0,0.1,False,True
 Zenius,Jakarta,Indonesia,Education,2022-08-04,2022.0,2022-08,120.0,0.3,False,True
 Healthcare.com,Miami,United States,Healthcare,2022-08-03,2022.0,2022-08,149.0,,True,False
 Unbounce,Vancouver,Canada,Marketing,2022-08-03,2022.0,2022-08,47.0,0.2,True,False
@@ -3015,9 +3015,9 @@ FuboTV,New York City,United States,Media,2022-08-02,2022.0,2022-08,36.0,,False,T
 Hash,Sao Paulo,Brazil,Finance,2022-08-01,2022.0,2022-08,58.0,0.5,True,False
 Classkick,Chicago,United States,Education,2022-08-01,2022.0,2022-08,80.0,,False,True
 DeHaat,Gurugram,India,Food,2022-08-01,2022.0,2022-08,87.0,,False,True
-Oracle,SF Bay Area,United States,Other,2022-08-01,2022.0,2022-08,90.0,,False,True
+Oracle,SF Bay Area,United States,Enterprise Software,2022-08-01,2022.0,2022-08,90.0,,False,True
 Perceptive,Boston,United States,Transportation,2022-08-01,2022.0,2022-08,600.0,1.0,False,True
-Whereby,Oslo,Norway,Other,2022-08-01,2022.0,2022-08,90.0,,False,True
+Whereby,Oslo,Norway,Tech Services,2022-08-01,2022.0,2022-08,90.0,,False,True
 Metigy,Sydney,Australia,Marketing,2022-07-31,2022.0,2022-07,75.0,1.0,True,False
 Vee,Tel Aviv,Israel,HR,2022-07-31,2022.0,2022-07,16.0,0.32,True,False
 Gatherly,Atlanta,United States,Marketing,2022-07-01,2022.0,2022-07,3.0,0.5,True,False
@@ -3038,7 +3038,7 @@ TextNow,Waterloo,Canada,Consumer,2022-07-28,2022.0,2022-07,22.0,,True,False
 2U,Washington D,United States,Education,2022-07-08,2022.0,2022-07,2.0,0.2,True,False
 Bikayi,Bengaluru,India,Retail,2022-07-08,2022.0,2022-07,2.0,,True,False
 Brainbase,Los Angeles,United States,Sales,2022-07-08,2022.0,2022-07,2.0,,True,False
-Change.org,SF Bay Area,United States,Other,2022-07-08,2022.0,2022-07,2.0,0.19,True,False
+Change.org,SF Bay Area,United States,Tech Services,2022-07-08,2022.0,2022-07,2.0,0.19,True,False
 Tapas Media,SF Bay Area,United States,Media,2022-07-08,2022.0,2022-07,2.0,,True,False
 Turntide,SF Bay Area,United States,Energy,2022-07-08,2022.0,2022-07,2.0,0.2,True,False
 Rivian,Detroit,United States,Transportation,2022-07-27,2022.0,2022-07,840.0,0.06,True,False
@@ -3047,12 +3047,12 @@ Coinsquare,Toronto,Canada,Crypto,2022-07-27,2022.0,2022-07,30.0,0.24,True,False
 Skai,Tel Aviv,Israel,Marketing,2022-07-27,2022.0,2022-07,30.0,0.04,True,False
 Shopify,Ottawa,Canada,Retail,2022-07-26,2022.0,2022-07,1000.0,0.1,True,False
 McMakler,Berlin,Germany,Real Estate,2022-07-26,2022.0,2022-07,90.0,,True,False
-Fiverr,Tel Aviv,Israel,Other,2022-07-26,2022.0,2022-07,60.0,0.08,True,False
+Fiverr,Tel Aviv,Israel,Tech Services,2022-07-26,2022.0,2022-07,60.0,0.08,True,False
 InDebted,Sydney,Australia,Finance,2022-07-26,2022.0,2022-07,40.0,0.17,True,False
 Outbrain,New York City,United States,Marketing,2022-07-26,2022.0,2022-07,38.0,0.03,True,False
 Dover,SF Bay Area,United States,Recruiting,2022-07-26,2022.0,2022-07,23.0,0.3,True,False
 Immutable,Sydney,Australia,Crypto,2022-07-26,2022.0,2022-07,20.0,0.06,True,False
-Zymergen,SF Bay Area,United States,Other,2022-07-25,2022.0,2022-07,80.0,,True,False
+Zymergen,SF Bay Area,United States,Tech Services,2022-07-25,2022.0,2022-07,80.0,,True,False
 Pear Therapeutics,Boston,United States,Healthcare,2022-07-25,2022.0,2022-07,25.0,0.09,True,False
 Included Health,SF Bay Area,United States,Healthcare,2022-07-05,2022.0,2022-07,2.0,0.06,True,False
 Soluto,Tel Aviv,Israel,Support,2022-07-24,2022.0,2022-07,120.0,1.0,True,False
@@ -3075,14 +3075,14 @@ RealSelf,Seattle,United States,Healthcare,2022-07-21,2022.0,2022-07,11.0,0.05,Tr
 Catalyst,New York City,United States,Support,2022-07-01,2022.0,2022-07,2.0,,True,False
 InVision,New York City,United States,Product,2022-07-01,2022.0,2022-07,2.0,0.5,True,False
 Mural,SF Bay Area,United States,Product,2022-07-01,2022.0,2022-07,2.0,,True,False
-Smarsh,Portland,United States,Other,2022-07-01,2022.0,2022-07,2.0,,True,False
+Smarsh,Portland,United States,Tech Services,2022-07-01,2022.0,2022-07,2.0,,True,False
 Just Eat Takeaway,Amsterdam,Netherlands,Food,2022-07-20,2022.0,2022-07,390.0,,True,False
 Flyhomes,Seattle,United States,Real Estate,2022-07-20,2022.0,2022-07,200.0,0.2,True,False
 Varo,SF Bay Area,United States,Finance,2022-07-20,2022.0,2022-07,75.0,,True,False
-BlueStacks,SF Bay Area,United States,Other,2022-07-20,2022.0,2022-07,60.0,,True,False
+BlueStacks,SF Bay Area,United States,Tech Services,2022-07-20,2022.0,2022-07,60.0,,True,False
 Lyft,SF Bay Area,United States,Transportation,2022-07-20,2022.0,2022-07,60.0,0.02,True,False
 Introhive,Ferdericton,Canada,Sales,2022-07-20,2022.0,2022-07,57.0,0.16,True,False
-Zencity,Tel Aviv,Israel,Other,2022-07-20,2022.0,2022-07,30.0,0.2,True,False
+Zencity,Tel Aviv,Israel,Tech Services,2022-07-20,2022.0,2022-07,30.0,0.2,True,False
 Splice,New York City,United States,Media,2022-07-20,2022.0,2022-07,23.0,,True,False
 Forma.ai,Toronto,Canada,Sales,2022-07-20,2022.0,2022-07,15.0,0.09,True,False
 Arc,SF Bay Area,United States,HR,2022-07-20,2022.0,2022-07,13.0,,True,False
@@ -3117,12 +3117,12 @@ Involves,Florianópolis,Brazil,Retail,2022-07-13,2022.0,2022-07,70.0,0.18,True,F
 100 Thieves,Los Angeles,United States,Consumer,2022-07-13,2022.0,2022-07,12.0,,True,False
 Nuro,SF Bay Area,United States,Transportation,2022-07-13,2022.0,2022-07,7.0,,True,False
 CircleUp,SF Bay Area,United States,Finance,2022-07-03,2022.0,2022-07,60.0,,False,True
-Papa,Miami,United States,Other,2022-07-03,2022.0,2022-07,106.0,0.15,False,True
+Papa,Miami,United States,Tech Services,2022-07-03,2022.0,2022-07,106.0,0.15,False,True
 Gopuff,Philadelphia,United States,Food,2022-07-12,2022.0,2022-07,1500.0,0.1,True,False
 Fraazo,Mumbai,India,Food,2022-07-12,2022.0,2022-07,150.0,,True,False
 Hubilo,SF Bay Area,United States,Marketing,2022-07-12,2022.0,2022-07,45.0,0.12,True,False
 Airlift,Lahore,Pakistan,Logistics,2022-07-02,2022.0,2022-07,391.0,1.0,False,True
-Microsoft,Seattle,United States,Other,2022-07-02,2022.0,2022-07,90.0,,False,True
+Microsoft,Seattle,United States,Enterprise Software,2022-07-02,2022.0,2022-07,90.0,,False,True
 Spring,SF Bay Area,United States,Retail,2022-07-02,2022.0,2022-07,79.0,,False,True
 Alice,Sao Paulo,Brazil,Healthcare,2022-07-11,2022.0,2022-07,63.0,,True,False
 SundaySky,New York City,United States,Marketing,2022-07-11,2022.0,2022-07,24.0,0.13,True,False
@@ -3130,7 +3130,7 @@ Apeel Sciences,Santa Barbara,United States,Food,2022-07-01,2022.0,2022-07,87.0,,
 Forward,SF Bay Area,United States,Healthcare,2022-07-01,2022.0,2022-07,15.0,0.05,False,True
 Ignite,SF Bay Area,United States,Crypto,2022-07-01,2022.0,2022-07,136.0,0.5,False,True
 Nextbite,Denver,United States,Food,2022-07-09,2022.0,2022-07,87.0,,False,True
-PuduTech,Shenzen,China,Other,2022-07-08,2022.0,2022-07,1500.0,,True,False
+PuduTech,Shenzen,China,Hardware,2022-07-08,2022.0,2022-07,1500.0,,True,False
 Butler Hospitality,New York City,United States,Food,2022-07-08,2022.0,2022-07,1000.0,1.0,True,False
 Calibrate,New York City,United States,Healthcare,2022-07-08,2022.0,2022-07,156.0,0.24,True,False
 NextRoll,SF Bay Area,United States,Marketing,2022-07-08,2022.0,2022-07,12.0,0.03,False,True
@@ -3155,7 +3155,7 @@ Thimble,New York City,United States,Finance,2022-07-05,2022.0,2022-07,20.0,0.33,
 Syte,Tel Aviv,Israel,Retail,2022-07-05,2022.0,2022-07,13.0,0.08,True,False
 Lightricks,Jerusalem,Israel,Consumer,2022-07-04,2022.0,2022-07,80.0,0.12,True,False
 Sendle,Sydney,Australia,Logistics,2022-07-04,2022.0,2022-07,27.0,0.12,True,False
-Lendis,Berlin,Germany,Other,2022-07-04,2022.0,2022-07,18.0,0.15,True,False
+Lendis,Berlin,Germany,Tech Services,2022-07-04,2022.0,2022-07,18.0,0.15,True,False
 Airtasker,Sydney,Australia,Consumer,2022-07-04,2022.0,2022-07,95.0,,False,True
 Gorillas,Berlin,Germany,Food,2022-07-03,2022.0,2022-07,540.0,,True,False
 Celsius,New York City,United States,Crypto,2022-07-03,2022.0,2022-07,150.0,0.25,True,False
@@ -3179,14 +3179,14 @@ Gavelytics,Los Angeles,United States,Legal,,,,3.0,1.0,True,False
 Secfi,SF Bay Area,United States,Finance,,,,3.0,,True,False
 Sundae,SF Bay Area,United States,Real Estate,,,,3.0,0.15,True,False
 Toppr,Mumbai,India,Education,2022-06-29,2022.0,2022-06,350.0,,True,False
-Unity,SF Bay Area,United States,Other,2022-06-29,2022.0,2022-06,200.0,0.04,True,False
+Unity,SF Bay Area,United States,AI,2022-06-29,2022.0,2022-06,200.0,0.04,True,False
 Niantic,SF Bay Area,United States,Consumer,2022-06-29,2022.0,2022-06,85.0,0.08,True,False
 AvantStay,Los Angeles,United States,Travel,2022-06-29,2022.0,2022-06,80.0,,True,False
 Qumulo,Seattle,United States,Data,2022-06-29,2022.0,2022-06,80.0,0.19,True,False
 Clutch,Toronto,Canada,Transportation,2022-06-29,2022.0,2022-06,76.0,0.22,True,False
 Parallel Wireless,Nashua,United States,Infrastru…,2022-06-29,2022.0,2022-06,60.0,,True,False
 Oye Rickshaw,New Delhi,India,Transportation,2022-06-29,2022.0,2022-06,40.0,0.2,True,False
-Rows,Berlin,Germany,Other,2022-06-29,2022.0,2022-06,18.0,0.3,True,False
+Rows,Berlin,Germany,Tech Services,2022-06-29,2022.0,2022-06,18.0,0.3,True,False
 Baton,SF Bay Area,United States,Transportation,2022-06-29,2022.0,2022-06,16.0,0.25,True,False
 Substack,SF Bay Area,United States,Media,2022-06-29,2022.0,2022-06,13.0,0.14,True,False
 CommentSold,Huntsville,United States,Retail,2022-06-09,2022.0,2022-06,2.0,,True,False
@@ -3222,9 +3222,9 @@ Aura,Boston,United States,Security,2022-06-23,2022.0,2022-06,70.0,0.09,True,Fals
 Pipl,Spokane,United States,Security,2022-06-23,2022.0,2022-06,22.0,0.13,True,False
 Vouch,SF Bay Area,United States,Finance,2022-06-23,2022.0,2022-06,15.0,0.07,True,False
 Voyage SMS,Los Angeles,United States,Marketing,2022-06-23,2022.0,2022-06,8.0,0.13,True,False
-Esper,Seattle,United States,Other,2022-06-03,2022.0,2022-06,2.0,0.12,True,False
+Esper,Seattle,United States,Tech Services,2022-06-03,2022.0,2022-06,2.0,0.12,True,False
 Kune,Nairobi,Kenya,Food,2022-06-03,2022.0,2022-06,2.0,1.0,True,False
-Mark43,New York City,United States,Other,2022-06-03,2022.0,2022-06,2.0,,True,False
+Mark43,New York City,United States,Tech Services,2022-06-03,2022.0,2022-06,2.0,,True,False
 Orchard,New York City,United States,Real Estate,2022-06-03,2022.0,2022-06,2.0,0.1,True,False
 Ro,New York City,United States,Healthcare,2022-06-03,2022.0,2022-06,2.0,0.18,True,False
 StreamElements,Tel Aviv,Israel,Media,2022-06-03,2022.0,2022-06,2.0,0.2,True,False
@@ -3265,7 +3265,7 @@ Wealthsimple,Toronto,Canada,Finance,2022-06-15,2022.0,2022-06,159.0,0.13,True,Fa
 Weee!,SF Bay Area,United States,Food,2022-06-15,2022.0,2022-06,150.0,0.1,True,False
 Notarize,Boston,United States,Legal,2022-06-15,2022.0,2022-06,110.0,0.25,True,False
 Elementor,Tel Aviv,Israel,Media,2022-06-15,2022.0,2022-06,60.0,0.15,True,False
-Tonkean,SF Bay Area,United States,Other,2022-06-15,2022.0,2022-06,23.0,0.23,True,False
+Tonkean,SF Bay Area,United States,Tech Services,2022-06-15,2022.0,2022-06,23.0,0.23,True,False
 Airtame,Copenhagen,Denmark,Consumer,2022-06-15,2022.0,2022-06,15.0,,True,False
 OpenWeb,Tel Aviv,Israel,Media,2022-06-15,2022.0,2022-06,14.0,0.05,True,False
 Swyft,Toronto,Canada,Logistics,2022-06-15,2022.0,2022-06,10.0,0.3,True,False
@@ -3284,7 +3284,7 @@ BlockFi,New York City,United States,Crypto,2022-06-13,2022.0,2022-06,250.0,0.2,T
 Wave Sports and,Los Angeles,United States,Media,2022-06-13,2022.0,2022-06,56.0,0.33,True,False
 Studio,SF Bay Area,United States,Education,2022-06-13,2022.0,2022-06,33.0,0.4,True,False
 Automox,Boulder,United States,Infrastru…,2022-06-03,2022.0,2022-06,50.0,,False,True
-Desktop Metal,Boston,United States,Other,2022-06-03,2022.0,2022-06,85.0,0.12,False,True
+Desktop Metal,Boston,United States,Tech Services,2022-06-03,2022.0,2022-06,85.0,0.12,False,True
 Crypto.com,Singapore,Singapore,Crypto,2022-06-10,2022.0,2022-06,260.0,0.05,True,False
 FarEye,New Delhi,India,Logistics,2022-06-10,2022.0,2022-06,250.0,0.3,True,False
 Berlin Brands,Berlin,Germany,Retail,2022-06-10,2022.0,2022-06,100.0,0.1,True,False
@@ -3319,7 +3319,7 @@ Bond,SF Bay Area,United States,Finance,2022-06-07,2022.0,2022-06,60.0,,False,Tru
 CyberCube,SF Bay Area,United States,Finance,2022-06-07,2022.0,2022-06,60.0,,False,True
 Propzy,Ho Chi Minh C,Vietnam,Real Estate,2022-06-07,2022.0,2022-06,167.0,0.5,False,True
 Clearco,Toronto,Canada,Finance,2022-06-06,2022.0,2022-06,60.0,,True,False
-Dutchie,Bend,United States,Other,2022-06-06,2022.0,2022-06,50.0,0.07,True,False
+Dutchie,Bend,United States,Tech Services,2022-06-06,2022.0,2022-06,50.0,0.07,True,False
 Deep Instinct,New York City,United States,Security,2022-06-06,2022.0,2022-06,62.0,0.1,False,True
 Sendoso,SF Bay Area,United States,Marketing,2022-06-06,2022.0,2022-06,56.0,0.14,False,True
 Eruditus,Mumbai,India,Education,2022-06-04,2022.0,2022-06,40.0,,True,False
@@ -3381,7 +3381,7 @@ Klarna,Stockholm,Sweden,Finance,2022-05-23,2022.0,2022-05,700.0,0.1,True,False
 PayPal,SF Bay Area,United States,Finance,2022-05-23,2022.0,2022-05,83.0,,True,False
 Buenbit,Buenos Aires,Argentina,Crypto,2022-05-23,2022.0,2022-05,80.0,0.45,True,False
 BeyondMinds,Tel Aviv,Israel,Data,2022-05-23,2022.0,2022-05,65.0,1.0,True,False
-ClickUp,San Diego,United States,Other,2022-05-23,2022.0,2022-05,60.0,0.07,True,False
+ClickUp,San Diego,United States,Tech Services,2022-05-23,2022.0,2022-05,60.0,0.07,True,False
 Airtime,New York City,United States,Consumer,2022-05-23,2022.0,2022-05,30.0,0.2,True,False
 Olist,Curitiba,Brazil,Retail,2022-05-03,2022.0,2022-05,2.0,,True,False
 MFine,Bengaluru,India,Healthcare,2022-05-21,2022.0,2022-05,600.0,0.75,True,False
@@ -3406,7 +3406,7 @@ DataRobot,Boston,United States,Data,2022-05-11,2022.0,2022-05,70.0,0.07,True,Fal
 Carvana,Phoenix,United States,Transportation,2022-05-10,2022.0,2022-05,2500.0,0.12,True,False
 Doma,SF Bay Area,United States,Finance,2022-05-10,2022.0,2022-05,310.0,0.15,True,False
 Latch,New York City,United States,Security,2022-05-10,2022.0,2022-05,30.0,0.06,True,False
-Meero,Paris,France,Other,2022-05-09,2022.0,2022-05,350.0,0.5,True,False
+Meero,Paris,France,Tech Services,2022-05-09,2022.0,2022-05,350.0,0.5,True,False
 Vroom,New York City,United States,Transportation,2022-05-09,2022.0,2022-05,270.0,0.14,True,False
 Reef,Miami,United States,Transportation,2022-05-06,2022.0,2022-05,750.0,0.05,True,False
 divvyDOSE,Davenport,United States,Healthcare,2022-05-06,2022.0,2022-05,62.0,,True,False
@@ -3429,7 +3429,7 @@ Netflix,SF Bay Area,United States,Media,2022-04-28,2022.0,2022-04,25.0,,True,Fal
 Wahoo Fitness,Atlanta,United States,Fitness,2022-04-27,2022.0,2022-04,50.0,,True,False
 Robinhood,SF Bay Area,United States,Finance,2022-04-26,2022.0,2022-04,340.0,0.09,True,False
 Bonsai,Toronto,Canada,Retail,2022-04-26,2022.0,2022-04,29.0,0.34,True,False
-Sigfox,Toulouse,France,Other,2022-04-25,2022.0,2022-04,64.0,,True,False
+Sigfox,Toulouse,France,Tech Services,2022-04-25,2022.0,2022-04,64.0,,True,False
 Clyde,New York City,United States,Marketing,2022-04-25,2022.0,2022-04,22.0,,True,False
 Xiaohongshu,Shanghai,China,Consumer,2022-04-21,2022.0,2022-04,180.0,0.09,True,False
 Facily,Sao Paulo,Brazil,Retail,2022-04-20,2022.0,2022-04,260.0,0.3,True,False
@@ -3483,7 +3483,7 @@ Rhino,New York City,United States,Real Estate,2022-02-03,2022.0,2022-02,57.0,0.2
 Gopuff,Philadelphia,United States,Food,2022-01-26,2022.0,2022-01,100.0,,True,False
 Glossier,New York City,United States,Consumer,2022-01-26,2022.0,2022-01,80.0,0.33,True,False
 Root Insurance,Columbus,United States,Finance,2022-01-20,2022.0,2022-01,330.0,,True,False
-Protonn,Bengaluru,India,Other,,,,2.0,1.0,True,False
+Protonn,Bengaluru,India,Tech Services,,,,2.0,1.0,True,False
 Spin,SF Bay Area,United States,Transportation,2022-01-08,2022.0,2022-01,150.0,0.25,False,True
 Delivery Hero,Berlin,Germany,Food,2021-12-22,2021.0,2021-12,300.0,,True,False
 iFit,Logan,United States,Fitness,2021-12-08,2021.0,2021-12,120.0,,False,True
@@ -3492,7 +3492,7 @@ BitTitan,Seattle,United States,Data,2021-11-18,2021.0,2021-11,70.0,0.27,True,Fal
 Zillow,Seattle,United States,Real Estate,2021-11-02,2021.0,2021-11,2000.0,0.25,True,False
 InVision,New York City,United States,Product,2021-10-05,2021.0,2021-10,22.0,,True,False
 Ozy Media,SF Bay Area,United States,Media,2021-10-01,2021.0,2021-10,273.0,1.0,False,True
-Zymergen,SF Bay Area,United States,Other,2021-09-23,2021.0,2021-09,120.0,,True,False
+Zymergen,SF Bay Area,United States,Tech Services,2021-09-23,2021.0,2021-09,120.0,,True,False
 Imperfect Foods,SF Bay Area,United States,Food,2021-09-02,2021.0,2021-09,2.0,,True,False
 Genius,New York City,United States,Consumer,2021-09-05,2021.0,2021-09,95.0,,False,True
 Treehouse,Portland,United States,Education,2021-09-14,2021.0,2021-09,41.0,0.9,True,False
@@ -3514,7 +3514,7 @@ DJI,SF Bay Area,United States,Consumer,2021-02-04,2021.0,2021-02,2.0,,True,False
 Ninjacart,Bengaluru,India,Food,2021-02-23,2021.0,2021-02,200.0,,True,False
 Bounce,Bengaluru,India,Transportation,2021-02-22,2021.0,2021-02,200.0,0.4,True,False
 ThredUp,Chicago,United States,Retail,2021-02-09,2021.0,2021-02,243.0,,True,False
-Indigo,Boston,United States,Other,2021-02-09,2021.0,2021-02,80.0,,True,False
+Indigo,Boston,United States,Tech Services,2021-02-09,2021.0,2021-02,80.0,,True,False
 Limelight,New York City,United States,Recruiting,2021-02-04,2021.0,2021-02,13.0,1.0,True,False
 Quandoo,Berlin,Germany,Food,2021-02-03,2021.0,2021-02,87.0,0.2,True,False
 Hubba,Toronto,Canada,Retail,2021-02-01,2021.0,2021-02,45.0,1.0,True,False
@@ -3523,7 +3523,7 @@ Shutterfly,SF Bay Area,United States,Retail,2021-01-25,2021.0,2021-01,800.0,,Tru
 Postmates,SF Bay Area,United States,Food,2021-01-23,2021.0,2021-01,180.0,0.15,True,False
 Instacart,SF Bay Area,United States,Food,2021-01-21,2021.0,2021-01,1877.0,,True,False
 Pocketmath,Singapore,Singapore,Marketing,2021-01-20,2021.0,2021-01,21.0,1.0,True,False
-Dropbox,SF Bay Area,United States,Other,2021-01-13,2021.0,2021-01,315.0,0.15,True,False
+Dropbox,SF Bay Area,United States,Enterprise Software,2021-01-13,2021.0,2021-01,315.0,0.15,True,False
 Aura Financial,SF Bay Area,United States,Finance,2021-01-01,2021.0,2021-01,385.0,1.0,False,True
 Simple,Portland,United States,Finance,2021-01-07,2021.0,2021-01,385.0,1.0,False,True
 WhiteHat Jr,Mumbai,India,Education,2021-01-06,2021.0,2021-01,1800.0,,True,False
@@ -3664,7 +3664,7 @@ Uber,Bengaluru,India,Transportation,2020-05-26,2020.0,2020-05,600.0,0.23,True,Fa
 Bluprint,Denver,United States,Education,2020-05-26,2020.0,2020-05,137.0,1.0,True,False
 Acorns,Portland,United States,Finance,2020-05-26,2020.0,2020-05,50.0,,True,False
 CarDekho,Gurugram,India,Transportation,2020-05-25,2020.0,2020-05,200.0,,True,False
-Teamwork,Cork,Ireland,Other,2020-05-22,2020.0,2020-05,21.0,,True,False
+Teamwork,Cork,Ireland,Tech Services,2020-05-22,2020.0,2020-05,21.0,,True,False
 Cvent,Washington D,United States,Marketing,2020-05-21,2020.0,2020-05,400.0,0.1,True,False
 PickYourTrail,Chennai,India,Travel,2020-05-21,2020.0,2020-05,70.0,0.35,True,False
 Glitch,New York City,United States,Product,2020-05-21,2020.0,2020-05,18.0,0.36,True,False
@@ -3705,7 +3705,7 @@ Intersect,Toronto,Canada,Product,2020-05-13,2020.0,2020-05,19.0,0.11,True,False
 Mode Analytics,SF Bay Area,United States,Data,2020-05-13,2020.0,2020-05,17.0,,True,False
 BetterCloud,New York City,United States,Security,2020-05-03,2020.0,2020-05,62.0,,False,True
 WeFit,Hanoi,Vietnam,Fitness,2020-05-03,2020.0,2020-05,774.0,1.0,False,True
-Zymergen,SF Bay Area,United States,Other,2020-05-03,2020.0,2020-05,71.0,0.1,False,True
+Zymergen,SF Bay Area,United States,Tech Services,2020-05-03,2020.0,2020-05,71.0,0.1,False,True
 Stone,Sao Paulo,Brazil,Finance,2020-05-12,2020.0,2020-05,1300.0,0.2,True,False
 Zeus Living,SF Bay Area,United States,Real Estate,2020-05-12,2020.0,2020-05,73.0,0.5,True,False
 Mixpanel,SF Bay Area,United States,Data,2020-05-12,2020.0,2020-05,65.0,0.19,True,False
@@ -3738,13 +3738,13 @@ Cloudera,SF Bay Area,United States,Infrastru…,2020-05-05,2020.0,2020-05,50.0,,
 Handshake,SF Bay Area,United States,Recruiting,2020-05-05,2020.0,2020-05,53.0,,False,True
 League,Toronto,Canada,Healthcare,2020-05-05,2020.0,2020-05,63.0,,False,True
 Curefit,Bengaluru,India,Fitness,2020-05-04,2020.0,2020-05,800.0,0.16,True,False
-Element AI,Montreal,Canada,Other,2020-05-04,2020.0,2020-05,62.0,0.15,True,False
+Element AI,Montreal,Canada,Tech Services,2020-05-04,2020.0,2020-05,62.0,0.15,True,False
 Deputy,Sydney,Australia,HR,2020-05-04,2020.0,2020-05,60.0,0.3,True,False
 Loopio,Toronto,Canada,Sales,2020-05-04,2020.0,2020-05,11.0,0.08,True,False
 Castlight Health,SF Bay Area,United States,Healthcare,2020-05-04,2020.0,2020-05,39.0,0.13,False,True
 Trivago,Dusseldorf,Germany,Travel,2020-05-04,2020.0,2020-05,85.0,,False,True
 Trax,Tel Aviv,Israel,Retail,2020-05-03,2020.0,2020-05,120.0,0.1,True,False
-LiveTiles,New York City,United States,Other,2020-05-03,2020.0,2020-05,50.0,,True,False
+LiveTiles,New York City,United States,Tech Services,2020-05-03,2020.0,2020-05,50.0,,True,False
 Namely,New York City,United States,HR,2020-05-01,2020.0,2020-05,110.0,0.4,True,False
 Sandbox VR,SF Bay Area,United States,Consumer,2020-05-01,2020.0,2020-05,80.0,0.8,True,False
 Virtudent,Boston,United States,Healthcare,2020-05-01,2020.0,2020-05,70.0,,True,False
@@ -3771,14 +3771,14 @@ App Annie,SF Bay Area,United States,Data,2020-04-28,2020.0,2020-04,80.0,0.18,Tru
 OpenX,Los Angeles,United States,Marketing,2020-04-28,2020.0,2020-04,35.0,0.15,True,False
 PayJoy,SF Bay Area,United States,Finance,2020-04-28,2020.0,2020-04,27.0,0.25,True,False
 Shipsi,Los Angeles,United States,Retail,2020-04-28,2020.0,2020-04,20.0,0.5,True,False
-Desktop Metal,Boston,United States,Other,2020-04-08,2020.0,2020-04,2.0,,True,False
+Desktop Metal,Boston,United States,Tech Services,2020-04-08,2020.0,2020-04,2.0,,True,False
 Migo,SF Bay Area,United States,Finance,2020-04-08,2020.0,2020-04,2.0,0.25,True,False
-Automation,SF Bay Area,United States,Other,2020-04-27,2020.0,2020-04,260.0,0.1,True,False
+Automation,SF Bay Area,United States,Tech Services,2020-04-27,2020.0,2020-04,260.0,0.1,True,False
 JetClosing,Seattle,United States,Real Estate,2020-04-27,2020.0,2020-04,20.0,0.2,True,False
 Qwick,Phoenix,United States,Recruiting,2020-04-07,2020.0,2020-04,2.0,0.7,True,False
 OYO,Sao Paulo,Brazil,Travel,2020-04-25,2020.0,2020-04,500.0,,True,False
 Stoqo,Jakarta,Indonesia,Food,2020-04-25,2020.0,2020-04,250.0,1.0,True,False
-Submittable,Missoula,United States,Other,2020-04-25,2020.0,2020-04,30.0,0.2,True,False
+Submittable,Missoula,United States,Tech Services,2020-04-25,2020.0,2020-04,30.0,0.2,True,False
 Divergent 3D,Los Angeles,United States,Transportation,2020-04-24,2020.0,2020-04,57.0,0.36,True,False
 Ada Support,Toronto,Canada,Support,2020-04-24,2020.0,2020-04,36.0,0.23,True,False
 UPshow,Chicago,United States,Marketing,2020-04-24,2020.0,2020-04,19.0,0.3,True,False
@@ -3834,7 +3834,7 @@ Sweetgreen,Los Angeles,United States,Food,2020-04-17,2020.0,2020-04,35.0,0.1,Tru
 People.ai,SF Bay Area,United States,Marketing,2020-04-17,2020.0,2020-04,30.0,0.18,True,False
 Tor,Boston,United States,Security,2020-04-17,2020.0,2020-04,13.0,0.37,True,False
 BitGo,SF Bay Area,United States,Crypto,2020-04-07,2020.0,2020-04,33.0,0.12,False,True
-Dispatch,Boston,United States,Other,2020-04-07,2020.0,2020-04,269.0,0.38,False,True
+Dispatch,Boston,United States,Tech Services,2020-04-07,2020.0,2020-04,269.0,0.38,False,True
 Food52,New York City,United States,Food,2020-04-07,2020.0,2020-04,87.0,,False,True
 Influitive,Toronto,Canada,Marketing,2020-04-07,2020.0,2020-04,49.0,,False,True
 CarGurus,Boston,United States,Transportation,2020-04-16,2020.0,2020-04,130.0,0.13,True,False
@@ -3856,7 +3856,7 @@ Parsable,SF Bay Area,United States,HR,2020-04-15,2020.0,2020-04,40.0,0.25,True,F
 Kodiak Robotics,SF Bay Area,United States,Transportation,2020-04-15,2020.0,2020-04,15.0,0.2,True,False
 Tulip Retail,Toronto,Canada,Retail,2020-04-15,2020.0,2020-04,14.0,,True,False
 Trove Recommerce,SF Bay Area,United States,Retail,2020-04-15,2020.0,2020-04,13.0,,True,False
-Dude Solutions,Raleigh,United States,Other,2020-04-05,2020.0,2020-04,141.0,0.2,False,True
+Dude Solutions,Raleigh,United States,Tech Services,2020-04-05,2020.0,2020-04,141.0,0.2,False,True
 SweetEscape,Jakarta,Indonesia,Consumer,2020-04-05,2020.0,2020-04,278.0,0.3,False,True
 View,SF Bay Area,United States,Energy,2020-04-05,2020.0,2020-04,101.0,,False,True
 The RealReal,SF Bay Area,United States,Retail,2020-04-14,2020.0,2020-04,235.0,0.1,True,False
@@ -3992,7 +3992,7 @@ Synergysuite,Salt Lake City,United States,Food,2020-04-02,2020.0,2020-04,5.0,0.0
 Atlanta Tech,Atlanta,United States,Real Estate,2020-04-02,2020.0,2020-04,167.0,0.5,False,True
 Capillary,Bengaluru,India,Retail,2020-04-02,2020.0,2020-04,79.0,,False,True
 Modsy,SF Bay Area,United States,Retail,2020-04-02,2020.0,2020-04,79.0,,False,True
-Wonder,New York City,United States,Other,2020-04-02,2020.0,2020-04,90.0,,False,True
+Wonder,New York City,United States,Tech Services,2020-04-02,2020.0,2020-04,90.0,,False,True
 Booksy,SF Bay Area,United States,Consumer,2020-04-01,2020.0,2020-04,200.0,,True,False
 PatientPop,Los Angeles,United States,Healthcare,2020-04-01,2020.0,2020-04,100.0,0.2,True,False
 Showpad,Chicago,United States,Marketing,2020-04-01,2020.0,2020-04,52.0,0.12,True,False
@@ -4036,7 +4036,7 @@ Hibob,Tel Aviv,Israel,HR,2020-03-30,2020.0,2020-03,70.0,0.3,True,False
 PeerStreet,Los Angeles,United States,Finance,2020-03-30,2020.0,2020-03,51.0,0.3,True,False
 Maven,Seattle,United States,Media,2020-03-30,2020.0,2020-03,31.0,0.09,True,False
 Blume Global,SF Bay Area,United States,Logistics,2020-03-30,2020.0,2020-03,30.0,0.1,True,False
-Catalant,Boston,United States,Other,2020-03-30,2020.0,2020-03,30.0,,True,False
+Catalant,Boston,United States,Tech Services,2020-03-30,2020.0,2020-03,30.0,,True,False
 Loftsmart,New York City,United States,Real Estate,2020-03-30,2020.0,2020-03,25.0,0.75,True,False
 Caliva,SF Bay Area,United States,Retail,2020-03-30,2020.0,2020-03,20.0,,True,False
 Iris Nova,New York City,United States,Food,2020-03-30,2020.0,2020-03,9.0,0.5,True,False
@@ -4076,7 +4076,7 @@ Ecobee,Toronto,Canada,Energy,2020-03-26,2020.0,2020-03,47.0,0.1,True,False
 Passport,Charlotte,United States,Transportation,2020-03-26,2020.0,2020-03,44.0,,True,False
 Peerspace,SF Bay Area,United States,Real Estate,2020-03-26,2020.0,2020-03,41.0,0.75,True,False
 GoSpotCheck,Denver,United States,Retail,2020-03-26,2020.0,2020-03,23.0,0.2,True,False
-Consider.co,SF Bay Area,United States,Other,2020-03-26,2020.0,2020-03,13.0,1.0,True,False
+Consider.co,SF Bay Area,United States,Tech Services,2020-03-26,2020.0,2020-03,13.0,1.0,True,False
 Nativo,Los Angeles,United States,Marketing,2020-03-06,2020.0,2020-03,2.0,0.4,True,False
 TripActions,SF Bay Area,United States,Travel,2020-03-25,2020.0,2020-03,300.0,0.25,True,False
 Lyric,SF Bay Area,United States,Real Estate,2020-03-25,2020.0,2020-03,100.0,,True,False

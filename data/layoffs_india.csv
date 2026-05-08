@@ -1,331 +1,323 @@
-company,location,country,industry,date,year,month,total_laid_off,percentage_laid_off,has_count,city,is_estimated
-Acko,Mumbai,India,Finance,2026-04-20,2026.0,2026-04,60.0,0.05,True,Mumbai,False
-NeuroPixel.AI,Bengaluru,India,Retail,2026-04-03,2026.0,2026-04,675.0,1.0,False,Bengaluru,True
-Covrzy,Bengaluru,India,Finance,2026-03-01,2026.0,2026-03,3.0,1.0,True,Bengaluru,False
-Flipkart,Bengaluru,India,Retail,2026-03-06,2026.0,2026-03,500.0,,True,Bengaluru,False
-Livspace,Bengaluru,India,Consumer,2026-02-20,2026.0,2026-02,1000.0,0.12,True,Bengaluru,False
-Fi.Money,Bengaluru,India,Finance,,,,183.0,0.4,False,Bengaluru,True
-Zupee,New Delhi,India,Consumer,2026-01-30,2026.0,2026-01,200.0,,True,New Delhi,False
-Whatfix,Bengaluru,India,AI,2025-12-09,2025.0,2025-12,60.0,0.06,True,Bengaluru,False
-GenWise,New Delhi,India,Other,2025-12-09,2025.0,2025-12,242.0,1.0,False,New Delhi,True
-Junglee Games,New Delhi,India,Consumer,2025-11-26,2025.0,2025-11,350.0,,True,New Delhi,False
-Flipkart,Bengaluru,India,Retail,2025-11-16,2025.0,2025-11,40.0,,True,Bengaluru,False
-BharatAgri,Mumbai,India,Food,2025-11-13,2025.0,2025-11,37.0,1.0,True,Mumbai,False
-GamesKraft,Bengaluru,India,Consumer,2025-11-10,2025.0,2025-11,280.0,,True,Bengaluru,False
-Porter,Bengaluru,India,Logistics,2025-11-04,2025.0,2025-11,350.0,0.18,True,Bengaluru,False
-Zepto,Mumbai,India,Retail,2025-10-18,2025.0,2025-10,300.0,0.05,True,Mumbai,False
-Simpl,Bengaluru,India,Finance,2025-10-01,2025.0,2025-10,80.0,,True,Bengaluru,False
-GamesKraft,Bengaluru,India,Consumer,2025-09-18,2025.0,2025-09,120.0,,True,Bengaluru,False
-Hike,New Delhi,India,Consumer,2025-09-03,2025.0,2025-09,783.0,1.0,False,New Delhi,True
-Zupee,New Delhi,India,Consumer,2025-09-11,2025.0,2025-09,170.0,0.3,True,New Delhi,False
-Head Digital Works,Hyderabad,India,Consumer,2025-09-04,2025.0,2025-09,500.0,,True,Hyderabad,False
-Bobble AI,New Delhi,India,Consumer,2025-09-04,2025.0,2025-09,50.0,,True,New Delhi,False
-Games 24x7,Mumbai,India,Consumer,2025-09-01,2025.0,2025-09,400.0,,True,Mumbai,False
-Mobile Premier,Bengaluru,India,Consumer,2025-09-01,2025.0,2025-09,300.0,,True,Bengaluru,False
-Krutrim,Bengaluru,India,AI,2025-09-01,2025.0,2025-09,50.0,,True,Bengaluru,False
-BeepKart,Bengaluru,India,Retail,2025-08-23,2025.0,2025-08,150.0,1.0,True,Bengaluru,False
-Clear,Bengaluru,India,Finance,2025-08-01,2025.0,2025-08,145.0,0.16,True,Bengaluru,False
-Astra,Bengaluru,India,Sales,2025-07-28,2025.0,2025-07,106.0,1.0,True,Bengaluru,False
-Krutrim,Bengaluru,India,AI,2025-07-28,2025.0,2025-07,100.0,,True,Bengaluru,False
-Ohm Mobility,Bengaluru,India,Transportation,2025-07-04,2025.0,2025-07,2.0,1.0,True,Bengaluru,False
-CodeParrot,Bengaluru,India,Product,2025-07-07,2025.0,2025-07,500.0,1.0,False,Bengaluru,True
-Blip,Bengaluru,India,Retail,2025-07-02,2025.0,2025-07,675.0,1.0,False,Bengaluru,True
-Subtl AI,Hyderabad,India,AI,2025-07-03,2025.0,2025-07,950.0,1.0,False,Hyderabad,True
-Cars24,Gurugram,India,Transportation,2025-05-27,2025.0,2025-05,120.0,,True,Gurugram,False
-Otipy,New Delhi,India,Food,2025-05-23,2025.0,2025-05,300.0,1.0,True,New Delhi,False
-VerSe Innovation,Bengaluru,India,Media,2025-05-18,2025.0,2025-05,350.0,,True,Bengaluru,False
-Games 24x7,Mumbai,India,Consumer,2025-05-07,2025.0,2025-05,180.0,,True,Mumbai,False
-GenWise,New Delhi,India,Other,2025-05-05,2025.0,2025-05,15.0,0.2,True,New Delhi,False
-Log 9 Materials,Bengaluru,India,Manufacturing,2025-05-02,2025.0,2025-05,500.0,1.0,False,Bengaluru,True
-Cars24,Gurugram,India,Transportation,2025-04-26,2025.0,2025-04,200.0,,True,Gurugram,False
-Zopper,Noida,India,Finance,2025-04-17,2025.0,2025-04,100.0,,True,Noida,False
-Zomato,Gurugram,India,Food,2025-04-01,2025.0,2025-04,600.0,,True,Gurugram,False
-Ola Electric,Bengaluru,India,Transportation,2025-03-03,2025.0,2025-03,1000.0,,True,Bengaluru,False
-ANS Commerce,Gurugram,India,Retail,2025-03-02,2025.0,2025-03,675.0,1.0,False,Gurugram,True
-Pocket FM,Bengaluru,India,Media,2025-01-16,2025.0,2025-01,75.0,,True,Bengaluru,False
-ShareChat,Bengaluru,India,Marketing,2025-01-15,2025.0,2025-01,27.0,0.05,True,Bengaluru,False
-Thrive,Mumbai,India,Food,2024-12-04,2024.0,2024-12,799.0,1.0,False,Mumbai,True
-Klub,Bengaluru,India,Finance,2024-11-29,2024.0,2024-11,60.0,,True,Bengaluru,False
-Ola Electric,Bengaluru,India,Transportation,2024-11-22,2024.0,2024-11,500.0,,True,Bengaluru,False
-Kuku FM,Mumbai,India,Media,2024-11-14,2024.0,2024-11,80.0,,True,Mumbai,False
-Stoa,Bengaluru,India,Education,2024-11-02,2024.0,2024-11,483.0,1.0,False,Bengaluru,True
-Toplyne,Bengaluru,India,Sales,2024-10-01,2024.0,2024-10,106.0,1.0,False,Bengaluru,True
-BeepKart,Bengaluru,India,Retail,2024-10-08,2024.0,2024-10,130.0,0.4,True,Bengaluru,False
-Greenikk,Trivandrum,India,Food,,,,3.0,1.0,True,Trivandrum,False
-Aakash,New Delhi,India,Education,2024-09-18,2024.0,2024-09,80.0,,True,New Delhi,False
-InsurStaq.ai,New Delhi,India,AI,2024-09-09,2024.0,2024-09,950.0,1.0,False,New Delhi,True
-Dozee,Bengaluru,India,Healthcare,2024-09-02,2024.0,2024-09,40.0,,True,Bengaluru,False
-Dunzo,Bengaluru,India,Food,2024-08-31,2024.0,2024-08,150.0,0.75,True,Bengaluru,False
-Kenko Health,Mumbai,India,Healthcare,2024-08-03,2024.0,2024-08,2.0,1.0,True,Mumbai,False
-ReshaMandi,Bengaluru,India,Food,,,,2.0,1.0,True,Bengaluru,False
-ShareChat,Bengaluru,India,Marketing,2024-08-03,2024.0,2024-08,30.0,0.05,True,Bengaluru,False
-Pocket FM,Bengaluru,India,Media,2024-07-27,2024.0,2024-07,200.0,,True,Bengaluru,False
-WayCool,Chennai,India,Food,2024-07-26,2024.0,2024-07,200.0,,True,Chennai,False
-Bluelearn,Bengaluru,India,Education,2024-07-02,2024.0,2024-07,2.0,1.0,True,Bengaluru,False
-Unacademy,Bengaluru,India,Education,2024-07-02,2024.0,2024-07,250.0,,True,Bengaluru,False
-Koo,Bengaluru,India,Consumer,2024-07-02,2024.0,2024-07,783.0,1.0,False,Bengaluru,True
-Paytm,Noida,India,Finance,2024-06-10,2024.0,2024-06,3500.0,,True,Noida,False
-Kissflow,Chennai,India,Other,2024-06-10,2024.0,2024-06,45.0,0.11,True,Chennai,False
-Simpl,Bengaluru,India,Finance,2024-06-06,2024.0,2024-06,30.0,,True,Bengaluru,False
-PrepLadder,New Delhi,India,Education,2024-05-08,2024.0,2024-05,145.0,0.25,True,New Delhi,False
-Simpl,Bengaluru,India,Finance,2024-05-08,2024.0,2024-05,100.0,0.15,True,Bengaluru,False
-Ola,Bengaluru,India,Transportation,2024-04-29,2024.0,2024-04,180.0,0.1,True,Bengaluru,False
-HealthifyMe,Bengaluru,India,Healthcare,2024-04-27,2024.0,2024-04,150.0,0.27,True,Bengaluru,False
-The Good Glamm,New Delhi,India,Retail,2024-04-18,2024.0,2024-04,150.0,0.15,True,New Delhi,False
-Scaler,Bengaluru,India,Education,2024-04-10,2024.0,2024-04,150.0,,True,Bengaluru,False
-Bolt.Earth,Bengaluru,India,Energy,2024-04-06,2024.0,2024-04,70.0,0.4,True,Bengaluru,False
-CoRover,Bengaluru,India,AI,2024-04-03,2024.0,2024-04,60.0,,False,Bengaluru,True
-Byju's,Bengaluru,India,Education,2024-04-02,2024.0,2024-04,500.0,0.03,True,Bengaluru,False
-Lentra,Pune,India,Finance,2024-04-02,2024.0,2024-04,70.0,,False,Pune,True
-Airmeet,Bengaluru,India,Marketing,2024-03-09,2024.0,2024-03,81.0,0.2,False,Bengaluru,True
-Pristyn Care,Gurugram,India,Healthcare,2024-03-01,2024.0,2024-03,120.0,0.07,True,Gurugram,False
-WayCool,Chennai,India,Food,2024-02-26,2024.0,2024-02,70.0,,True,Chennai,False
-Wint Wealth,Nashik,India,Finance,2024-02-14,2024.0,2024-02,19.0,0.2,True,Nashik,False
-Licious,Bengaluru,India,Food,2024-02-09,2024.0,2024-02,80.0,0.03,True,Bengaluru,False
-BlissClub,Bengaluru,India,Retail,2024-02-09,2024.0,2024-02,21.0,0.18,True,Bengaluru,False
-Muvin,Bengaluru,India,Finance,2024-02-05,2024.0,2024-02,457.0,1.0,False,Bengaluru,True
-Swiggy,Bengaluru,India,Food,2024-01-25,2024.0,2024-01,400.0,0.07,True,Bengaluru,False
-Cult.fit,Bengaluru,India,Fitness,2024-01-24,2024.0,2024-01,100.0,,True,Bengaluru,False
-Cure.fit,Bengaluru,India,Fitness,2024-01-23,2024.0,2024-01,120.0,,True,Bengaluru,False
-Inmobi,Bengaluru,India,Marketing,2024-01-11,2024.0,2024-01,125.0,0.05,True,Bengaluru,False
-Flipkart,Bengaluru,India,Retail,2024-01-08,2024.0,2024-01,1100.0,0.05,True,Bengaluru,False
-Bolt.Earth,Bengaluru,India,Energy,2023-12-09,2023.0,2023-12,2.0,0.2,True,Bengaluru,False
-Paytm,Noida,India,Finance,2023-12-25,2023.0,2023-12,1000.0,,True,Noida,False
-ShareChat,Bengaluru,India,Consumer,2023-12-20,2023.0,2023-12,200.0,0.15,True,Bengaluru,False
-Udaan,Bengaluru,India,Retail,2023-12-18,2023.0,2023-12,100.0,0.1,True,Bengaluru,False
-Simplilearn,Bengaluru,India,Education,2023-12-07,2023.0,2023-12,200.0,,True,Bengaluru,False
-ZestMoney,Bengaluru,India,Finance,2023-12-05,2023.0,2023-12,150.0,1.0,True,Bengaluru,False
-Loco,Mumbai,India,Consumer,2023-11-30,2023.0,2023-11,40.0,0.36,True,Mumbai,False
-Anar,Mumbai,India,Marketing,2023-11-05,2023.0,2023-11,2.0,1.0,True,Mumbai,False
-Jodo,Bengaluru,India,Finance,2023-11-20,2023.0,2023-11,100.0,,True,Bengaluru,False
-Physics Wallah,Noida,India,Education,2023-11-19,2023.0,2023-11,120.0,0.01,True,Noida,False
-OSlash,Bengaluru,India,Other,2023-11-09,2023.0,2023-11,242.0,1.0,False,Bengaluru,True
-Graphy,Bengaluru,India,Education,2023-10-26,2023.0,2023-10,50.0,0.2,True,Bengaluru,False
-Virgio,Bengaluru,India,Retail,2023-10-25,2023.0,2023-10,20.0,0.33,True,Bengaluru,False
-Belora Paris,Gurugram,India,Retail,2023-10-08,2023.0,2023-10,675.0,1.0,False,Gurugram,True
-CityMall,Gurugram,India,Retail,2023-10-16,2023.0,2023-10,90.0,,True,Gurugram,False
-Adda247,Gurugram,India,Education,2023-10-14,2023.0,2023-10,300.0,,True,Gurugram,False
-Bizongo,Mumbai,India,Retail,2023-10-05,2023.0,2023-10,50.0,,True,Mumbai,False
-Fi.Money,Bengaluru,India,Finance,2023-09-27,2023.0,2023-09,30.0,0.1,True,Bengaluru,False
-Dunzo,Bengaluru,India,Food,2023-09-26,2023.0,2023-09,150.0,0.3,True,Bengaluru,False
-DealShare,Bengaluru,India,Retail,2023-09-21,2023.0,2023-09,130.0,,True,Bengaluru,False
-Akudo,Bengaluru,India,Finance,,,,2.0,1.0,True,Bengaluru,False
-Velocity,Bengaluru,India,Finance,2023-09-05,2023.0,2023-09,64.0,0.14,False,Bengaluru,True
-Khatabook,Bengaluru,India,Finance,2023-09-01,2023.0,2023-09,42.0,,True,Bengaluru,False
-Omuni,Bengaluru,India,Retail,2023-08-30,2023.0,2023-08,60.0,0.35,True,Bengaluru,False
-Kenko Health,Mumbai,India,Healthcare,2023-08-30,2023.0,2023-08,50.0,0.2,True,Mumbai,False
-Kenko Health,Mumbai,India,Healthcare,2023-08-29,2023.0,2023-08,50.0,0.2,True,Mumbai,False
-CoinSwitch,Bengaluru,India,Crypto,2023-08-28,2023.0,2023-08,44.0,,True,Bengaluru,False
-Cuemath,Bengaluru,India,Education,2023-08-26,2023.0,2023-08,100.0,,True,Bengaluru,False
-Chingari,Bengaluru,India,Media,2023-08-04,2023.0,2023-08,2.0,0.5,True,Bengaluru,False
-CoinDCX,Mumbai,India,Crypto,2023-08-02,2023.0,2023-08,2.0,0.12,True,Mumbai,False
-Spartan Poker,Kolkata,India,Consumer,2023-08-19,2023.0,2023-08,125.0,0.4,True,Kolkata,False
-Times Internet,Gurugram,India,Media,2023-08-18,2023.0,2023-08,100.0,0.05,True,Gurugram,False
-Hike,New Delhi,India,Consumer,2023-08-10,2023.0,2023-08,55.0,,True,New Delhi,False
-Quizy,Gurugram,India,Consumer,2023-08-09,2023.0,2023-08,783.0,1.0,False,Gurugram,True
-MPL,Bengaluru,India,Consumer,2023-08-08,2023.0,2023-08,350.0,,True,Bengaluru,False
-Spinny,Gurugram,India,Transportation,2023-08-02,2023.0,2023-08,300.0,0.05,True,Gurugram,False
-Tekion,Bengaluru,India,Other,2023-08-02,2023.0,2023-08,300.0,0.1,True,Bengaluru,False
-FamPay,Bengaluru,India,Finance,2023-08-02,2023.0,2023-08,18.0,,True,Bengaluru,False
-Actyv.ai,Bengaluru,India,Finance,2023-08-02,2023.0,2023-08,274.0,0.6,False,Bengaluru,True
-ConnectedH,Gurugram,India,Healthcare,2023-08-02,2023.0,2023-08,250.0,1.0,False,Gurugram,True
-Increff,Bengaluru,India,Retail,2023-08-01,2023.0,2023-08,135.0,0.2,False,Bengaluru,True
-Milkbasket,Gurugram,India,Food,2023-07-27,2023.0,2023-07,400.0,0.67,True,Gurugram,False
-Myntra,Bengaluru,India,Retail,2023-07-26,2023.0,2023-07,50.0,,True,Bengaluru,False
-Dunzo,Bengaluru,India,Food,,,,2.0,,True,Bengaluru,False
-Saarthi.ai,Bengaluru,India,Support,,,,2.0,,True,Bengaluru,False
-Navi Technologies,Bengaluru,India,Finance,2023-07-13,2023.0,2023-07,200.0,,True,Bengaluru,False
-Skill Lync,Chennai,India,Education,2023-07-13,2023.0,2023-07,200.0,,True,Chennai,False
-WayCool,Chennai,India,Food,2023-07-11,2023.0,2023-07,300.0,0.12,True,Chennai,False
-Dukaan,Bengaluru,India,Retail,2023-07-01,2023.0,2023-07,130.0,,False,Bengaluru,True
-FrontRow,Bengaluru,India,Education,,,,483.0,1.0,False,Bengaluru,True
-Xiaomi India,Bengaluru,India,Other,2023-06-29,2023.0,2023-06,30.0,,True,Bengaluru,False
-Qyuki,Bengaluru,India,Other,2023-06-09,2023.0,2023-06,2.0,0.3,True,Bengaluru,False
-Chingari,Bengaluru,India,Media,2023-06-19,2023.0,2023-06,48.0,0.2,True,Bengaluru,False
-Mojocare,Bengaluru,India,Healthcare,2023-06-17,2023.0,2023-06,170.0,0.8,True,Bengaluru,False
-FrontRow,Bengaluru,India,Education,2023-06-05,2023.0,2023-06,435.0,0.9,False,Bengaluru,True
-Mamaearth,Gurugram,India,Retail,2023-06-14,2023.0,2023-06,80.0,,True,Gurugram,False
-Byju's,Bengaluru,India,Education,2023-06-07,2023.0,2023-06,1000.0,,True,Bengaluru,False
-Glamyo Health,New Delhi,India,Healthcare,2023-06-01,2023.0,2023-06,160.0,,True,New Delhi,False
-Mensa Brands,Bengaluru,India,Retail,2023-05-30,2023.0,2023-05,30.0,,True,Bengaluru,False
-Airmeet,Bengaluru,India,Marketing,2023-05-25,2023.0,2023-05,75.0,0.3,True,Bengaluru,False
-Reliance JioMart,Mumbai,India,Food,2023-05-23,2023.0,2023-05,1000.0,,True,Mumbai,False
-Happay,Bengaluru,India,Finance,2023-05-12,2023.0,2023-05,160.0,0.35,True,Bengaluru,False
-Toothsi,Mumbai,India,Healthcare,2023-05-12,2023.0,2023-05,20.0,,True,Mumbai,False
-Cuemath,Bengaluru,India,Education,2023-05-08,2023.0,2023-05,100.0,,True,Bengaluru,False
-Meesho,Bengaluru,India,Retail,2023-05-05,2023.0,2023-05,251.0,0.15,True,Bengaluru,False
-Teachmint,Bengaluru,India,Education,2023-05-05,2023.0,2023-05,70.0,,True,Bengaluru,False
-PharmEasy,Mumbai,India,Healthcare,2023-05-01,2023.0,2023-05,50.0,,False,Mumbai,True
-Vah Vah!,Bengaluru,India,Education,2023-04-30,2023.0,2023-04,150.0,,True,Bengaluru,False
-Cogito,New Delhi,India,Data,2023-04-29,2023.0,2023-04,177.0,,True,New Delhi,False
-Tickertape,Bengaluru,India,Finance,2023-04-27,2023.0,2023-04,29.0,0.29,True,Bengaluru,False
-Extramarks,Noida,India,Education,2023-04-26,2023.0,2023-04,300.0,,True,Noida,False
-Skill Lync,Chennai,India,Education,2023-04-25,2023.0,2023-04,400.0,,True,Chennai,False
-Koo,Bengaluru,India,Consumer,2023-04-20,2023.0,2023-04,78.0,0.3,True,Bengaluru,False
-Open,Bengaluru,India,Finance,2023-04-20,2023.0,2023-04,47.0,,True,Bengaluru,False
-FamPay,Bengaluru,India,Finance,2023-04-07,2023.0,2023-04,70.0,,False,Bengaluru,True
-Bluepad,Bengaluru,India,Media,2023-04-03,2023.0,2023-04,220.0,1.0,False,Bengaluru,True
-Euler Motors,New Delhi,India,Transportation,2023-04-01,2023.0,2023-04,130.0,0.1,False,New Delhi,True
-Simpl,Bengaluru,India,Finance,2023-04-09,2023.0,2023-04,150.0,0.25,True,Bengaluru,False
-Practo,Bengaluru,India,Healthcare,2023-04-08,2023.0,2023-04,41.0,,True,Bengaluru,False
-ZestMoney,Bengaluru,India,Finance,2023-04-07,2023.0,2023-04,100.0,0.2,True,Bengaluru,False
-Dunzo,Bengaluru,India,Food,2023-04-05,2023.0,2023-04,300.0,0.3,True,Bengaluru,False
-1K Kirana,Gurugram,India,Retail,2023-04-04,2023.0,2023-04,600.0,0.4,True,Gurugram,False
-FanClash,Gurugram,India,Consumer,2023-03-30,2023.0,2023-03,100.0,0.75,True,Gurugram,False
-Unacademy,Bengaluru,India,Education,,,,3.0,0.12,True,Bengaluru,False
-Smallcase,Bengaluru,India,Finance,2023-03-21,2023.0,2023-03,15.0,0.04,True,Bengaluru,False
-Livspace,Bengaluru,India,Retail,2023-03-17,2023.0,2023-03,100.0,0.02,True,Bengaluru,False
-Dukaan,Bengaluru,India,Retail,2023-03-15,2023.0,2023-03,56.0,0.3,True,Bengaluru,False
-Pristyn Care,Gurugram,India,Healthcare,2023-03-07,2023.0,2023-03,300.0,0.15,True,Gurugram,False
-UpGrad,Mumbai,India,Education,2023-03-06,2023.0,2023-03,120.0,,True,Mumbai,False
-HomeLane,Bengaluru,India,Retail,2023-03-06,2023.0,2023-03,30.0,,True,Bengaluru,False
-Fittr,Pune,India,Fitness,2023-03-02,2023.0,2023-03,30.0,0.11,True,Pune,False
-Flipkart,Bengaluru,India,Retail,2023-03-02,2023.0,2023-03,130.0,,False,Bengaluru,True
-DUX Education,Bengaluru,India,Education,2023-02-08,2023.0,2023-02,2.0,1.0,True,Bengaluru,False
-SAP Labs,Bengaluru,India,Other,2023-02-24,2023.0,2023-02,300.0,,True,Bengaluru,False
-Polygon,Bengaluru,India,Crypto,2023-02-21,2023.0,2023-02,100.0,0.2,True,Bengaluru,False
-MyGate,Bengaluru,India,Other,2023-02-20,2023.0,2023-02,200.0,0.3,True,Bengaluru,False
-Fipola,Chennai,India,Food,,,,2.0,1.0,True,Chennai,False
-PhableCare,Bengaluru,India,Healthcare,2023-02-04,2023.0,2023-02,175.0,0.7,False,Bengaluru,True
-TikTok India,Mumbai,India,Consumer,2023-02-10,2023.0,2023-02,40.0,,True,Mumbai,False
-WeTrade,Bengaluru,India,Crypto,2023-02-09,2023.0,2023-02,150.0,1.0,False,Bengaluru,True
-Pocket Aces,Mumbai,India,Media,2023-02-06,2023.0,2023-02,50.0,0.25,True,Mumbai,False
-FarEye,New Delhi,India,Logistics,2023-02-03,2023.0,2023-02,90.0,,True,New Delhi,False
-Byju's,Bengaluru,India,Education,2023-02-02,2023.0,2023-02,1500.0,,True,Bengaluru,False
-DealShare,Bengaluru,India,Retail,2023-01-27,2023.0,2023-01,100.0,0.06,True,Bengaluru,False
-Inmobi,Bengaluru,India,Marketing,2023-01-23,2023.0,2023-01,50.0,,True,Bengaluru,False
-Camp K12,Gurugram,India,Education,2023-01-03,2023.0,2023-01,2.0,0.7,True,Gurugram,False
-Swiggy,Bengaluru,India,Food,2023-01-20,2023.0,2023-01,380.0,0.06,True,Bengaluru,False
-MediBuddy,Bengaluru,India,Healthcare,2023-01-20,2023.0,2023-01,200.0,0.08,True,Bengaluru,False
-Exotel,Bengaluru,India,Support,2023-01-17,2023.0,2023-01,142.0,0.15,True,Bengaluru,False
-GoMechanic,Gurugram,India,Transportation,2023-01-07,2023.0,2023-01,910.0,0.7,False,Gurugram,True
-ShareChat,Bengaluru,India,Consumer,2023-01-16,2023.0,2023-01,500.0,0.2,True,Bengaluru,False
-Gramophone,Indore,India,Food,2023-01-16,2023.0,2023-01,75.0,,True,Indore,False
-Dunzo,Bengaluru,India,Food,2023-01-06,2023.0,2023-01,24.0,0.03,False,Bengaluru,True
-Rebel Foods,Mumbai,India,Food,2023-01-06,2023.0,2023-01,16.0,0.02,False,Mumbai,True
-Captain Fresh,Bengaluru,India,Food,2023-01-15,2023.0,2023-01,120.0,,True,Bengaluru,False
-BharatAgri,Mumbai,India,Food,2023-01-15,2023.0,2023-01,40.0,0.43,True,Mumbai,False
-DeHaat,Patna,India,Food,2023-01-05,2023.0,2023-01,40.0,0.05,False,Patna,True
-Ola,Bengaluru,India,Transportation,2023-01-13,2023.0,2023-01,200.0,,True,Bengaluru,False
-Skit.ai,Bengaluru,India,Support,2023-01-12,2023.0,2023-01,115.0,,True,Bengaluru,False
-Cashfree Payments,Bengaluru,India,Finance,2023-01-12,2023.0,2023-01,100.0,,True,Bengaluru,False
-CoinDCX,Mumbai,India,Crypto,2023-01-11,2023.0,2023-01,80.0,,True,Mumbai,False
-LEAD,Mumbai,India,Education,2023-01-10,2023.0,2023-01,60.0,,True,Mumbai,False
-Relevel,Bengaluru,India,HR,2023-01-10,2023.0,2023-01,40.0,0.2,True,Bengaluru,False
-Bounce,Bengaluru,India,Transportation,2023-01-06,2023.0,2023-01,40.0,0.05,True,Bengaluru,False
-UpScalio,Gurugram,India,Retail,2023-01-05,2023.0,2023-01,25.0,0.15,True,Gurugram,False
-Harappa,New Delhi,India,Education,2023-01-03,2023.0,2023-01,60.0,0.3,True,New Delhi,False
-PharmEasy,Mumbai,India,Healthcare,,,,50.0,,False,Mumbai,True
-Swiggy,Bengaluru,India,Food,2022-12-08,2022.0,2022-12,250.0,0.03,True,Bengaluru,False
-Vedantu,Bengaluru,India,Education,2022-12-07,2022.0,2022-12,385.0,,True,Bengaluru,False
-OYO,Gurugram,India,Travel,2022-12-03,2022.0,2022-12,600.0,,True,Gurugram,False
-HealthifyMe,Bengaluru,India,Fitness,2022-12-03,2022.0,2022-12,150.0,,True,Bengaluru,False
-ShareChat,Bengaluru,India,Consumer,2022-12-02,2022.0,2022-12,100.0,,True,Bengaluru,False
-Teachmint,Bengaluru,India,Education,2022-11-30,2022.0,2022-11,45.0,0.05,True,Bengaluru,False
-Hirect,Bengaluru,India,Recruiting,2022-11-28,2022.0,2022-11,200.0,0.4,True,Bengaluru,False
-VerSe Innovation,Bengaluru,India,Media,2022-11-25,2022.0,2022-11,150.0,0.05,True,Bengaluru,False
-Zomato,Gurugram,India,Food,2022-11-19,2022.0,2022-11,100.0,0.04,True,Gurugram,False
-Plum,Bengaluru,India,Healthcare,2022-11-09,2022.0,2022-11,36.0,0.1,True,Bengaluru,False
-HighRadius,Bengaluru,India,Finance,2022-11-09,2022.0,2022-11,25.0,,True,Bengaluru,False
-Unacademy,Bengaluru,India,Education,2022-11-07,2022.0,2022-11,350.0,0.1,True,Bengaluru,False
-Practically,Hyderabad,India,Education,2022-11-06,2022.0,2022-11,147.0,,False,Hyderabad,True
-Udaan,Bengaluru,India,Retail,2022-11-04,2022.0,2022-11,350.0,,True,Bengaluru,False
-Dukaan,Bengaluru,India,Retail,2022-10-31,2022.0,2022-10,23.0,,True,Bengaluru,False
-Doubtnut,Gurugram,India,Education,2022-10-01,2022.0,2022-10,3.0,0.3,True,Gurugram,False
-GoNuts,Mumbai,India,Media,2022-10-07,2022.0,2022-10,2.0,1.0,True,Mumbai,False
-Synapsica,New Delhi,India,Healthcare,2022-10-21,2022.0,2022-10,30.0,0.3,True,New Delhi,False
-Qin1,Noida,India,Education,2022-10-04,2022.0,2022-10,483.0,1.0,False,Noida,True
-Byju's,Bengaluru,India,Education,2022-10-12,2022.0,2022-10,2500.0,0.05,True,Bengaluru,False
-FrontRow,Bengaluru,India,Education,2022-10-12,2022.0,2022-10,130.0,0.75,True,Bengaluru,False
-WazirX,Mumbai,India,Crypto,2022-10-02,2022.0,2022-10,60.0,0.4,True,Mumbai,False
-Ola,Bengaluru,India,Transportation,2022-09-19,2022.0,2022-09,200.0,,True,Bengaluru,False
-Clear,Bengaluru,India,Finance,2022-09-16,2022.0,2022-09,190.0,0.2,True,Bengaluru,False
-Lido Learning,Mumbai,India,Education,2022-09-09,2022.0,2022-09,483.0,1.0,False,Mumbai,True
-Rupeek,Bengaluru,India,Finance,2022-09-07,2022.0,2022-09,50.0,,True,Bengaluru,False
-Koo,Bengaluru,India,Consumer,2022-08-31,2022.0,2022-08,40.0,,True,Bengaluru,False
-Meesho,Bengaluru,India,Retail,2022-08-29,2022.0,2022-08,300.0,,True,Bengaluru,False
-ShopX,Bengaluru,India,Retail,2022-08-02,2022.0,2022-08,2.0,1.0,True,Bengaluru,False
-LEAD,Mumbai,India,Education,2022-08-04,2022.0,2022-08,80.0,0.04,True,Mumbai,False
-CarDekho,Gurugram,India,Transportation,2022-08-03,2022.0,2022-08,200.0,,False,Gurugram,True
-Vedantu,Bengaluru,India,Education,2022-08-02,2022.0,2022-08,100.0,,True,Bengaluru,False
-DeHaat,Gurugram,India,Food,2022-08-01,2022.0,2022-08,175.0,,False,Gurugram,True
-Ola,Bengaluru,India,Transportation,2022-07-29,2022.0,2022-07,1000.0,,True,Bengaluru,False
-Bikayi,Bengaluru,India,Retail,2022-07-08,2022.0,2022-07,2.0,,True,Bengaluru,False
-Bright Money,Bengaluru,India,Finance,2022-07-15,2022.0,2022-07,100.0,0.5,True,Bengaluru,False
-Fraazo,Mumbai,India,Food,2022-07-12,2022.0,2022-07,150.0,,True,Mumbai,False
-Crejo.Fun,Bengaluru,India,Education,2022-06-30,2022.0,2022-06,170.0,1.0,True,Bengaluru,False
-Toppr,Mumbai,India,Education,2022-06-29,2022.0,2022-06,350.0,,True,Mumbai,False
-Oye Rickshaw,New Delhi,India,Transportation,2022-06-29,2022.0,2022-06,40.0,0.2,True,New Delhi,False
-WhiteHat Jr,Mumbai,India,Education,2022-06-28,2022.0,2022-06,300.0,,True,Mumbai,False
-Nova Benefits,Bengaluru,India,Healthcare,2022-06-08,2022.0,2022-06,2.0,0.3,True,Bengaluru,False
-Udaan,Bengaluru,India,Retail,2022-06-27,2022.0,2022-06,180.0,0.04,True,Bengaluru,False
-SuperLearn,Bengaluru,India,Education,2022-06-01,2022.0,2022-06,2.0,1.0,True,Bengaluru,False
-Aqgromalin,Chennai,India,Food,2022-06-20,2022.0,2022-06,80.0,0.3,True,Chennai,False
-CityMall,Gurugram,India,Retail,2022-06-19,2022.0,2022-06,191.0,0.3,True,Gurugram,False
-Unacademy,Bengaluru,India,Education,2022-06-18,2022.0,2022-06,150.0,0.03,True,Bengaluru,False
-PharmEasy,Mumbai,India,Healthcare,2022-06-16,2022.0,2022-06,40.0,,True,Mumbai,False
-Breathe,New Delhi,India,Healthcare,2022-06-14,2022.0,2022-06,50.0,0.33,True,New Delhi,False
-FarEye,New Delhi,India,Logistics,2022-06-10,2022.0,2022-06,250.0,0.3,True,New Delhi,False
-Rupeek,Bengaluru,India,Finance,2022-06-07,2022.0,2022-06,180.0,0.15,True,Bengaluru,False
-Eruditus,Mumbai,India,Education,2022-06-04,2022.0,2022-06,40.0,,True,Mumbai,False
-Yojak,Gurugram,India,Construction,2022-06-02,2022.0,2022-06,140.0,0.5,True,Gurugram,False
-Udayy,Gurugram,India,Education,2022-06-01,2022.0,2022-06,100.0,1.0,True,Gurugram,False
-Mobile Premier,Bengaluru,India,Consumer,2022-05-30,2022.0,2022-05,100.0,0.1,True,Bengaluru,False
-FrontRow,Bengaluru,India,Education,2022-05-27,2022.0,2022-05,145.0,0.3,True,Bengaluru,False
-Daloopa,New Delhi,India,Data,2022-05-27,2022.0,2022-05,40.0,,True,New Delhi,False
-MFine,Bengaluru,India,Healthcare,2022-05-21,2022.0,2022-05,600.0,0.75,True,Bengaluru,False
-Cars24,Gurugram,India,Transportation,2022-05-19,2022.0,2022-05,600.0,0.06,True,Gurugram,False
-Vedantu,Bengaluru,India,Education,2022-05-18,2022.0,2022-05,424.0,0.07,True,Bengaluru,False
-Vedantu,Bengaluru,India,Education,2022-05-05,2022.0,2022-05,200.0,0.03,True,Bengaluru,False
-Meesho,Bengaluru,India,Retail,2022-04-11,2022.0,2022-04,150.0,,True,Bengaluru,False
-Unacademy,Bengaluru,India,Education,2022-04-07,2022.0,2022-04,1000.0,0.17,True,Bengaluru,False
-Sea,Bengaluru,India,Retail,2022-03-30,2022.0,2022-03,350.0,,True,Bengaluru,False
-Furlenco,Bengaluru,India,Retail,2022-03-26,2022.0,2022-03,180.0,,True,Bengaluru,False
-Trell,Bengaluru,India,Retail,2022-03-15,2022.0,2022-03,300.0,0.5,True,Bengaluru,False
-OKCredit,New Delhi,India,Finance,2022-02-24,2022.0,2022-02,30.0,,True,New Delhi,False
-Lido,Mumbai,India,Education,2022-02-21,2022.0,2022-02,150.0,,True,Mumbai,False
-Protonn,Bengaluru,India,Other,,,,2.0,1.0,True,Bengaluru,False
-Pagarbook,Bengaluru,India,HR,2021-07-26,2021.0,2021-07,80.0,,True,Bengaluru,False
-Ninjacart,Bengaluru,India,Food,2021-02-23,2021.0,2021-02,200.0,,True,Bengaluru,False
-Bounce,Bengaluru,India,Transportation,2021-02-22,2021.0,2021-02,200.0,0.4,True,Bengaluru,False
-Bytedance,Mumbai,India,Consumer,2021-01-27,2021.0,2021-01,1800.0,,True,Mumbai,False
-WhiteHat Jr,Mumbai,India,Education,2021-01-06,2021.0,2021-01,1800.0,,True,Mumbai,False
-OYO,Gurugram,India,Travel,2020-12-08,2020.0,2020-12,600.0,,True,Gurugram,False
-OLX India,New Delhi,India,Marketing,2020-10-10,2020.0,2020-10,250.0,,True,New Delhi,False
-MakeMyTrip,New Delhi,India,Travel,2020-08-31,2020.0,2020-08,350.0,0.1,True,New Delhi,False
-Swiggy,Bengaluru,India,Food,2020-07-27,2020.0,2020-07,350.0,0.05,True,Bengaluru,False
-Curefit,Bengaluru,India,Fitness,2020-07-17,2020.0,2020-07,120.0,,True,Bengaluru,False
-Bizongo,Mumbai,India,Logistics,2020-07-10,2020.0,2020-07,140.0,,True,Mumbai,False
-PaySense,Mumbai,India,Finance,2020-07-09,2020.0,2020-07,40.0,,True,Mumbai,False
-Bounce,Bengaluru,India,Transportation,2020-06-29,2020.0,2020-06,130.0,0.22,True,Bengaluru,False
-Navi,Bengaluru,India,Finance,2020-06-17,2020.0,2020-06,40.0,0.25,True,Bengaluru,False
-PaisaBazaar,Gurugram,India,Finance,2020-06-16,2020.0,2020-06,1500.0,0.5,True,Gurugram,False
-MakeMyTrip,Gurugram,India,Travel,2020-06-01,2020.0,2020-06,350.0,0.1,True,Gurugram,False
-BookMyShow,Mumbai,India,Consumer,2020-05-28,2020.0,2020-05,270.0,0.18,True,Mumbai,False
-Uber,Bengaluru,India,Transportation,2020-05-26,2020.0,2020-05,600.0,0.23,True,Bengaluru,False
-CarDekho,Gurugram,India,Transportation,2020-05-25,2020.0,2020-05,200.0,,True,Gurugram,False
-PickYourTrail,Chennai,India,Travel,2020-05-21,2020.0,2020-05,70.0,0.35,True,Chennai,False
-Ola,Bengaluru,India,Transportation,2020-05-20,2020.0,2020-05,1400.0,0.35,True,Bengaluru,False
-ShareChat,Bengaluru,India,Marketing,2020-05-20,2020.0,2020-05,101.0,0.25,True,Bengaluru,False
-Livspace,Bengaluru,India,Retail,2020-05-19,2020.0,2020-05,450.0,0.15,True,Bengaluru,False
-Swiggy,Bengaluru,India,Food,2020-05-18,2020.0,2020-05,1100.0,0.14,True,Bengaluru,False
-WeWork,New Delhi,India,Real Estate,2020-05-18,2020.0,2020-05,100.0,0.2,True,New Delhi,False
-Magicbricks,Noida,India,Real Estate,2020-05-17,2020.0,2020-05,250.0,,True,Noida,False
-Zomato,Gurugram,India,Food,2020-05-15,2020.0,2020-05,520.0,0.13,True,Gurugram,False
-Lendingkart,Ahmedabad,India,Finance,2020-05-15,2020.0,2020-05,500.0,0.5,True,Ahmedabad,False
-Curefit,Bengaluru,India,Fitness,2020-05-04,2020.0,2020-05,800.0,0.16,True,Bengaluru,False
-Flynote,Bengaluru,India,Travel,2020-05-01,2020.0,2020-05,300.0,,False,Bengaluru,True
-Swiggy,Bengaluru,India,Food,2020-04-21,2020.0,2020-04,800.0,,True,Bengaluru,False
-Paytm,New Delhi,India,Finance,2020-04-21,2020.0,2020-04,500.0,,True,New Delhi,False
-BlackBuck,Bengaluru,India,Logistics,2020-04-17,2020.0,2020-04,200.0,,True,Bengaluru,False
-CleverTap,Mumbai,India,Marketing,2020-04-16,2020.0,2020-04,60.0,0.2,True,Mumbai,False
-Shop101,Mumbai,India,Retail,2020-04-15,2020.0,2020-04,200.0,0.4,True,Mumbai,False
-Meesho,Bengaluru,India,Retail,2020-04-08,2020.0,2020-04,200.0,0.28,True,Bengaluru,False
-Shuttl,New Delhi,India,Transportation,2020-04-02,2020.0,2020-04,40.0,,True,New Delhi,False
-Instamojo,Bengaluru,India,Finance,2020-04-02,2020.0,2020-04,6.0,0.06,True,Bengaluru,False
-Capillary,Bengaluru,India,Retail,2020-04-02,2020.0,2020-04,130.0,,False,Bengaluru,True
-Acko,Mumbai,India,Finance,2020-04-01,2020.0,2020-04,45.0,0.09,True,Mumbai,False
-FabHotels,New Delhi,India,Travel,2020-03-30,2020.0,2020-03,80.0,0.2,True,New Delhi,False
-TravelTriangle,Gurugram,India,Travel,2020-03-28,2020.0,2020-03,250.0,0.5,True,Gurugram,False
-Fareportal,Gurugram,India,Travel,2020-03-26,2020.0,2020-03,200.0,,True,Gurugram,False
-Bounce,Bengaluru,India,Transportation,2020-03-19,2020.0,2020-03,120.0,,True,Bengaluru,False
+company,location,country,industry,date,year,month,total_laid_off,percentage_laid_off,has_count,is_estimated,city
+Acko,Mumbai,India,Finance,2026-04-20,2026.0,2026-04,60.0,0.05,True,False,Mumbai
+NeuroPixel.AI,Bengaluru,India,Retail,2026-04-03,2026.0,2026-04,600.0,1.0,False,True,Bengaluru
+Covrzy,Bengaluru,India,Finance,2026-03-01,2026.0,2026-03,3.0,1.0,True,False,Bengaluru
+Flipkart,Bengaluru,India,Retail,2026-03-06,2026.0,2026-03,500.0,,True,False,Bengaluru
+Livspace,Bengaluru,India,Consumer,2026-02-20,2026.0,2026-02,1000.0,0.12,True,False,Bengaluru
+Fi.Money,Bengaluru,India,Finance,,,,154.0,0.4,False,True,Bengaluru
+Zupee,New Delhi,India,Consumer,2026-01-30,2026.0,2026-01,200.0,,True,False,New Delhi
+Whatfix,Bengaluru,India,AI,2025-12-09,2025.0,2025-12,60.0,0.06,True,False,Bengaluru
+GenWise,New Delhi,India,Tech Services,2025-12-09,2025.0,2025-12,707.0,1.0,False,True,New Delhi
+Junglee Games,New Delhi,India,Consumer,2025-11-26,2025.0,2025-11,350.0,,True,False,New Delhi
+Flipkart,Bengaluru,India,Retail,2025-11-16,2025.0,2025-11,40.0,,True,False,Bengaluru
+BharatAgri,Mumbai,India,Food,2025-11-13,2025.0,2025-11,37.0,1.0,True,False,Mumbai
+GamesKraft,Bengaluru,India,Consumer,2025-11-10,2025.0,2025-11,280.0,,True,False,Bengaluru
+Porter,Bengaluru,India,Logistics,2025-11-04,2025.0,2025-11,350.0,0.18,True,False,Bengaluru
+Zepto,Mumbai,India,Retail,2025-10-18,2025.0,2025-10,300.0,0.05,True,False,Mumbai
+Simpl,Bengaluru,India,Finance,2025-10-01,2025.0,2025-10,80.0,,True,False,Bengaluru
+GamesKraft,Bengaluru,India,Consumer,2025-09-18,2025.0,2025-09,120.0,,True,False,Bengaluru
+Hike,New Delhi,India,Consumer,2025-09-03,2025.0,2025-09,927.0,1.0,False,True,New Delhi
+Zupee,New Delhi,India,Consumer,2025-09-11,2025.0,2025-09,170.0,0.3,True,False,New Delhi
+Head Digital Works,Hyderabad,India,Consumer,2025-09-04,2025.0,2025-09,500.0,,True,False,Hyderabad
+Bobble AI,New Delhi,India,Consumer,2025-09-04,2025.0,2025-09,50.0,,True,False,New Delhi
+Games 24x7,Mumbai,India,Consumer,2025-09-01,2025.0,2025-09,400.0,,True,False,Mumbai
+Mobile Premier,Bengaluru,India,Consumer,2025-09-01,2025.0,2025-09,300.0,,True,False,Bengaluru
+Krutrim,Bengaluru,India,AI,2025-09-01,2025.0,2025-09,50.0,,True,False,Bengaluru
+BeepKart,Bengaluru,India,Retail,2025-08-23,2025.0,2025-08,150.0,1.0,True,False,Bengaluru
+Clear,Bengaluru,India,Finance,2025-08-01,2025.0,2025-08,145.0,0.16,True,False,Bengaluru
+Astra,Bengaluru,India,Sales,2025-07-28,2025.0,2025-07,106.0,1.0,True,False,Bengaluru
+Krutrim,Bengaluru,India,AI,2025-07-28,2025.0,2025-07,100.0,,True,False,Bengaluru
+Ohm Mobility,Bengaluru,India,Transportation,2025-07-04,2025.0,2025-07,2.0,1.0,True,False,Bengaluru
+CodeParrot,Bengaluru,India,Product,2025-07-07,2025.0,2025-07,240.0,1.0,False,True,Bengaluru
+Blip,Bengaluru,India,Retail,2025-07-02,2025.0,2025-07,600.0,1.0,False,True,Bengaluru
+Subtl AI,Hyderabad,India,AI,2025-07-03,2025.0,2025-07,185.0,1.0,False,True,Hyderabad
+Cars24,Gurugram,India,Transportation,2025-05-27,2025.0,2025-05,120.0,,True,False,Gurugram
+Otipy,New Delhi,India,Food,2025-05-23,2025.0,2025-05,300.0,1.0,True,False,New Delhi
+VerSe Innovation,Bengaluru,India,Media,2025-05-18,2025.0,2025-05,350.0,,True,False,Bengaluru
+Games 24x7,Mumbai,India,Consumer,2025-05-07,2025.0,2025-05,180.0,,True,False,Mumbai
+GenWise,New Delhi,India,Tech Services,2025-05-05,2025.0,2025-05,15.0,0.2,True,False,New Delhi
+Log 9 Materials,Bengaluru,India,Manufacturing,2025-05-02,2025.0,2025-05,394.0,1.0,False,True,Bengaluru
+Cars24,Gurugram,India,Transportation,2025-04-26,2025.0,2025-04,200.0,,True,False,Gurugram
+Zopper,Noida,India,Finance,2025-04-17,2025.0,2025-04,100.0,,True,False,Noida
+Zomato,Gurugram,India,Food,2025-04-01,2025.0,2025-04,600.0,,True,False,Gurugram
+Ola Electric,Bengaluru,India,Transportation,2025-03-03,2025.0,2025-03,1000.0,,True,False,Bengaluru
+ANS Commerce,Gurugram,India,Retail,2025-03-02,2025.0,2025-03,600.0,1.0,False,True,Gurugram
+Pocket FM,Bengaluru,India,Media,2025-01-16,2025.0,2025-01,75.0,,True,False,Bengaluru
+ShareChat,Bengaluru,India,Marketing,2025-01-15,2025.0,2025-01,27.0,0.05,True,False,Bengaluru
+Thrive,Mumbai,India,Food,2024-12-04,2024.0,2024-12,389.0,1.0,False,True,Mumbai
+Klub,Bengaluru,India,Finance,2024-11-29,2024.0,2024-11,60.0,,True,False,Bengaluru
+Ola Electric,Bengaluru,India,Transportation,2024-11-22,2024.0,2024-11,500.0,,True,False,Bengaluru
+Kuku FM,Mumbai,India,Media,2024-11-14,2024.0,2024-11,80.0,,True,False,Mumbai
+Stoa,Bengaluru,India,Education,2024-11-02,2024.0,2024-11,400.0,1.0,False,True,Bengaluru
+Toplyne,Bengaluru,India,Sales,2024-10-01,2024.0,2024-10,950.0,1.0,False,True,Bengaluru
+BeepKart,Bengaluru,India,Retail,2024-10-08,2024.0,2024-10,130.0,0.4,True,False,Bengaluru
+Aakash,New Delhi,India,Education,2024-09-18,2024.0,2024-09,80.0,,True,False,New Delhi
+InsurStaq.ai,New Delhi,India,AI,2024-09-09,2024.0,2024-09,185.0,1.0,False,True,New Delhi
+Dozee,Bengaluru,India,Healthcare,2024-09-02,2024.0,2024-09,40.0,,True,False,Bengaluru
+Dunzo,Bengaluru,India,Food,2024-08-31,2024.0,2024-08,150.0,0.75,True,False,Bengaluru
+Kenko Health,Mumbai,India,Healthcare,2024-08-03,2024.0,2024-08,2.0,1.0,True,False,Mumbai
+ReshaMandi,Bengaluru,India,Food,,,,2.0,1.0,True,False,Bengaluru
+ShareChat,Bengaluru,India,Marketing,2024-08-03,2024.0,2024-08,30.0,0.05,True,False,Bengaluru
+Pocket FM,Bengaluru,India,Media,2024-07-27,2024.0,2024-07,200.0,,True,False,Bengaluru
+WayCool,Chennai,India,Food,2024-07-26,2024.0,2024-07,200.0,,True,False,Chennai
+Bluelearn,Bengaluru,India,Education,2024-07-02,2024.0,2024-07,2.0,1.0,True,False,Bengaluru
+Unacademy,Bengaluru,India,Education,2024-07-02,2024.0,2024-07,250.0,,True,False,Bengaluru
+Koo,Bengaluru,India,Consumer,2024-07-02,2024.0,2024-07,927.0,1.0,False,True,Bengaluru
+Paytm,Noida,India,Finance,2024-06-10,2024.0,2024-06,3500.0,,True,False,Noida
+Kissflow,Chennai,India,Tech Services,2024-06-10,2024.0,2024-06,45.0,0.11,True,False,Chennai
+Simpl,Bengaluru,India,Finance,2024-06-06,2024.0,2024-06,30.0,,True,False,Bengaluru
+PrepLadder,New Delhi,India,Education,2024-05-08,2024.0,2024-05,145.0,0.25,True,False,New Delhi
+Simpl,Bengaluru,India,Finance,2024-05-08,2024.0,2024-05,100.0,0.15,True,False,Bengaluru
+Ola,Bengaluru,India,Transportation,2024-04-29,2024.0,2024-04,180.0,0.1,True,False,Bengaluru
+HealthifyMe,Bengaluru,India,Healthcare,2024-04-27,2024.0,2024-04,150.0,0.27,True,False,Bengaluru
+The Good Glamm,New Delhi,India,Retail,2024-04-18,2024.0,2024-04,150.0,0.15,True,False,New Delhi
+Scaler,Bengaluru,India,Education,2024-04-10,2024.0,2024-04,150.0,,True,False,Bengaluru
+Bolt.Earth,Bengaluru,India,Energy,2024-04-06,2024.0,2024-04,70.0,0.4,True,False,Bengaluru
+CoRover,Bengaluru,India,AI,2024-04-03,2024.0,2024-04,22.0,,False,True,Bengaluru
+Byju's,Bengaluru,India,Education,2024-04-02,2024.0,2024-04,500.0,0.03,True,False,Bengaluru
+Airmeet,Bengaluru,India,Marketing,2024-03-09,2024.0,2024-03,80.0,0.2,False,True,Bengaluru
+Pristyn Care,Gurugram,India,Healthcare,2024-03-01,2024.0,2024-03,120.0,0.07,True,False,Gurugram
+WayCool,Chennai,India,Food,2024-02-26,2024.0,2024-02,70.0,,True,False,Chennai
+Licious,Bengaluru,India,Food,2024-02-09,2024.0,2024-02,80.0,0.03,True,False,Bengaluru
+BlissClub,Bengaluru,India,Retail,2024-02-09,2024.0,2024-02,21.0,0.18,True,False,Bengaluru
+Muvin,Bengaluru,India,Finance,2024-02-05,2024.0,2024-02,385.0,1.0,False,True,Bengaluru
+Swiggy,Bengaluru,India,Food,2024-01-25,2024.0,2024-01,400.0,0.07,True,False,Bengaluru
+Cult.fit,Bengaluru,India,Fitness,2024-01-24,2024.0,2024-01,100.0,,True,False,Bengaluru
+Cure.fit,Bengaluru,India,Fitness,2024-01-23,2024.0,2024-01,120.0,,True,False,Bengaluru
+Inmobi,Bengaluru,India,Marketing,2024-01-11,2024.0,2024-01,125.0,0.05,True,False,Bengaluru
+Flipkart,Bengaluru,India,Retail,2024-01-08,2024.0,2024-01,1100.0,0.05,True,False,Bengaluru
+Bolt.Earth,Bengaluru,India,Energy,2023-12-09,2023.0,2023-12,2.0,0.2,True,False,Bengaluru
+Paytm,Noida,India,Finance,2023-12-25,2023.0,2023-12,1000.0,,True,False,Noida
+ShareChat,Bengaluru,India,Consumer,2023-12-20,2023.0,2023-12,200.0,0.15,True,False,Bengaluru
+Udaan,Bengaluru,India,Retail,2023-12-18,2023.0,2023-12,100.0,0.1,True,False,Bengaluru
+Simplilearn,Bengaluru,India,Education,2023-12-07,2023.0,2023-12,200.0,,True,False,Bengaluru
+ZestMoney,Bengaluru,India,Finance,2023-12-05,2023.0,2023-12,150.0,1.0,True,False,Bengaluru
+Loco,Mumbai,India,Consumer,2023-11-30,2023.0,2023-11,40.0,0.36,True,False,Mumbai
+Anar,Mumbai,India,Marketing,2023-11-05,2023.0,2023-11,2.0,1.0,True,False,Mumbai
+Jodo,Bengaluru,India,Finance,2023-11-20,2023.0,2023-11,100.0,,True,False,Bengaluru
+Physics Wallah,Noida,India,Education,2023-11-19,2023.0,2023-11,120.0,0.01,True,False,Noida
+OSlash,Bengaluru,India,Tech Services,2023-11-09,2023.0,2023-11,707.0,1.0,False,True,Bengaluru
+Graphy,Bengaluru,India,Education,2023-10-26,2023.0,2023-10,50.0,0.2,True,False,Bengaluru
+Virgio,Bengaluru,India,Retail,2023-10-25,2023.0,2023-10,20.0,0.33,True,False,Bengaluru
+Belora Paris,Gurugram,India,Retail,2023-10-08,2023.0,2023-10,600.0,1.0,False,True,Gurugram
+CityMall,Gurugram,India,Retail,2023-10-16,2023.0,2023-10,90.0,,True,False,Gurugram
+Adda247,Gurugram,India,Education,2023-10-14,2023.0,2023-10,300.0,,True,False,Gurugram
+Bizongo,Mumbai,India,Retail,2023-10-05,2023.0,2023-10,50.0,,True,False,Mumbai
+Fi.Money,Bengaluru,India,Finance,2023-09-27,2023.0,2023-09,30.0,0.1,True,False,Bengaluru
+Dunzo,Bengaluru,India,Food,2023-09-26,2023.0,2023-09,150.0,0.3,True,False,Bengaluru
+DealShare,Bengaluru,India,Retail,2023-09-21,2023.0,2023-09,130.0,,True,False,Bengaluru
+Akudo,Bengaluru,India,Finance,,,,2.0,1.0,True,False,Bengaluru
+Velocity,Bengaluru,India,Finance,2023-09-05,2023.0,2023-09,54.0,0.14,False,True,Bengaluru
+Khatabook,Bengaluru,India,Finance,2023-09-01,2023.0,2023-09,42.0,,True,False,Bengaluru
+Omuni,Bengaluru,India,Retail,2023-08-30,2023.0,2023-08,60.0,0.35,True,False,Bengaluru
+Kenko Health,Mumbai,India,Healthcare,2023-08-30,2023.0,2023-08,50.0,0.2,True,False,Mumbai
+Kenko Health,Mumbai,India,Healthcare,2023-08-29,2023.0,2023-08,50.0,0.2,True,False,Mumbai
+CoinSwitch,Bengaluru,India,Crypto,2023-08-28,2023.0,2023-08,44.0,,True,False,Bengaluru
+Cuemath,Bengaluru,India,Education,2023-08-26,2023.0,2023-08,100.0,,True,False,Bengaluru
+Chingari,Bengaluru,India,Media,2023-08-04,2023.0,2023-08,2.0,0.5,True,False,Bengaluru
+CoinDCX,Mumbai,India,Crypto,2023-08-02,2023.0,2023-08,2.0,0.12,True,False,Mumbai
+Times Internet,Gurugram,India,Media,2023-08-18,2023.0,2023-08,100.0,0.05,True,False,Gurugram
+Hike,New Delhi,India,Consumer,2023-08-10,2023.0,2023-08,55.0,,True,False,New Delhi
+Quizy,Gurugram,India,Consumer,2023-08-09,2023.0,2023-08,927.0,1.0,False,True,Gurugram
+MPL,Bengaluru,India,Consumer,2023-08-08,2023.0,2023-08,350.0,,True,False,Bengaluru
+Spinny,Gurugram,India,Transportation,2023-08-02,2023.0,2023-08,300.0,0.05,True,False,Gurugram
+Tekion,Bengaluru,India,Tech Services,2023-08-02,2023.0,2023-08,300.0,0.1,True,False,Bengaluru
+FamPay,Bengaluru,India,Finance,2023-08-02,2023.0,2023-08,18.0,,True,False,Bengaluru
+Actyv.ai,Bengaluru,India,Finance,2023-08-02,2023.0,2023-08,231.0,0.6,False,True,Bengaluru
+ConnectedH,Gurugram,India,Healthcare,2023-08-02,2023.0,2023-08,300.0,1.0,False,True,Gurugram
+Increff,Bengaluru,India,Retail,2023-08-01,2023.0,2023-08,120.0,0.2,False,True,Bengaluru
+Milkbasket,Gurugram,India,Food,2023-07-27,2023.0,2023-07,400.0,0.67,True,False,Gurugram
+Myntra,Bengaluru,India,Retail,2023-07-26,2023.0,2023-07,50.0,,True,False,Bengaluru
+Dunzo,Bengaluru,India,Food,,,,2.0,,True,False,Bengaluru
+Saarthi.ai,Bengaluru,India,Support,,,,2.0,,True,False,Bengaluru
+Navi Technologies,Bengaluru,India,Finance,2023-07-13,2023.0,2023-07,200.0,,True,False,Bengaluru
+Skill Lync,Chennai,India,Education,2023-07-13,2023.0,2023-07,200.0,,True,False,Chennai
+WayCool,Chennai,India,Food,2023-07-11,2023.0,2023-07,300.0,0.12,True,False,Chennai
+Dukaan,Bengaluru,India,Retail,2023-07-01,2023.0,2023-07,79.0,,False,True,Bengaluru
+FrontRow,Bengaluru,India,Education,,,,400.0,1.0,False,True,Bengaluru
+Xiaomi India,Bengaluru,India,Tech Services,2023-06-29,2023.0,2023-06,30.0,,True,False,Bengaluru
+Qyuki,Bengaluru,India,Tech Services,2023-06-09,2023.0,2023-06,2.0,0.3,True,False,Bengaluru
+Chingari,Bengaluru,India,Media,2023-06-19,2023.0,2023-06,48.0,0.2,True,False,Bengaluru
+Mojocare,Bengaluru,India,Healthcare,2023-06-17,2023.0,2023-06,170.0,0.8,True,False,Bengaluru
+FrontRow,Bengaluru,India,Education,2023-06-05,2023.0,2023-06,360.0,0.9,False,True,Bengaluru
+Mamaearth,Gurugram,India,Retail,2023-06-14,2023.0,2023-06,80.0,,True,False,Gurugram
+Byju's,Bengaluru,India,Education,2023-06-07,2023.0,2023-06,1000.0,,True,False,Bengaluru
+Glamyo Health,New Delhi,India,Healthcare,2023-06-01,2023.0,2023-06,160.0,,True,False,New Delhi
+Mensa Brands,Bengaluru,India,Retail,2023-05-30,2023.0,2023-05,30.0,,True,False,Bengaluru
+Airmeet,Bengaluru,India,Marketing,2023-05-25,2023.0,2023-05,75.0,0.3,True,False,Bengaluru
+Reliance JioMart,Mumbai,India,Food,2023-05-23,2023.0,2023-05,1000.0,,True,False,Mumbai
+Happay,Bengaluru,India,Finance,2023-05-12,2023.0,2023-05,160.0,0.35,True,False,Bengaluru
+Toothsi,Mumbai,India,Healthcare,2023-05-12,2023.0,2023-05,20.0,,True,False,Mumbai
+Cuemath,Bengaluru,India,Education,2023-05-08,2023.0,2023-05,100.0,,True,False,Bengaluru
+Meesho,Bengaluru,India,Retail,2023-05-05,2023.0,2023-05,251.0,0.15,True,False,Bengaluru
+Teachmint,Bengaluru,India,Education,2023-05-05,2023.0,2023-05,70.0,,True,False,Bengaluru
+PharmEasy,Mumbai,India,Healthcare,2023-05-01,2023.0,2023-05,63.0,,False,True,Mumbai
+Vah Vah!,Bengaluru,India,Education,2023-04-30,2023.0,2023-04,150.0,,True,False,Bengaluru
+Cogito,New Delhi,India,Data,2023-04-29,2023.0,2023-04,177.0,,True,False,New Delhi
+Tickertape,Bengaluru,India,Finance,2023-04-27,2023.0,2023-04,29.0,0.29,True,False,Bengaluru
+Extramarks,Noida,India,Education,2023-04-26,2023.0,2023-04,300.0,,True,False,Noida
+Skill Lync,Chennai,India,Education,2023-04-25,2023.0,2023-04,400.0,,True,False,Chennai
+Koo,Bengaluru,India,Consumer,2023-04-20,2023.0,2023-04,78.0,0.3,True,False,Bengaluru
+Open,Bengaluru,India,Finance,2023-04-20,2023.0,2023-04,47.0,,True,False,Bengaluru
+FamPay,Bengaluru,India,Finance,2023-04-07,2023.0,2023-04,60.0,,False,True,Bengaluru
+Bluepad,Bengaluru,India,Media,2023-04-03,2023.0,2023-04,273.0,1.0,False,True,Bengaluru
+Euler Motors,New Delhi,India,Transportation,2023-04-01,2023.0,2023-04,60.0,0.1,False,True,New Delhi
+Simpl,Bengaluru,India,Finance,2023-04-09,2023.0,2023-04,150.0,0.25,True,False,Bengaluru
+Practo,Bengaluru,India,Healthcare,2023-04-08,2023.0,2023-04,41.0,,True,False,Bengaluru
+ZestMoney,Bengaluru,India,Finance,2023-04-07,2023.0,2023-04,100.0,0.2,True,False,Bengaluru
+Dunzo,Bengaluru,India,Food,2023-04-05,2023.0,2023-04,300.0,0.3,True,False,Bengaluru
+1K Kirana,Gurugram,India,Retail,2023-04-04,2023.0,2023-04,600.0,0.4,True,False,Gurugram
+FanClash,Gurugram,India,Consumer,2023-03-30,2023.0,2023-03,100.0,0.75,True,False,Gurugram
+Unacademy,Bengaluru,India,Education,,,,3.0,0.12,True,False,Bengaluru
+Smallcase,Bengaluru,India,Finance,2023-03-21,2023.0,2023-03,15.0,0.04,True,False,Bengaluru
+Livspace,Bengaluru,India,Retail,2023-03-17,2023.0,2023-03,100.0,0.02,True,False,Bengaluru
+Dukaan,Bengaluru,India,Retail,2023-03-15,2023.0,2023-03,56.0,0.3,True,False,Bengaluru
+Pristyn Care,Gurugram,India,Healthcare,2023-03-07,2023.0,2023-03,300.0,0.15,True,False,Gurugram
+UpGrad,Mumbai,India,Education,2023-03-06,2023.0,2023-03,120.0,,True,False,Mumbai
+HomeLane,Bengaluru,India,Retail,2023-03-06,2023.0,2023-03,30.0,,True,False,Bengaluru
+Flipkart,Bengaluru,India,Retail,2023-03-02,2023.0,2023-03,79.0,,False,True,Bengaluru
+DUX Education,Bengaluru,India,Education,2023-02-08,2023.0,2023-02,2.0,1.0,True,False,Bengaluru
+SAP Labs,Bengaluru,India,Tech Services,2023-02-24,2023.0,2023-02,300.0,,True,False,Bengaluru
+Polygon,Bengaluru,India,Crypto,2023-02-21,2023.0,2023-02,100.0,0.2,True,False,Bengaluru
+MyGate,Bengaluru,India,Tech Services,2023-02-20,2023.0,2023-02,200.0,0.3,True,False,Bengaluru
+Fipola,Chennai,India,Food,,,,2.0,1.0,True,False,Chennai
+PhableCare,Bengaluru,India,Healthcare,2023-02-04,2023.0,2023-02,210.0,0.7,False,True,Bengaluru
+TikTok India,Mumbai,India,Consumer,2023-02-10,2023.0,2023-02,40.0,,True,False,Mumbai
+WeTrade,Bengaluru,India,Crypto,2023-02-09,2023.0,2023-02,271.0,1.0,False,True,Bengaluru
+Pocket Aces,Mumbai,India,Media,2023-02-06,2023.0,2023-02,50.0,0.25,True,False,Mumbai
+FarEye,New Delhi,India,Logistics,2023-02-03,2023.0,2023-02,90.0,,True,False,New Delhi
+Byju's,Bengaluru,India,Education,2023-02-02,2023.0,2023-02,1500.0,,True,False,Bengaluru
+DealShare,Bengaluru,India,Retail,2023-01-27,2023.0,2023-01,100.0,0.06,True,False,Bengaluru
+Inmobi,Bengaluru,India,Marketing,2023-01-23,2023.0,2023-01,50.0,,True,False,Bengaluru
+Camp K12,Gurugram,India,Education,2023-01-03,2023.0,2023-01,2.0,0.7,True,False,Gurugram
+Swiggy,Bengaluru,India,Food,2023-01-20,2023.0,2023-01,380.0,0.06,True,False,Bengaluru
+MediBuddy,Bengaluru,India,Healthcare,2023-01-20,2023.0,2023-01,200.0,0.08,True,False,Bengaluru
+Exotel,Bengaluru,India,Support,2023-01-17,2023.0,2023-01,142.0,0.15,True,False,Bengaluru
+GoMechanic,Gurugram,India,Transportation,2023-01-07,2023.0,2023-01,420.0,0.7,False,True,Gurugram
+ShareChat,Bengaluru,India,Consumer,2023-01-16,2023.0,2023-01,500.0,0.2,True,False,Bengaluru
+Dunzo,Bengaluru,India,Food,2023-01-06,2023.0,2023-01,12.0,0.03,False,True,Bengaluru
+Rebel Foods,Mumbai,India,Food,2023-01-06,2023.0,2023-01,8.0,0.02,False,True,Mumbai
+Captain Fresh,Bengaluru,India,Food,2023-01-15,2023.0,2023-01,120.0,,True,False,Bengaluru
+BharatAgri,Mumbai,India,Food,2023-01-15,2023.0,2023-01,40.0,0.43,True,False,Mumbai
+Ola,Bengaluru,India,Transportation,2023-01-13,2023.0,2023-01,200.0,,True,False,Bengaluru
+Skit.ai,Bengaluru,India,Support,2023-01-12,2023.0,2023-01,115.0,,True,False,Bengaluru
+Cashfree Payments,Bengaluru,India,Finance,2023-01-12,2023.0,2023-01,100.0,,True,False,Bengaluru
+CoinDCX,Mumbai,India,Crypto,2023-01-11,2023.0,2023-01,80.0,,True,False,Mumbai
+LEAD,Mumbai,India,Education,2023-01-10,2023.0,2023-01,60.0,,True,False,Mumbai
+Relevel,Bengaluru,India,HR,2023-01-10,2023.0,2023-01,40.0,0.2,True,False,Bengaluru
+Bounce,Bengaluru,India,Transportation,2023-01-06,2023.0,2023-01,40.0,0.05,True,False,Bengaluru
+UpScalio,Gurugram,India,Retail,2023-01-05,2023.0,2023-01,25.0,0.15,True,False,Gurugram
+Harappa,New Delhi,India,Education,2023-01-03,2023.0,2023-01,60.0,0.3,True,False,New Delhi
+PharmEasy,Mumbai,India,Healthcare,,,,63.0,,False,True,Mumbai
+Swiggy,Bengaluru,India,Food,2022-12-08,2022.0,2022-12,250.0,0.03,True,False,Bengaluru
+Vedantu,Bengaluru,India,Education,2022-12-07,2022.0,2022-12,385.0,,True,False,Bengaluru
+OYO,Gurugram,India,Travel,2022-12-03,2022.0,2022-12,600.0,,True,False,Gurugram
+HealthifyMe,Bengaluru,India,Fitness,2022-12-03,2022.0,2022-12,150.0,,True,False,Bengaluru
+ShareChat,Bengaluru,India,Consumer,2022-12-02,2022.0,2022-12,100.0,,True,False,Bengaluru
+Teachmint,Bengaluru,India,Education,2022-11-30,2022.0,2022-11,45.0,0.05,True,False,Bengaluru
+Hirect,Bengaluru,India,Recruiting,2022-11-28,2022.0,2022-11,200.0,0.4,True,False,Bengaluru
+VerSe Innovation,Bengaluru,India,Media,2022-11-25,2022.0,2022-11,150.0,0.05,True,False,Bengaluru
+Zomato,Gurugram,India,Food,2022-11-19,2022.0,2022-11,100.0,0.04,True,False,Gurugram
+Plum,Bengaluru,India,Healthcare,2022-11-09,2022.0,2022-11,36.0,0.1,True,False,Bengaluru
+HighRadius,Bengaluru,India,Finance,2022-11-09,2022.0,2022-11,25.0,,True,False,Bengaluru
+Unacademy,Bengaluru,India,Education,2022-11-07,2022.0,2022-11,350.0,0.1,True,False,Bengaluru
+Practically,Hyderabad,India,Education,2022-11-06,2022.0,2022-11,80.0,,False,True,Hyderabad
+Udaan,Bengaluru,India,Retail,2022-11-04,2022.0,2022-11,350.0,,True,False,Bengaluru
+Dukaan,Bengaluru,India,Retail,2022-10-31,2022.0,2022-10,23.0,,True,False,Bengaluru
+Doubtnut,Gurugram,India,Education,2022-10-01,2022.0,2022-10,3.0,0.3,True,False,Gurugram
+GoNuts,Mumbai,India,Media,2022-10-07,2022.0,2022-10,2.0,1.0,True,False,Mumbai
+Synapsica,New Delhi,India,Healthcare,2022-10-21,2022.0,2022-10,30.0,0.3,True,False,New Delhi
+Qin1,Noida,India,Education,2022-10-04,2022.0,2022-10,400.0,1.0,False,True,Noida
+Byju's,Bengaluru,India,Education,2022-10-12,2022.0,2022-10,2500.0,0.05,True,False,Bengaluru
+FrontRow,Bengaluru,India,Education,2022-10-12,2022.0,2022-10,130.0,0.75,True,False,Bengaluru
+WazirX,Mumbai,India,Crypto,2022-10-02,2022.0,2022-10,60.0,0.4,True,False,Mumbai
+Ola,Bengaluru,India,Transportation,2022-09-19,2022.0,2022-09,200.0,,True,False,Bengaluru
+Clear,Bengaluru,India,Finance,2022-09-16,2022.0,2022-09,190.0,0.2,True,False,Bengaluru
+Lido Learning,Mumbai,India,Education,2022-09-09,2022.0,2022-09,400.0,1.0,False,True,Mumbai
+Rupeek,Bengaluru,India,Finance,2022-09-07,2022.0,2022-09,50.0,,True,False,Bengaluru
+Koo,Bengaluru,India,Consumer,2022-08-31,2022.0,2022-08,40.0,,True,False,Bengaluru
+Meesho,Bengaluru,India,Retail,2022-08-29,2022.0,2022-08,300.0,,True,False,Bengaluru
+ShopX,Bengaluru,India,Retail,2022-08-02,2022.0,2022-08,2.0,1.0,True,False,Bengaluru
+LEAD,Mumbai,India,Education,2022-08-04,2022.0,2022-08,80.0,0.04,True,False,Mumbai
+CarDekho,Gurugram,India,Transportation,2022-08-03,2022.0,2022-08,100.0,,False,True,Gurugram
+Vedantu,Bengaluru,India,Education,2022-08-02,2022.0,2022-08,100.0,,True,False,Bengaluru
+DeHaat,Gurugram,India,Food,2022-08-01,2022.0,2022-08,87.0,,False,True,Gurugram
+Ola,Bengaluru,India,Transportation,2022-07-29,2022.0,2022-07,1000.0,,True,False,Bengaluru
+Bikayi,Bengaluru,India,Retail,2022-07-08,2022.0,2022-07,2.0,,True,False,Bengaluru
+Bright Money,Bengaluru,India,Finance,2022-07-15,2022.0,2022-07,100.0,0.5,True,False,Bengaluru
+Fraazo,Mumbai,India,Food,2022-07-12,2022.0,2022-07,150.0,,True,False,Mumbai
+Crejo.Fun,Bengaluru,India,Education,2022-06-30,2022.0,2022-06,170.0,1.0,True,False,Bengaluru
+Toppr,Mumbai,India,Education,2022-06-29,2022.0,2022-06,350.0,,True,False,Mumbai
+Oye Rickshaw,New Delhi,India,Transportation,2022-06-29,2022.0,2022-06,40.0,0.2,True,False,New Delhi
+WhiteHat Jr,Mumbai,India,Education,2022-06-28,2022.0,2022-06,300.0,,True,False,Mumbai
+Nova Benefits,Bengaluru,India,Healthcare,2022-06-08,2022.0,2022-06,2.0,0.3,True,False,Bengaluru
+Udaan,Bengaluru,India,Retail,2022-06-27,2022.0,2022-06,180.0,0.04,True,False,Bengaluru
+SuperLearn,Bengaluru,India,Education,2022-06-01,2022.0,2022-06,2.0,1.0,True,False,Bengaluru
+Aqgromalin,Chennai,India,Food,2022-06-20,2022.0,2022-06,80.0,0.3,True,False,Chennai
+CityMall,Gurugram,India,Retail,2022-06-19,2022.0,2022-06,191.0,0.3,True,False,Gurugram
+Unacademy,Bengaluru,India,Education,2022-06-18,2022.0,2022-06,150.0,0.03,True,False,Bengaluru
+PharmEasy,Mumbai,India,Healthcare,2022-06-16,2022.0,2022-06,40.0,,True,False,Mumbai
+Breathe,New Delhi,India,Healthcare,2022-06-14,2022.0,2022-06,50.0,0.33,True,False,New Delhi
+FarEye,New Delhi,India,Logistics,2022-06-10,2022.0,2022-06,250.0,0.3,True,False,New Delhi
+Rupeek,Bengaluru,India,Finance,2022-06-07,2022.0,2022-06,180.0,0.15,True,False,Bengaluru
+Eruditus,Mumbai,India,Education,2022-06-04,2022.0,2022-06,40.0,,True,False,Mumbai
+Yojak,Gurugram,India,Construction,2022-06-02,2022.0,2022-06,140.0,0.5,True,False,Gurugram
+Udayy,Gurugram,India,Education,2022-06-01,2022.0,2022-06,100.0,1.0,True,False,Gurugram
+Mobile Premier,Bengaluru,India,Consumer,2022-05-30,2022.0,2022-05,100.0,0.1,True,False,Bengaluru
+FrontRow,Bengaluru,India,Education,2022-05-27,2022.0,2022-05,145.0,0.3,True,False,Bengaluru
+Daloopa,New Delhi,India,Data,2022-05-27,2022.0,2022-05,40.0,,True,False,New Delhi
+MFine,Bengaluru,India,Healthcare,2022-05-21,2022.0,2022-05,600.0,0.75,True,False,Bengaluru
+Cars24,Gurugram,India,Transportation,2022-05-19,2022.0,2022-05,600.0,0.06,True,False,Gurugram
+Vedantu,Bengaluru,India,Education,2022-05-18,2022.0,2022-05,424.0,0.07,True,False,Bengaluru
+Vedantu,Bengaluru,India,Education,2022-05-05,2022.0,2022-05,200.0,0.03,True,False,Bengaluru
+Meesho,Bengaluru,India,Retail,2022-04-11,2022.0,2022-04,150.0,,True,False,Bengaluru
+Unacademy,Bengaluru,India,Education,2022-04-07,2022.0,2022-04,1000.0,0.17,True,False,Bengaluru
+Sea,Bengaluru,India,Retail,2022-03-30,2022.0,2022-03,350.0,,True,False,Bengaluru
+Furlenco,Bengaluru,India,Retail,2022-03-26,2022.0,2022-03,180.0,,True,False,Bengaluru
+Trell,Bengaluru,India,Retail,2022-03-15,2022.0,2022-03,300.0,0.5,True,False,Bengaluru
+OKCredit,New Delhi,India,Finance,2022-02-24,2022.0,2022-02,30.0,,True,False,New Delhi
+Lido,Mumbai,India,Education,2022-02-21,2022.0,2022-02,150.0,,True,False,Mumbai
+Protonn,Bengaluru,India,Tech Services,,,,2.0,1.0,True,False,Bengaluru
+Pagarbook,Bengaluru,India,HR,2021-07-26,2021.0,2021-07,80.0,,True,False,Bengaluru
+Ninjacart,Bengaluru,India,Food,2021-02-23,2021.0,2021-02,200.0,,True,False,Bengaluru
+Bounce,Bengaluru,India,Transportation,2021-02-22,2021.0,2021-02,200.0,0.4,True,False,Bengaluru
+Bytedance,Mumbai,India,Consumer,2021-01-27,2021.0,2021-01,1800.0,,True,False,Mumbai
+WhiteHat Jr,Mumbai,India,Education,2021-01-06,2021.0,2021-01,1800.0,,True,False,Mumbai
+OYO,Gurugram,India,Travel,2020-12-08,2020.0,2020-12,600.0,,True,False,Gurugram
+OLX India,New Delhi,India,Marketing,2020-10-10,2020.0,2020-10,250.0,,True,False,New Delhi
+MakeMyTrip,New Delhi,India,Travel,2020-08-31,2020.0,2020-08,350.0,0.1,True,False,New Delhi
+Swiggy,Bengaluru,India,Food,2020-07-27,2020.0,2020-07,350.0,0.05,True,False,Bengaluru
+Curefit,Bengaluru,India,Fitness,2020-07-17,2020.0,2020-07,120.0,,True,False,Bengaluru
+Bizongo,Mumbai,India,Logistics,2020-07-10,2020.0,2020-07,140.0,,True,False,Mumbai
+PaySense,Mumbai,India,Finance,2020-07-09,2020.0,2020-07,40.0,,True,False,Mumbai
+Bounce,Bengaluru,India,Transportation,2020-06-29,2020.0,2020-06,130.0,0.22,True,False,Bengaluru
+Navi,Bengaluru,India,Finance,2020-06-17,2020.0,2020-06,40.0,0.25,True,False,Bengaluru
+PaisaBazaar,Gurugram,India,Finance,2020-06-16,2020.0,2020-06,1500.0,0.5,True,False,Gurugram
+MakeMyTrip,Gurugram,India,Travel,2020-06-01,2020.0,2020-06,350.0,0.1,True,False,Gurugram
+BookMyShow,Mumbai,India,Consumer,2020-05-28,2020.0,2020-05,270.0,0.18,True,False,Mumbai
+Uber,Bengaluru,India,Transportation,2020-05-26,2020.0,2020-05,600.0,0.23,True,False,Bengaluru
+CarDekho,Gurugram,India,Transportation,2020-05-25,2020.0,2020-05,200.0,,True,False,Gurugram
+PickYourTrail,Chennai,India,Travel,2020-05-21,2020.0,2020-05,70.0,0.35,True,False,Chennai
+Ola,Bengaluru,India,Transportation,2020-05-20,2020.0,2020-05,1400.0,0.35,True,False,Bengaluru
+ShareChat,Bengaluru,India,Marketing,2020-05-20,2020.0,2020-05,101.0,0.25,True,False,Bengaluru
+Livspace,Bengaluru,India,Retail,2020-05-19,2020.0,2020-05,450.0,0.15,True,False,Bengaluru
+Swiggy,Bengaluru,India,Food,2020-05-18,2020.0,2020-05,1100.0,0.14,True,False,Bengaluru
+WeWork,New Delhi,India,Real Estate,2020-05-18,2020.0,2020-05,100.0,0.2,True,False,New Delhi
+Magicbricks,Noida,India,Real Estate,2020-05-17,2020.0,2020-05,250.0,,True,False,Noida
+Zomato,Gurugram,India,Food,2020-05-15,2020.0,2020-05,520.0,0.13,True,False,Gurugram
+Curefit,Bengaluru,India,Fitness,2020-05-04,2020.0,2020-05,800.0,0.16,True,False,Bengaluru
+Flynote,Bengaluru,India,Travel,2020-05-01,2020.0,2020-05,85.0,,False,True,Bengaluru
+Swiggy,Bengaluru,India,Food,2020-04-21,2020.0,2020-04,800.0,,True,False,Bengaluru
+Paytm,New Delhi,India,Finance,2020-04-21,2020.0,2020-04,500.0,,True,False,New Delhi
+BlackBuck,Bengaluru,India,Logistics,2020-04-17,2020.0,2020-04,200.0,,True,False,Bengaluru
+CleverTap,Mumbai,India,Marketing,2020-04-16,2020.0,2020-04,60.0,0.2,True,False,Mumbai
+Shop101,Mumbai,India,Retail,2020-04-15,2020.0,2020-04,200.0,0.4,True,False,Mumbai
+Meesho,Bengaluru,India,Retail,2020-04-08,2020.0,2020-04,200.0,0.28,True,False,Bengaluru
+Shuttl,New Delhi,India,Transportation,2020-04-02,2020.0,2020-04,40.0,,True,False,New Delhi
+Instamojo,Bengaluru,India,Finance,2020-04-02,2020.0,2020-04,6.0,0.06,True,False,Bengaluru
+Capillary,Bengaluru,India,Retail,2020-04-02,2020.0,2020-04,79.0,,False,True,Bengaluru
+Acko,Mumbai,India,Finance,2020-04-01,2020.0,2020-04,45.0,0.09,True,False,Mumbai
+FabHotels,New Delhi,India,Travel,2020-03-30,2020.0,2020-03,80.0,0.2,True,False,New Delhi
+TravelTriangle,Gurugram,India,Travel,2020-03-28,2020.0,2020-03,250.0,0.5,True,False,Gurugram
+Fareportal,Gurugram,India,Travel,2020-03-26,2020.0,2020-03,200.0,,True,False,Gurugram
+Bounce,Bengaluru,India,Transportation,2020-03-19,2020.0,2020-03,120.0,,True,False,Bengaluru
