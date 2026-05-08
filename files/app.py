@@ -1,0 +1,504 @@
+"""
+app.py  –  Navigating the Shift:
+           Global and India-Centric Visual Analytics of Tech Layoffs
+
+Run:
+    pip install streamlit plotly pandas numpy
+    python generate_data.py        # first time only
+    streamlit run app.py
+"""
+
+import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+
+# ── page config ───────────────────────────────────────────────────────────────
+st.set_page_config(
+    page_title="Tech Layoffs Analytics",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+# ── custom CSS ────────────────────────────────────────────────────────────────
+st.markdown("""
+<style>
+  [data-testid="stSidebar"] { background: #0f172a; }
+  [data-testid="stSidebar"] * { color: #e2e8f0 !important; }
+  .metric-card {
+      background: #1e293b; border-radius: 12px; padding: 18px 22px;
+      border-left: 4px solid #6366f1; margin-bottom: 8px;
+  }
+  .metric-card h2 { color: #818cf8; font-size: 2rem; margin: 0; }
+  .metric-card p  { color: #94a3b8; margin: 0; font-size: 0.85rem; }
+  .section-title  { color: #6366f1; font-size: 1.1rem; font-weight: 700;
+                    letter-spacing: 0.05em; margin-top: 8px; }
+  div[data-testid="stTabs"] button { font-weight: 600; }
+</style>
+""", unsafe_allow_html=True)
+
+# ── data loading ──────────────────────────────────────────────────────────────
+@st.cache_data
+def load_data():
+    global_df = pd.read_csv("data/layoffs_global.csv", parse_dates=["date"])
+    india_df  = pd.read_csv("data/layoffs_india.csv",  parse_dates=["date"])
+    global_df["year"]  = global_df["date"].dt.year
+    global_df["month"] = global_df["date"].dt.to_period("M").astype(str)
+    india_df["year"]   = india_df["date"].dt.year
+    india_df["month"]  = india_df["date"].dt.to_period("M").astype(str)
+    return global_df, india_df
+
+global_df, india_df = load_data()
+
+# ── sidebar controls ──────────────────────────────────────────────────────────
+with st.sidebar:
+    st.markdown("## 🎛️ Filters")
+
+    year_range = st.slider(
+        "Year Range",
+        min_value=2020, max_value=2026,
+        value=(2020, 2026), step=1
+    )
+
+    all_industries = sorted(global_df["industry"].dropna().unique())
+    sel_industries = st.multiselect(
+        "Industries", all_industries, default=all_industries
+    )
+
+    all_stages = sorted(global_df["stage"].dropna().unique())
+    sel_stages = st.multiselect(
+        "Funding Stage", all_stages, default=all_stages
+    )
+
+    st.markdown("---")
+    st.markdown("## 🔍 Comparison Mode")
+    compare_type = st.radio("Compare by", ["Companies", "Cities"])
+    if compare_type == "Companies":
+        opts = sorted(global_df["company"].unique())
+        item_a = st.selectbox("Entity A", opts, index=opts.index("Google") if "Google" in opts else 0)
+        item_b = st.selectbox("Entity B", opts, index=opts.index("Amazon") if "Amazon" in opts else 1)
+    else:
+        city_opts = sorted(india_df["city"].unique())
+        item_a = st.selectbox("City A", city_opts, index=0)
+        item_b = st.selectbox("City B", city_opts, index=1)
+
+    st.markdown("---")
+    st.caption("Data: Kaggle (Swaptr) · layoffs.fyi · Indian Layoffs Tracker")
+    st.caption("IIT Delhi — Entry 2025EEY7601")
+
+# ── filtering ─────────────────────────────────────────────────────────────────
+def apply_filters(df, year_col="year"):
+    mask = (
+        df[year_col].between(*year_range) &
+        df["industry"].isin(sel_industries) &
+        df["stage"].isin(sel_stages)
+    )
+    return df[mask].copy()
+
+gdf = apply_filters(global_df)
+idf = apply_filters(india_df)
+
+# ── KPI metrics ───────────────────────────────────────────────────────────────
+total_global = int(gdf["total_laid_off"].sum(skipna=True))
+total_india  = int(idf["total_laid_off"].sum(skipna=True))
+num_companies = gdf["company"].nunique()
+peak_year = (
+    gdf.groupby("year")["total_laid_off"].sum().idxmax()
+    if not gdf.empty else "N/A"
+)
+
+st.markdown(
+    "<h1 style='color:#6366f1;margin-bottom:0'>📊 Navigating the Shift</h1>"
+    "<p style='color:#94a3b8;margin-top:4px'>Global & India-Centric Visual Analytics of Tech Layoffs</p>",
+    unsafe_allow_html=True,
+)
+
+c1, c2, c3, c4 = st.columns(4)
+for col, val, label in [
+    (c1, f"{total_global:,}", "Global Layoffs"),
+    (c2, f"{total_india:,}", "India Layoffs"),
+    (c3, str(num_companies), "Companies Affected"),
+    (c4, str(peak_year), "Peak Year"),
+]:
+    col.markdown(
+        f"<div class='metric-card'><h2>{val}</h2><p>{label}</p></div>",
+        unsafe_allow_html=True,
+    )
+
+st.divider()
+
+# ── tabs ──────────────────────────────────────────────────────────────────────
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
+    "🌍 Global Map",
+    "🇮🇳 India Hub",
+    "🏭 Industry Breakdown",
+    "📅 Temporal Trends",
+    "⚖️ Comparison Mode",
+])
+
+# ── TAB 1: Global Choropleth ──────────────────────────────────────────────────
+with tab1:
+    st.markdown("<div class='section-title'>GLOBAL LAYOFF INTENSITY MAP</div>", unsafe_allow_html=True)
+
+    country_agg = (
+        gdf.groupby("country")["total_laid_off"]
+        .sum().reset_index()
+        .rename(columns={"total_laid_off": "Layoffs"})
+    )
+
+    fig_choro = px.choropleth(
+        country_agg,
+        locations="country",
+        locationmode="country names",
+        color="Layoffs",
+        color_continuous_scale="Reds",
+        hover_name="country",
+        hover_data={"Layoffs": ":,"},
+        title="Total Layoffs by Country",
+        template="plotly_dark",
+    )
+    fig_choro.update_layout(
+        geo=dict(showframe=False, showcoastlines=True, projection_type="natural earth"),
+        height=500,
+        margin=dict(l=0, r=0, t=40, b=0),
+        paper_bgcolor="#0f172a",
+        plot_bgcolor="#0f172a",
+    )
+    st.plotly_chart(fig_choro, use_container_width=True)
+
+    # Top-10 countries bar
+    top10 = country_agg.nlargest(10, "Layoffs")
+    fig_bar = px.bar(
+        top10, x="country", y="Layoffs", color="Layoffs",
+        color_continuous_scale="Purples",
+        title="Top 10 Countries by Layoffs",
+        template="plotly_dark",
+    )
+    fig_bar.update_layout(
+        paper_bgcolor="#0f172a", plot_bgcolor="#131e32",
+        showlegend=False, height=350,
+        xaxis_title="", yaxis_title="Total Laid Off",
+    )
+    st.plotly_chart(fig_bar, use_container_width=True)
+
+# ── TAB 2: India Bubble Map ───────────────────────────────────────────────────
+with tab2:
+    st.markdown("<div class='section-title'>INDIA TECH HUB DEEP-DIVE</div>", unsafe_allow_html=True)
+
+    # City coordinates
+    city_coords = {
+        "Bengaluru":  (12.9716, 77.5946),
+        "NCR Delhi":  (28.6139, 77.2090),
+        "Mumbai":     (19.0760, 72.8777),
+        "Hyderabad":  (17.3850, 78.4867),
+        "Pune":       (18.5204, 73.8567),
+        "Chennai":    (13.0827, 80.2707),
+    }
+
+    city_agg = (
+        idf.groupby("city")["total_laid_off"]
+        .sum().reset_index()
+        .rename(columns={"total_laid_off": "Layoffs"})
+    )
+    city_agg["lat"] = city_agg["city"].map(lambda c: city_coords.get(c, (20, 78))[0])
+    city_agg["lon"] = city_agg["city"].map(lambda c: city_coords.get(c, (20, 78))[1])
+
+    fig_bubble = px.scatter_geo(
+        city_agg,
+        lat="lat", lon="lon",
+        size="Layoffs",
+        color="Layoffs",
+        hover_name="city",
+        hover_data={"Layoffs": ":,", "lat": False, "lon": False},
+        color_continuous_scale="Oranges",
+        size_max=60,
+        title="India — Layoffs by Tech Hub",
+        template="plotly_dark",
+    )
+    fig_bubble.update_layout(
+        geo=dict(
+            scope="asia",
+            center=dict(lat=20.5, lon=78.9),
+            projection_scale=5,
+            showland=True, landcolor="#1e293b",
+            showocean=True, oceancolor="#0f172a",
+            showcountries=True, countrycolor="#334155",
+        ),
+        height=480,
+        margin=dict(l=0, r=0, t=40, b=0),
+        paper_bgcolor="#0f172a",
+    )
+    st.plotly_chart(fig_bubble, use_container_width=True)
+
+    col_a, col_b = st.columns(2)
+    with col_a:
+        city_trend = (
+            idf.groupby(["month", "city"])["total_laid_off"]
+            .sum().reset_index()
+        )
+        fig_area = px.area(
+            city_trend, x="month", y="total_laid_off", color="city",
+            title="Monthly Layoffs by City",
+            template="plotly_dark",
+        )
+        fig_area.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#131e32",
+                               xaxis_tickangle=45, height=350)
+        st.plotly_chart(fig_area, use_container_width=True)
+
+    with col_b:
+        city_bar = city_agg.sort_values("Layoffs", ascending=True)
+        fig_hbar = px.bar(
+            city_bar, x="Layoffs", y="city", orientation="h",
+            color="Layoffs", color_continuous_scale="YlOrRd",
+            title="Cumulative Layoffs per Hub",
+            template="plotly_dark",
+        )
+        fig_hbar.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#131e32",
+                               showlegend=False, height=350)
+        st.plotly_chart(fig_hbar, use_container_width=True)
+
+# ── TAB 3: Industry Sunburst / Donut ─────────────────────────────────────────
+with tab3:
+    st.markdown("<div class='section-title'>INDUSTRY VOLATILITY BREAKDOWN</div>", unsafe_allow_html=True)
+
+    ind_agg = (
+        gdf.groupby("industry")["total_laid_off"]
+        .sum().dropna().reset_index()
+        .rename(columns={"total_laid_off": "Layoffs"})
+    )
+
+    col1, col2 = st.columns(2)
+    with col1:
+        fig_sun = px.sunburst(
+            gdf.dropna(subset=["total_laid_off"]),
+            path=["industry", "company"],
+            values="total_laid_off",
+            color="total_laid_off",
+            color_continuous_scale="RdBu_r",
+            title="Sunburst — Industry → Company",
+            template="plotly_dark",
+        )
+        fig_sun.update_layout(paper_bgcolor="#0f172a", height=450)
+        st.plotly_chart(fig_sun, use_container_width=True)
+
+    with col2:
+        fig_donut = px.pie(
+            ind_agg, names="industry", values="Layoffs",
+            hole=0.45,
+            color_discrete_sequence=px.colors.qualitative.Set3,
+            title="Share of Layoffs by Industry",
+        )
+        fig_donut.update_traces(textposition="inside", textinfo="percent+label")
+        fig_donut.update_layout(
+            paper_bgcolor="#0f172a", plot_bgcolor="#0f172a",
+            font_color="#e2e8f0", height=450,
+            legend=dict(orientation="v", x=1.02),
+        )
+        st.plotly_chart(fig_donut, use_container_width=True)
+
+    # Stage breakdown
+    st.markdown("<div class='section-title'>LAYOFFS BY FUNDING STAGE</div>", unsafe_allow_html=True)
+    stage_agg = (
+        gdf.groupby("stage")["total_laid_off"]
+        .sum().reset_index()
+        .rename(columns={"total_laid_off": "Layoffs"})
+        .sort_values("Layoffs", ascending=False)
+    )
+    fig_stage = px.bar(
+        stage_agg, x="stage", y="Layoffs",
+        color="Layoffs", color_continuous_scale="Viridis",
+        title="Layoffs by Company Funding Stage",
+        template="plotly_dark",
+    )
+    fig_stage.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#131e32",
+                            height=350, xaxis_title="", showlegend=False)
+    st.plotly_chart(fig_stage, use_container_width=True)
+
+# ── TAB 4: Temporal Trends ───────────────────────────────────────────────────
+with tab4:
+    st.markdown("<div class='section-title'>TEMPORAL LAYOFF PATTERNS</div>", unsafe_allow_html=True)
+
+    monthly = (
+        gdf.groupby("month")["total_laid_off"]
+        .sum().reset_index()
+        .rename(columns={"total_laid_off": "Layoffs"})
+        .sort_values("month")
+    )
+    monthly["rolling_30d"] = monthly["Layoffs"].rolling(3, min_periods=1).mean()
+
+    fig_time = go.Figure()
+    fig_time.add_trace(go.Bar(
+        x=monthly["month"], y=monthly["Layoffs"],
+        name="Monthly Layoffs",
+        marker_color="#6366f1", opacity=0.6,
+    ))
+    fig_time.add_trace(go.Scatter(
+        x=monthly["month"], y=monthly["rolling_30d"],
+        name="3-Month Rolling Avg",
+        line=dict(color="#f472b6", width=2.5),
+        mode="lines",
+    ))
+    fig_time.update_layout(
+        title="Global Monthly Layoffs + Rolling Average (Wave Detection)",
+        template="plotly_dark",
+        paper_bgcolor="#0f172a", plot_bgcolor="#131e32",
+        height=400, xaxis_tickangle=45,
+        legend=dict(orientation="h", y=1.08),
+    )
+    st.plotly_chart(fig_time, use_container_width=True)
+
+    # Temporal animation
+    st.markdown("<div class='section-title'>⏱️ TEMPORAL ANIMATION — BUBBLE MAP</div>", unsafe_allow_html=True)
+    st.info("Press ▶ Play to watch layoff waves unfold from 2020 → 2026")
+
+    yearly_country = (
+        gdf.groupby(["year", "country"])["total_laid_off"]
+        .sum().reset_index()
+        .rename(columns={"total_laid_off": "Layoffs"})
+    )
+
+    fig_anim = px.choropleth(
+        yearly_country,
+        locations="country",
+        locationmode="country names",
+        color="Layoffs",
+        animation_frame="year",
+        color_continuous_scale="OrRd",
+        range_color=[0, yearly_country["Layoffs"].quantile(0.95)],
+        hover_name="country",
+        title="Layoff Waves: 2020 → 2026 (Animated)",
+        template="plotly_dark",
+    )
+    fig_anim.update_layout(
+        geo=dict(showframe=False, projection_type="natural earth"),
+        height=480,
+        margin=dict(l=0, r=0, t=50, b=0),
+        paper_bgcolor="#0f172a",
+    )
+    fig_anim.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 1200
+    st.plotly_chart(fig_anim, use_container_width=True)
+
+    # Yearly heatmap: industry × year
+    st.markdown("<div class='section-title'>🔥 INDUSTRY × YEAR HEATMAP</div>", unsafe_allow_html=True)
+    pivot = (
+        gdf.groupby(["year", "industry"])["total_laid_off"]
+        .sum().unstack(fill_value=0)
+    )
+    fig_heat = px.imshow(
+        pivot.T,
+        color_continuous_scale="YlOrRd",
+        aspect="auto",
+        title="Layoff Intensity: Industry × Year",
+        template="plotly_dark",
+        labels=dict(x="Year", y="Industry", color="Layoffs"),
+    )
+    fig_heat.update_layout(paper_bgcolor="#0f172a", height=400)
+    st.plotly_chart(fig_heat, use_container_width=True)
+
+# ── TAB 5: Comparison Mode ───────────────────────────────────────────────────
+with tab5:
+    st.markdown("<div class='section-title'>⚖️ SIDE-BY-SIDE COMPARISON</div>", unsafe_allow_html=True)
+    st.caption(f"Comparing **{item_a}** vs **{item_b}** (change entities in the sidebar)")
+
+    if compare_type == "Companies":
+        df_a = gdf[gdf["company"] == item_a]
+        df_b = gdf[gdf["company"] == item_b]
+        group_col = "month"
+    else:
+        df_a = idf[idf["city"] == item_a]
+        df_b = idf[idf["city"] == item_b]
+        group_col = "month"
+
+    def monthly_agg(df, name):
+        d = (
+            df.groupby(group_col)["total_laid_off"]
+            .sum().reset_index()
+            .rename(columns={"total_laid_off": "Layoffs", group_col: "Period"})
+        )
+        d["Entity"] = name
+        return d
+
+    cmp_df = pd.concat([monthly_agg(df_a, item_a), monthly_agg(df_b, item_b)])
+
+    fig_cmp = px.line(
+        cmp_df, x="Period", y="Layoffs", color="Entity",
+        markers=True,
+        color_discrete_sequence=["#6366f1", "#f472b6"],
+        title=f"Monthly Layoffs: {item_a} vs {item_b}",
+        template="plotly_dark",
+    )
+    fig_cmp.update_layout(
+        paper_bgcolor="#0f172a", plot_bgcolor="#131e32",
+        height=400, xaxis_tickangle=45,
+    )
+    st.plotly_chart(fig_cmp, use_container_width=True)
+
+    col_l, col_r = st.columns(2)
+    for col, df_x, name in [(col_l, df_a, item_a), (col_r, df_b, item_b)]:
+        total = int(df_x["total_laid_off"].sum(skipna=True))
+        events = len(df_x)
+        peak_m = (
+            df_x.groupby("month")["total_laid_off"].sum().idxmax()
+            if not df_x.empty else "N/A"
+        )
+        ind = df_x["industry"].mode()[0] if not df_x.empty else "N/A"
+        col.markdown(f"""
+        <div class='metric-card'>
+            <h2>{total:,}</h2><p>Total Laid Off — <b>{name}</b></p>
+        </div>
+        <div class='metric-card'>
+            <h2>{events}</h2><p>Layoff Events</p>
+        </div>
+        <div class='metric-card'>
+            <h2 style='font-size:1.2rem'>{peak_m}</h2><p>Peak Month</p>
+        </div>
+        <div class='metric-card'>
+            <h2 style='font-size:1.2rem'>{ind}</h2><p>Primary Sector</p>
+        </div>
+        """, unsafe_allow_html=True)
+
+    # Radar chart comparison
+    if compare_type == "Companies":
+        metrics_a = {
+            "Total Laid Off":    df_a["total_laid_off"].sum(skipna=True),
+            "Avg % Laid Off":    df_a["percentage_laid_off"].mean(skipna=True) * 100,
+            "Funds Raised ($M)": df_a["funds_raised_millions"].mean(skipna=True),
+            "# Events":          len(df_a),
+            "Avg per Event":     df_a["total_laid_off"].mean(skipna=True),
+        }
+        metrics_b = {
+            "Total Laid Off":    df_b["total_laid_off"].sum(skipna=True),
+            "Avg % Laid Off":    df_b["percentage_laid_off"].mean(skipna=True) * 100,
+            "Funds Raised ($M)": df_b["funds_raised_millions"].mean(skipna=True),
+            "# Events":          len(df_b),
+            "Avg per Event":     df_b["total_laid_off"].mean(skipna=True),
+        }
+
+        cats = list(metrics_a.keys())
+        # Normalize 0-1 for radar
+        vals_a = list(metrics_a.values())
+        vals_b = list(metrics_b.values())
+        max_v = [max(a, b, 1) for a, b in zip(vals_a, vals_b)]
+        norm_a = [a / m for a, m in zip(vals_a, max_v)]
+        norm_b = [b / m for b, m in zip(vals_b, max_v)]
+
+        fig_radar = go.Figure()
+        for vals, name, color in [(norm_a, item_a, "#6366f1"), (norm_b, item_b, "#f472b6")]:
+            fig_radar.add_trace(go.Scatterpolar(
+                r=vals + [vals[0]], theta=cats + [cats[0]],
+                fill="toself", name=name,
+                line_color=color, fillcolor=color,
+                opacity=0.4,
+            ))
+        fig_radar.update_layout(
+            polar=dict(bgcolor="#131e32"),
+            paper_bgcolor="#0f172a",
+            font_color="#e2e8f0",
+            title=f"Profile Comparison: {item_a} vs {item_b}",
+            template="plotly_dark",
+            height=420,
+        )
+        st.plotly_chart(fig_radar, use_container_width=True)
