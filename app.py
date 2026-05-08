@@ -398,18 +398,34 @@ with tab3:
 
         with col2:
             st.markdown("<div class='section-title'>INDIA vs GLOBAL — INDUSTRY COMPARISON</div>", unsafe_allow_html=True)
+            india_only = gdf[gdf["country"] == "India"]
+
+            # Union of global top 10 + India top 8 so Education/Travel appear
+            global_top10 = set(
+                gdf.groupby("industry")["total_laid_off"].sum().nlargest(10).index
+            )
+            india_top8 = set(
+                india_only.groupby("industry")["total_laid_off"].sum().nlargest(8).index
+            )
+            combined_industries = sorted(global_top10 | india_top8)
+
             global_rank = (
                 gdf.groupby("industry")["total_laid_off"]
-                .sum().dropna().nlargest(10).reset_index()
+                .sum().dropna().reset_index()
                 .rename(columns={"total_laid_off": "Global"})
             )
-            india_only = gdf[gdf["country"] == "India"]
             india_rank = (
                 india_only.groupby("industry")["total_laid_off"]
                 .sum().dropna().reset_index()
                 .rename(columns={"total_laid_off": "India"})
             )
-            merged = global_rank.merge(india_rank, on="industry", how="left").fillna(0)
+            merged = (
+                pd.DataFrame({"industry": combined_industries})
+                .merge(global_rank, on="industry", how="left")
+                .merge(india_rank, on="industry", how="left")
+                .fillna(0)
+                .sort_values("Global", ascending=False)
+            )
             fig_compare = go.Figure()
             fig_compare.add_trace(go.Bar(
                 name="Global", x=merged["industry"], y=merged["Global"],
