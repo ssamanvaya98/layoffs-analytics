@@ -399,8 +399,6 @@ with tab3:
         with col2:
             st.markdown("<div class='section-title'>INDIA vs GLOBAL — INDUSTRY COMPARISON</div>", unsafe_allow_html=True)
             india_only = gdf[gdf["country"] == "India"]
-
-            # Union of global top 10 + India top 8 so Education/Travel appear
             global_top10 = set(
                 gdf.groupby("industry")["total_laid_off"].sum().nlargest(10).index
             )
@@ -408,7 +406,6 @@ with tab3:
                 india_only.groupby("industry")["total_laid_off"].sum().nlargest(8).index
             )
             combined_industries = sorted(global_top10 | india_top8)
-
             global_rank = (
                 gdf.groupby("industry")["total_laid_off"]
                 .sum().dropna().reset_index()
